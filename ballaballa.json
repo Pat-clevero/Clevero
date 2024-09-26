@@ -1,0 +1,35 @@
+{
+    "type": "header",
+    "title": {
+        "elements": [
+            "{{singular record.name}}",
+            "{{{entry.member}}}",
+            "#{{entry.autoId}}"
+        ],
+        "joinWith": " - ",
+        "icon": true
+    },
+    "buttonsMenu": [
+        {
+            "type": "workflow",
+            "key": "Cancel Enrolment"
+        },
+        {
+            "type": "workflow",
+            "key": "IIlMGZqEg7D5y2xwIcmyO"
+        },
+        {
+            "type": "workflow",
+            "key": "3S3Da4ULHPkDlvwCM1XQL"
+        }
+    ],
+    "buttonsLeft": [],
+    "buttonsRight": [
+        {
+            "key": "email",
+            "color": "secondary"
+        }
+    ],
+    "sameLine": 600,
+    "content": []
+}

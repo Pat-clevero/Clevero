@@ -1,0 +1,8 @@
+{
+    "event": {
+        "eventType": "FORM_UPDATE",
+        "payload": {
+            "field": "activity"
+        }
+    }
+}

@@ -1,0 +1,312 @@
+{
+  "entries": [
+    {
+      "case-manager-notified": true,
+      "client-last-name": "Raymond Mcadam",
+      "opportunity": [
+        999319
+      ],
+      "billing-status": [
+        814710
+      ],
+      "case-manager": [
+        872357
+      ],
+      "respondent": [
+        987063
+      ],
+      "client": [
+        938840
+      ],
+      "total-premiums": 1200,
+      "number-of-policies": 2,
+      "qualified": false,
+      "date-created": "2022-11-14",
+      "client-email": "trevor.mcadam@yahoo.com.au",
+      "case-number": "00010006",
+      "status": [
+        814530
+      ],
+      "net-premiums": 1200,
+      "date-assigned": "2022-11-14",
+      "financial-firm": [
+        986553
+      ],
+      "name": "00010006 Trevor Raymond Mcadam St George",
+      "client-phone": "0447488974",
+      "recordValueId": 1095987,
+      "createdAt": "2022-11-14T02:03:55.473Z",
+      "updatedAt": "2022-12-16T01:19:37.308Z",
+      "autoId": "00010006",
+      "autoIdNum": 10006,
+      "internalOwner": 25254,
+      "formId": 812983,
+      "recordId": 812235
+    },
+    {
+      "loss-reason": [
+        1128148
+      ],
+      "case-manager-notified": true,
+      "attachments": [
+        {
+          "key": "eb6de94d-52e2-4b12-98ee-9d1a92537b4b_Re_ Claimo - Update - Case - 00010007.msg",
+          "name": "Re_ Claimo - Update - Case - 00010007.msg",
+          "size": 182272,
+          "type": "",
+          "uploadedAt": "2023-03-02T01:11:40.820Z",
+          "uploadedBy": {
+            "id": 1095228,
+            "email": "vernette@claimo.com.au",
+            "fullName": "Vernette Ramirez",
+            "lastName": "Ramirez",
+            "firstName": "Vernette"
+          },
+          "uploaderIP": "123.202.27.159"
+        },
+        {
+          "key": "9423e76c-8846-491f-a50b-dded487b3da7_Complaint about the sale of Add-On Insurance - Jurica Nikolin.msg",
+          "name": "Complaint about the sale of Add-On Insurance - Jurica Nikolin.msg",
+          "size": 5961728,
+          "type": "",
+          "uploadedAt": "2023-03-02T01:18:11.409Z",
+          "uploadedBy": {
+            "id": 1095228,
+            "email": "vernette@claimo.com.au",
+            "fullName": "Vernette Ramirez",
+            "lastName": "Ramirez",
+            "firstName": "Vernette"
+          },
+          "uploaderIP": "123.202.27.159"
+        },
+        {
+          "key": "6cf147d0-f937-408b-b35f-b362519c7750_RE_ Complaint about the sale of Add-On Insurance - Jurica Nikolin.msg",
+          "name": "RE_ Complaint about the sale of Add-On Insurance - Jurica Nikolin.msg",
+          "size": 293888,
+          "type": "",
+          "uploadedAt": "2023-03-15T23:26:36.553Z",
+          "uploadedBy": {
+            "id": 1095228,
+            "email": "vernette@claimo.com.au",
+            "fullName": "Vernette Ramirez",
+            "lastName": "Ramirez",
+            "firstName": "Vernette"
+          },
+          "uploaderIP": "49.144.66.84"
+        },
+        {
+          "key": "55eff88f-0896-4c5c-af5e-268e4dc5dcf2_AUISM-22853 - RE_ Complaint about the sale of Add-On Insurance - Jurica Nikolin.msg",
+          "name": "AUISM-22853 - RE_ Complaint about the sale of Add-On Insurance - Jurica Nikolin.msg",
+          "size": 1183232,
+          "type": "",
+          "uploadedAt": "2023-03-21T07:22:31.778Z",
+          "uploadedBy": {
+            "id": 1095228,
+            "email": "vernette@claimo.com.au",
+            "fullName": "Vernette Ramirez",
+            "lastName": "Ramirez",
+            "firstName": "Vernette"
+          },
+          "uploaderIP": "49.144.66.84"
+        }
+      ],
+      "idr-submission-date": "2023-03-02",
+      "client-last-name": "Nikolin",
+      "opportunity": [
+        1026863
+      ],
+      "billing-status": [
+        814710
+      ],
+      "case-manager": [
+        872348
+      ],
+      "respondent": [
+        987094
+      ],
+      "client": [
+        946412
+      ],
+      "idr-confirmation-sent": true,
+      "total-premiums": 1000,
+      "number-of-policies": 2,
+      "qualified": true,
+      "date-created": "2022-11-14",
+      "client-email": "jay.nikolin@hotmail.com",
+      "case-number": "00010007",
+      "status": [
+        829273
+      ],
+      "date-of-offer": null,
+      "net-premiums": 1000,
+      "date-assigned": "2022-11-14",
+      "final-response-due-date": "2023-04-01",
+      "financial-firm": [
+        986775
+      ],
+      "name": "00010007 Jurica Nikolin SG Fleet (NLC)",
+      "client-phone": "0400827022",
+      "recordValueId": 1096048,
+      "createdAt": "2022-11-14T02:31:12.890Z",
+      "updatedAt": "2023-03-21T07:23:06.620Z",
+      "autoId": "00010007",
+      "autoIdNum": 10007,
+      "internalOwner": 25254,
+      "formId": 812983,
+      "recordId": 812235
+    },
+    {
+      "case-manager-notified": true,
+      "opportunity": [
+        999318
+      ],
+      "billing-status": [
+        814710
+      ],
+      "case-manager": [
+        872357
+      ],
+      "client": [
+        938840
+      ],
+      "total-premiums": 8992,
+      "number-of-policies": 2,
+      "date-created": "2022-11-14",
+      "client-email": "trevor.mcadam@yahoo.com.au",
+      "case-number": "00010009",
+      "status": [
+        829273
+      ],
+      "net-premiums": 5346.09,
+      "date-assigned": "2022-11-14",
+      "financial-firm": [
+        986844
+      ],
+      "name": "00010009 Trevor Raymond Mcadam Westpac",
+      "previous-refunds": 3645.91,
+      "recordValueId": 1096205,
+      "createdAt": "2022-11-14T03:19:27.882Z",
+      "updatedAt": "2023-01-20T01:00:30.484Z",
+      "autoId": "00010009",
+      "autoIdNum": 10009,
+      "internalOwner": 25254,
+      "formId": 812983,
+      "recordId": 812235
+    },
+    {
+      "case-manager-notified": true,
+      "opportunity": [
+        1011878
+      ],
+      "billing-status": [
+        814710
+      ],
+      "case-manager": [
+        827098
+      ],
+      "respondent": [
+        987073
+      ],
+      "client": [
+        943754
+      ],
+      "total-premiums": 1112.04,
+      "notes": "<p>ANZ Class Action</p>",
+      "number-of-policies": 2,
+      "date-created": "2022-11-14",
+      "client-email": "jessicaj.smith@hotmail.com",
+      "case-number": "00010010",
+      "status": [
+        829273
+      ],
+      "net-premiums": 563.7800000000001,
+      "date-assigned": "2022-11-14",
+      "financial-firm": [
+        986576
+      ],
+      "name": "00010010 Jessica Smith ANZ",
+      "previous-refunds": 548.26,
+      "recordValueId": 1096298,
+      "createdAt": "2022-11-14T03:58:08.299Z",
+      "updatedAt": "2023-01-20T00:56:22.990Z",
+      "autoId": "00010010",
+      "autoIdNum": 10010,
+      "internalOwner": 25254,
+      "formId": 812983,
+      "recordId": 812235
+    },
+    {
+      "case-manager-notified": true,
+      "idr-submission-date": "2022-12-08",
+      "client-last-name": "Kirby (nee Shcroeders)",
+      "opportunity": [
+        1025445
+      ],
+      "billing-status": [
+        814710
+      ],
+      "case-manager": [
+        872348
+      ],
+      "idr-final-response-file": [
+        {
+          "key": "9458cd15-926b-4121-b851-f33c5c4e169d_Citi - No offer - Tracey Kirby (nee Shcroeders).pdf",
+          "name": "Citi - No offer - Tracey Kirby (nee Shcroeders).pdf",
+          "size": 806956,
+          "type": "application/pdf",
+          "uploadedAt": "2022-12-15T07:18:02.954Z",
+          "uploadedBy": {
+            "id": 1095228,
+            "email": "vernette@claimo.com.au",
+            "fullName": "Vernette Ramirez",
+            "lastName": "Ramirez",
+            "firstName": "Vernette"
+          },
+          "uploaderIP": "49.144.67.198"
+        }
+      ],
+      "respondent": [
+        987096
+      ],
+      "client": [
+        946120
+      ],
+      "idr-confirmation-sent": true,
+      "total-premiums": 500,
+      "number-of-policies": 1,
+      "qualified": true,
+      "date-created": "2022-11-14",
+      "idr-complaint-letter": [
+        {
+          "key": "28ffb3c3-0072-4e87-b58c-9ec011faebc7_Complaint about the sale of Add-On Insurance - Tracey Kirby (nee Shcroeders).msg",
+          "name": "Complaint about the sale of Add-On Insurance - Tracey Kirby (nee Shcroeders).msg",
+          "size": 824320,
+          "type": ""
+        }
+      ],
+      "client-email": "tkirby02@gmail.com",
+      "case-number": "00010011",
+      "status": [
+        814707
+      ],
+      "net-premiums": 500,
+      "date-assigned": "2022-11-14",
+      "final-response-due-date": "2023-01-07",
+      "financial-firm": [
+        986612
+      ],
+      "name": "00010011 Tracey Kirby (nee Shcroeders) Citibank",
+      "client-phone": "0401556506",
+      "recordValueId": 1127342,
+      "createdAt": "2022-11-14T05:20:24.894Z",
+      "updatedAt": "2022-12-15T07:18:05.850Z",
+      "autoId": "00010011",
+      "autoIdNum": 10011,
+      "internalOwner": 25254,
+      "formId": 812983,
+      "recordId": 812235
+    }
+  ],
+  "totalMatchedEntries": 14085,
+  "totalReturnedEntries": 5
+}

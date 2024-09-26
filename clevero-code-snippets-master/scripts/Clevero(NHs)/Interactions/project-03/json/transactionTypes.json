@@ -1,0 +1,77 @@
+[
+  {
+    "label": "Term/Course Booking",
+    "value": "132967",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Pay as you go",
+    "value": "132966",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Room Booking",
+    "value": "140758",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Rental",
+    "value": "292137",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Voucher",
+    "value": "134222",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Donation",
+    "value": "139005",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Cash Adjustment",
+    "value": "140759",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Refund",
+    "value": "142642",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Membership Fee",
+    "value": "149211",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Expense",
+    "value": "150991",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Fundraising",
+    "value": "284897",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Other",
+    "value": "284898",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Stall Application",
+    "value": "294933",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Volunteer Hours",
+    "value": "347356",
+    "colour": "#383e4b"
+  },
+  {
+    "label": "Administration Fee",
+    "value": "1169060",
+    "colour": "#383e4b"
+  }
+]

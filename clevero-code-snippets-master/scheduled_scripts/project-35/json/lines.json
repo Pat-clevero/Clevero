@@ -1,0 +1,58 @@
+[
+    {
+        "item": [
+            "2056187"
+        ],
+        "description": "Private matter - Cancellation fee",
+        "quantity": 1,
+        "rate": 280,
+        "discount": 0,
+        "net": 280,
+        "tax-rate": [
+            "1929879"
+        ],
+        "account": [
+            "1929892"
+        ],
+        "tax": 28,
+        "total": 308,
+        "index": 0,
+        "id": 2281700
+    },
+    {
+        "item": [
+            "2056191"
+        ],
+        "description": "Court Appearance / HALF - preparation and provision of expert evidence in Court",
+        "quantity": 3,
+        "rate": 2500,
+        "discount": 0,
+        "net": 7500,
+        "tax-rate": [
+            "1929879"
+        ],
+        "account": [
+            "1929892"
+        ],
+        "tax": 750,
+        "total": 8250,
+        "index": 1,
+        "id": 2281714
+    },
+    {
+        "item": [],
+        "description": "",
+        "quantity": "1",
+        "rate": "0",
+        "discount": "0",
+        "net": "0",
+        "tax-rate": [
+            "91232"
+        ],
+        "account": [],
+        "tax": "0",
+        "total": "0",
+        "index": 2,
+        "id": "TEMP-sTIPVpt2"
+    }
+]

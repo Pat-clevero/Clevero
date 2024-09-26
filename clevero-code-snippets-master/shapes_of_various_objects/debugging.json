@@ -1,0 +1,58 @@
+{
+    "bulkExecution": false,
+    "inputs": [
+        {
+            "name": "createEntryRecordId",
+            "type": "hard-coded",
+            "value": "132823"
+        },
+        {
+            "name": "createEntryValues",
+            "type": "function",
+            "value": "function(context){ let values = {}; let loadedEntries = context.metaData.loadedEntries; let entryDetails = context.metaData.triggerInputs.triggerEntryDetail; values.date = context.utils.moment.tz(loadedEntries.activity[0]['start-time'], 'Australia/Sydney').format('YYYY-MM-DD'); values.duration = loadedEntries.activity[0]['duration']; values.activity = entryDetails.activity; values.member = entryDetails.member; values.course=entryDetails.course; values['activity-type'] = entryDetails['activity-type']; values['voucher-used'] = entryDetails['voucher']; values.transaction = JSON.stringify([ `${context.metaData.triggerInputs.entryId}`]); values['attendee-email'] = loadedEntries.member[0].email; values.status = JSON.stringify(['132839']); values['voucher-updated'] = 'true'; return values; }"
+        },
+        {
+            "name": "createEntryFormId",
+            "type": "hard-coded",
+            "value": "138261"
+        },
+        {
+            "name": "updateEntryValues",
+            "type": "function",
+            "value": "function(context){ let data = { '8203':true }; return data; }"
+        }
+    ],
+    "condition": "function(context){ try {let fieldObject = context.triggerInputs.data.formData.formValues.find(( {fieldId} ) => fieldId===8203); let doNotCreateAttendanceObj = context.triggerInputs.data.formData.formValues.find(( {fieldId} ) => fieldId===9632);  transactionTypeObject = context.triggerInputs.data.formData.formValues.find(( {fieldId} ) => fieldId===7739); let attendanceCreated = fieldObject.value; let doNotCreateAttendance = doNotCreateAttendanceObj.value === 'true' || doNotCreateAttendanceObj.value === true; let transactionType = JSON.parse(transactionTypeObject.value)[0]; return !doNotCreateAttendance && !attendanceCreated && transactionType==='132966'; } catch(e){ return false; }}",
+    "renderCondition": "function(context){ let field = context.record.fields.find(field => field.internalId === 'booking-type'); let formValue = context.formValues[field.id]; let transactionType = formValue.value; let field2 = context.record.fields.find(field => field.internalId === 'attendance-created'); let attendanceCreatedValue = context.formValues[field2.id]; let attendanceCreated = attendanceCreatedValue.value;  return transactionType[0] === '132966' && !attendanceCreated; }",
+    "loadEntries": [
+        {
+            "name": "member",
+            "type": "trigger-entry",
+            "responseType": "iv",
+            "value": "member"
+        },
+        {
+            "name": "activity",
+            "type": "trigger-entry",
+            "responseType": "iv",
+            "value": "activity"
+        },
+        {
+            "name": "voucherUsed",
+            "type": "trigger-entry",
+            "responseType": "iv",
+            "value": "voucher"
+        }
+    ],
+    "scheduled": false,
+    "addTriggerEntryDetail": true,
+    "triggerEntryDetailResponseType": "iov",
+    "redirectImmediately": false,
+    "redirectTo": "https://app.kalysys.com.au/app/records/138255/view/{{entryId}}",
+    "redirectParsers": {
+        "entryId": {
+            "type": "triggerResponse",
+            "value": "data.outputs[0].id"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "data": {
+        "success": false,
+        "errorCode": "INSUFFICIENT_PERMISSIONS",
+        "data": null
+    },
+    "status": 403,
+    "statusText": "",
+    "headers": {
+        "content-length": "68",
+        "content-type": "application/json; charset=utf-8"
+    },
+    "config": {
+        "transformRequest": {},
+        "transformResponse": {},
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5EVkdOalk1UlRnelJrUkJRVEV5UkVVM1FqVkZNemxGUVRSRVEwRkdPREpGT1VRek5FRTBSQSJ9.eyJpc3MiOiJodHRwczovL2F1dGguY2xldmVyby5jby8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwMDg5MTIxMTAyOTIyMDQyNTY5MSIsImF1ZCI6WyJodHRwczovL3d3dy5rYWx5c3lzLmNvbS8iLCJodHRwczovL2xlenllb2guYXUuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTY5Mjc1MDExNiwiZXhwIjoxNjkyNzkzMzE2LCJhenAiOiIyRGxVNTZ3Ykk0S3ZKc01vWUhnNW13UFUzM1ByZzlzNCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwifQ.Q7t2IyI2GtIuz8cAg4K2bvIpOTQetZUPauz79JkZx2s9wyPk4qWmG7v_Yy_9H-UX5pMQIBu24XHDTEBlKAxdkFvDRpvSX_AwKbmUhrC0TvKqY-m8VSPi3wEPoy2VyOpI0G3YKG_mx_G1sXod57YEaaLYuATWPLMg4pbTxQ-Ix1_agfWLHKv9tf9wSKq_P1N698VF9gAdDiMixA1gJoKj8NnXlHf3SpghyUjUkomJTtRw5ZdUi7NYNyUFFzjT7eSZsVUZ44ncxwRN3QeY9XRytoZiXrde4TbMa3uGMJZZUnlFyfaeUltaB8G0KtffURbgxVmswfCauK0R_pJSU-V3Xg",
+            "Role": 1993039
+        },
+        "baseURL": "https://api.clevero.co",
+        "method": "get",
+        "url": "https://api.clevero.co/generics/list/entries?responseType=iov&ids%5B0%5D%5B0%5D%5B0%5D=2259566"
+    },
+    "request": {
+        "___arguments": {
+            "0": "GET",
+            "1": "https://api.clevero.co/generics/list/entries?responseType=iov&ids%5B0%5D%5B0%5D%5B0%5D=2259566",
+            "2": true
+        }
+    }
+}

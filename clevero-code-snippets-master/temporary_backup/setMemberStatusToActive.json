@@ -1,0 +1,18 @@
+{
+    "condition": "function(context){ return context.source === 'ONLINE_FORM'; }",
+    "redirectTo": "https://app.clevero.co/app/records/132157/view/{{entryId}}/edit",
+    "redirectImmediately": true,
+    "redirectParsers": {
+        "entryId": {
+            "type": "triggerResponse",
+            "value": "data.outputs[0].entryId"
+        }
+    },
+    "inputs": [
+        {
+            "name": "values",
+            "type": "function",
+            "value": "function(context){ return {'7743': JSON.stringify(['132986'])};}"
+        }
+    ]
+}

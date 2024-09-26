@@ -1,0 +1,64 @@
+{
+    "0": [
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { const availableOnline = context.fieldStates.getValue(8543);if (availableOnline === 'true' || availableOnline === true) { return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "16552",
+                    "action": "NONE",
+                    "value": "function(context) { context.fieldStates.updateState(16552, { inputState: { mandatory: true } }); }"
+                }
+            ],
+            "else": [
+                {
+                    "version": "v2",
+                    "fieldId": "16552",
+                    "action": "NONE",
+                    "value": "function(context) { context.fieldStates.updateState(16552, { inputState: { mandatory: false } }); }"
+                }
+            ]
+        }
+    ],
+    "8543": [
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { const availableOnline = context.fieldStates.getValue(8543);if (availableOnline === 'true' || availableOnline === true) { return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "16552",
+                    "action": "NONE",
+                    "value": "function(context) { context.fieldStates.updateState(16552, { inputState: { mandatory: true } }); }"
+                }
+            ],
+            "else": [
+                {
+                    "version": "v2",
+                    "fieldId": "16552",
+                    "action": "NONE",
+                    "value": "function(context) { context.fieldStates.updateState(16552, { inputState: { mandatory: false } }); }"
+                }
+            ]
+        }
+    ]
+}

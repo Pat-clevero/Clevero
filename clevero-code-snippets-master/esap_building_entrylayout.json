@@ -1,0 +1,56 @@
+{
+    "type": "tabs",
+    "content": [
+        {
+            "type": "tab",
+            "title": "Communication Log",
+            "content": [
+                {
+                    "type": "container",
+                    "widths": [
+                        12
+                    ],
+                    "content": [
+                        {
+                            "type": "activity-log",
+                            "title": "",
+                            "hideBackground": true,
+                            "id": "3-dCMC",
+                            "content": []
+                        }
+                    ],
+                    "id": "JIifRZ"
+                }
+            ],
+            "id": "WfVoBs"
+        },
+        {
+            "type": "tab",
+            "title": "Audit Trail",
+            "content": [
+                {
+                    "type": "container",
+                    "widths": [
+                        12
+                    ],
+                    "content": [
+                        {
+                            "type": "audit-trails",
+                            "title": "",
+                            "canCollapse": true,
+                            "collapsed": false,
+                            "options": {
+                                "pageSize": 5
+                            },
+                            "id": "qw1mIv",
+                            "content": []
+                        }
+                    ],
+                    "id": "PY0-hq"
+                }
+            ],
+            "id": "0Bg_iI"
+        }
+    ],
+    "id": "UMyTKB"
+}

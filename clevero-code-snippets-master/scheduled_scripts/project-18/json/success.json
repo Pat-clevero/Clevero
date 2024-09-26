@@ -1,0 +1,26 @@
+{
+  "success": [
+    {
+      "index": 0,
+      "updateObject": {
+        "value": {
+          "tour-start-date": "2023-04-20"
+        },
+        "entryId": 490940,
+        "recordInternalId": "life-bookings"
+      },
+      "recordId": 123751
+    },
+    {
+      "index": 1,
+      "updateObject": {
+        "value": {
+          "tour-start-date": "2022-07-04"
+        },
+        "entryId": 490532,
+        "recordInternalId": "life-bookings"
+      },
+      "recordId": 123751
+    }
+  ]
+}

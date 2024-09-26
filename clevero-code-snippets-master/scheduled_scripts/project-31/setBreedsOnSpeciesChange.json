@@ -1,0 +1,71 @@
+{
+    "19254": [
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { return true; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "19255",
+                    "action": "UPDATE",
+                    "value": "function(context){ const taskId = _.get(context.fieldStates.getValue('19254'), [0], ''); context.fieldStates.updateState(19255, {inputState: {filters: [{subject: 18993,type: 'array',operator: 'any_of',value: [taskId]}]}})}"
+                }
+            ]
+        }
+    ],
+    "19267": [
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { return true; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "19268",
+                    "action": "UPDATE",
+                    "value": "function(context){ const taskId = _.get(context.fieldStates.getValue('19267'), [0], ''); context.fieldStates.updateState(19268, {inputState: {filters: [{subject: 18993,type: 'array',operator: 'any_of',value: [taskId]}]}})}"
+                }
+            ]
+        }
+    ],
+    "19279": [
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { return true; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "19280",
+                    "action": "UPDATE",
+                    "value": "function(context){ const taskId = _.get(context.fieldStates.getValue('19279'), [0], ''); context.fieldStates.updateState(19280, {inputState: {filters: [{subject: 18993,type: 'array',operator: 'any_of',value: [taskId]}]}})}"
+                }
+            ]
+        }
+    ]
+}

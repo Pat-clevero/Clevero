@@ -1,0 +1,46 @@
+[
+  {
+    "label": "BAS Excluded",
+    "value": "1929870"
+  },
+  {
+    "label": "GST Free Capital",
+    "value": "1929871"
+  },
+  {
+    "label": "GST Free Expenses",
+    "value": "1929872"
+  },
+  {
+    "label": "GST Free Exports",
+    "value": "1929874"
+  },
+  {
+    "label": "GST Free Income",
+    "value": "1929873"
+  },
+  {
+    "label": "GST on Capital",
+    "value": "1929875"
+  },
+  {
+    "label": "GST on Capital Imports",
+    "value": "1929876"
+  },
+  {
+    "label": "GST on Expenses",
+    "value": "1929877"
+  },
+  {
+    "label": "GST on Imports",
+    "value": "1929878"
+  },
+  {
+    "label": "GST on Income",
+    "value": "1929879"
+  },
+  {
+    "label": "Input Taxed",
+    "value": "1929880"
+  }
+]

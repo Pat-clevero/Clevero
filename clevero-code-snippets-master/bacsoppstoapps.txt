@@ -1,0 +1,14 @@
+From Opps to Appointments
+1. Include
+	- main contact, main contact phone, main contact email
+	- secondary contact, secondary contact phone, secondary contact email
+2. Time of appointment = now
+3. Duration = 0
+4. End Time = now
+5. map Fee Schedule and Fee Amount to corresponding Appointment fields
+
+To Do: 
+1. Add defensive checks for null or empty field values
+2. Backup original v1 workflow
+3. Add interaction to calculate end time (double check if already existing)
+4. Try populating UUID

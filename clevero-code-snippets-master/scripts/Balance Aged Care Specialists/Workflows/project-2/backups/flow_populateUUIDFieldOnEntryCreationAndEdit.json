@@ -1,0 +1,26 @@
+[
+    {
+        "key": "UPDATE_ENTRY",
+        "description": "Update the UUID field AFTER EDIT",
+        "name": "update the UUID field after entry edit",
+        "condition": "function(context){ try { const currentUUID = context.metaData.triggerInputs.data.formData.formValues.find(({ fieldId }) => fieldId === 9256); return !currentUUID.value; } catch(e){ return false; } }",
+
+        "inputs": [
+            {
+                "name": "recordId",
+                "source": "trigger-inputs",
+                "value": "recordId"
+            },
+            {
+                "name": "entryId",
+                "source": "trigger-inputs",
+                "value": "entryId"
+            },
+            {
+                  "name": "values",
+                  "source": "trigger-config",
+                  "value": "values"
+            }
+        ]
+    }
+]

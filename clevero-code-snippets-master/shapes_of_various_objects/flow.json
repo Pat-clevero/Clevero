@@ -1,0 +1,114 @@
+[
+    {
+        "key": "CREATE_ENTRY",
+        "description": "Create an entry",
+        "name": "Generic Create Entry",
+        "condition": "function(context){  return true; }",
+        "inputs": [
+            {
+                "name": "values",
+                "source": "trigger-config",
+                "value": "createEntryValues"
+            },
+            {
+                "name": "recordId",
+                "source": "trigger-config",
+                "value": "createEntryRecordId"
+            },
+            {
+                "name": "mapInternalIdToFieldId",
+                "source": "hard-coded",
+                "value": true
+            },
+            {
+                "name": "formId",
+                "source": "trigger-config",
+                "value": "createEntryFormId"
+            }
+        ]
+    },
+    {
+        "key": "UPDATE_ENTRY",
+        "description": "Update entry after Member has been created",
+        "name": "test update entry",
+        "condition": "function(context){ return true; }",
+        "inputs": [
+            {
+                "name": "values",
+                "source": "trigger-config",
+                "value": "updateEntryValues"
+            },
+            {
+                "name": "recordId",
+                "source": "trigger-inputs",
+                "value": "recordId"
+            },
+            {
+                "name": "entryId",
+                "source": "trigger-inputs",
+                "value": "entryId"
+            },
+            {
+                "name": "mapInternalIdToFieldId",
+                "source": "hard-coded",
+                "value": false
+            }
+        ]
+    },
+    {
+        "key": "GET_ENTRIES",
+        "description": "get attendances for specific vouvher",
+        "name": "get entries",
+        "condition": "function(context){ return true; }",
+        "inputs": [
+            {
+                "name": "recordId",
+                "source": "hard-coded",
+                "value": "132823"
+            },
+            {
+                "name": "ignoreLimits",
+                "source": "hard-coded",
+                "value": true
+            },
+            {
+                "name": "responseType",
+                "source": "hard-coded",
+                "value": "iov"
+            },
+            {
+                "name": "filter",
+                "source": "function",
+                "value": "function(context){const voucherId = context.metaData.triggerInputs.triggerEntryDetail['voucher'] && JSON.parse(context.metaData.triggerInputs.triggerEntryDetail['voucher'])[0]; console.log(voucherId,'v'); return [{'subject':8164,'type':'array','operator':'any_of','value':[`${voucherId}`]}]; }"
+            }
+        ]
+    },
+    {
+        "key": "UPDATE_ENTRY",
+        "description": "Update the Voucher remaining",
+        "name": "test update entry",
+        "condition": "function(context){ return true; }",
+        "inputs": [
+            {
+                "name": "values",
+                "source": "function",
+                "value": "function(context){ const totalAttendances = context.state.outputs[2].length; let visitsRemaining = context.metaData.loadedEntries.voucherUsed[0]['number-of-visits']; let data = { '8161':+visitsRemaining - totalAttendances }; return data; }"
+            },
+            {
+                "name": "recordId",
+                "source": "hard-coded",
+                "value": "138255"
+            },
+            {
+                "name": "entryId",
+                "source": "function",
+                "value": "function(context){ let entryId = context.metaData.triggerInputs.triggerEntryDetail['voucher'] && JSON.parse(context.metaData.triggerInputs.triggerEntryDetail['voucher'])[0]; return entryId; }"
+            },
+            {
+                "name": "mapInternalIdToFieldId",
+                "source": "hard-coded",
+                "value": true
+            }
+        ]
+    }
+]

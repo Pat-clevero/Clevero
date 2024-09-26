@@ -1,0 +1,14 @@
+{
+    "scheduleValue": {
+        "seconds": 0,
+        "minutes": 9,
+        "hours": 0,
+        "dayOfMonth": "*",
+        "months": "*",
+        "dayOfWeek": "*"
+    },
+    "isScheduled": true,
+    "deploymentId": 2225221,
+    "currentTaskId": "hhcfxWnXW3pRGK3_5ajE1",
+    "jobKey": "SCHEDULED TASK - hhcfxWnXW3pRGK3_5ajE1:hhcfxWnXW3pRGK3_5ajE1:::undefined"
+}

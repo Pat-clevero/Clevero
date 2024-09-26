@@ -1,0 +1,22 @@
+{
+    "event": {
+        "eventType": "SUB_CHANGE",
+        "payload": {
+            "recordInternalId": "xero-order-items",
+            "field": "item",
+            "index": 1
+        }
+    },
+    "events_constants": {
+        "MODE_SET": "MODE_SET",
+        "FORM_UPDATE": "FORM_UPDATE",
+        "FIELD_FOCUS": "FIELD_FOCUS",
+        "FIELD_BLUR": "FIELD_BLUR",
+        "SUB_CHANGE": "SUB_CHANGE",
+        "SUB_FOCUS": "SUB_FOCUS",
+        "SUB_BLUR": "SUB_BLUR",
+        "SUB_LINES_ADD": "SUB_LINES_ADD",
+        "SUB_LINE_REMOVE": "SUB_LINE_REMOVE",
+        "SUB_LINE_REORDER": "SUB_LINE_REORDER"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "1918262-procedure": [],
+    "description": "This is a test.",
+    "quantity": 1,
+    "rate": 345,
+    "discount": "",
+    "tax-rate": [
+        "2058501"
+    ],
+    "tax": 34.5,
+    "net": 345,
+    "total": 379.5,
+    "index": 0,
+    "id": 2258964
+}

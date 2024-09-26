@@ -1,0 +1,4 @@
+1. Helped mark some BACS WFs for Main and Secondary Contact fields automation on Opportunities entry.
+2. Worked on FCG task
+3. Investigated quite a bit on Admedia "Timesheet issue - PR-000990 / Marked as non-billable, but still calculating?"
+4. 

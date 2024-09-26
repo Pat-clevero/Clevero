@@ -1,0 +1,143 @@
+{
+    "0": [
+        {
+            "description": "This hides the field based on the field id.",
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { return true; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "HIDE OTHER BREED 1",
+                    "version": "v2",
+                    "fieldId": "19752",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: true } }; context.fieldStates.updateState('19752', state); return context.fieldStates.getValue('19752'); }"
+                },
+                {
+                    "description": "HIDE OTHER BREED 2",
+                    "version": "v2",
+                    "fieldId": "19753",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: true } }; context.fieldStates.updateState('19753', state); return context.fieldStates.getValue('19753'); }"
+                },
+                {
+                    "description": "HIDE OTHER BREED 3",
+                    "version": "v2",
+                    "fieldId": "19754",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: true } }; context.fieldStates.updateState('19754', state); return context.fieldStates.getValue('19754'); }"
+                }
+            ]
+        }
+    ],
+    "19254": [
+        {
+            "description": "If Species is 'Other', make Breed not mandatory.",
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { const Species = context.fieldStates.getValue(19254)[0]; if(Species === '1982435') {return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "MAKE BREED NOT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19255",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { mandatory: false } }; context.fieldStates.updateState('19255', state); return context.fieldStates.getValue('19255'); }"
+                }
+            ],
+            "else": [
+                {
+                    "description": "MAKE BREED MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19255",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { mandatory: true } }; context.fieldStates.updateState('19255', state); return context.fieldStates.getValue('19255'); }"
+                }
+            ]
+        }
+    ],
+    "19267": [
+        {
+            "description": "If Species is 'Other', make Breed not mandatory.",
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { const Species = context.fieldStates.getValue(19267)[0]; if(Species === '1982435') {return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "MAKE BREED NOT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19268",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { mandatory: false } }; context.fieldStates.updateState('19268', state); return context.fieldStates.getValue('19268'); }"
+                }
+            ],
+            "else": [
+                {
+                    "description": "MAKE BREED MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19268",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { mandatory: true } }; context.fieldStates.updateState('19268', state); return context.fieldStates.getValue('19268'); }"
+                }
+            ]
+        }
+    ],
+    "19279": [
+        {
+            "description": "If Species is 'Other', make Breed not mandatory.",
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context) { const Species = context.fieldStates.getValue(19279)[0]; if(Species === '1982435') {return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "MAKE BREED NOT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19280",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { mandatory: false } }; context.fieldStates.updateState('19280', state); return context.fieldStates.getValue('19280'); }"
+                }
+            ],
+            "else": [
+                {
+                    "description": "MAKE BREED MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19280",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { mandatory: true } }; context.fieldStates.updateState('19280', state); return context.fieldStates.getValue('19280'); }"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "label": "No Valid ID SMS",
+    "type": "workflow",
+    "key": "JL1hr3NWCRhPaoOIRD036",
+    "color": "warning",
+    "icon": "fad fa-phone"
+}
+
+
+{1 item
+"currentEntry":{22 items
+"name":"Esanda finance - Clevero Test Client clevero - Feb 24"
+"clients":[1 item
+0:935234
+]
+"owner":[1 item
+0:1313897
+]
+"financial-firm":[1 item
+0:986588
+]
+"lead":[1 item
+0:300025547
+]
+"stage":[1 item
+0:1201873
+]
+"lost-reason":[...]1 item
+"closed-by":[...]1 item
+"product":[...]1 item
+"closed-date":"2024-03-14"
+"date-created":"2024-02-24T06:01:24.137Z"
+"has-insurance":false
+"email-sent-closed":true
+"par-email-sent":true
+"recordValueId":300025562
+"createdAt":"2024-02-24T06:01:24.193Z"
+"updatedAt":"2024-03-14T08:56:16.742Z"
+"autoId":"CLA22943"
+"autoIdNum":22943
+"internalOwner":25254
+"formId":812964
+"recordId":812232
+}
+}

@@ -1,0 +1,48 @@
+{
+    "type": "count",
+    "config": {
+        "record": "awg-audits",
+        "title": "Audits where type is Cert stage 2 and count is < 2",
+        "config": {
+            "defaultStyle": {
+                "icon": "",
+                "color": "default",
+                "size": 2,
+                "labelOrientation": "bottom",
+                "labelAlign": "center"
+            },
+            "styleWhenGreaterThanOrEqualTo": {
+                "1": {
+                    "icon": "fa-duotone fa-circle-arrow-up",
+                    "color": "red",
+                    "textColor": "red"
+                }
+            }
+        },
+        "filter": [
+            {
+                "requestType": "i",
+                "subject": "type",
+                "type": "array",
+                "operator": "any_of",
+                "ignoreCase": true,
+                "value": [
+                    "656241"
+                ]
+            },
+            "and",
+            {
+                "requestType": "i",
+                "subject": "648800-no-of-auditors",
+                "type": "number",
+                "operator": "lt",
+                "ignoreCase": true,
+                "value": 2
+            }
+        ],
+        "searchParams": {
+            "pageSize": 200,
+            "layoutId": 10001523
+        }
+    }
+}

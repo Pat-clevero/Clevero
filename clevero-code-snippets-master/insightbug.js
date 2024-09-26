@@ -1,0 +1,1 @@
+1. If clinician is chagned, duration changes but end time doesn't calculation

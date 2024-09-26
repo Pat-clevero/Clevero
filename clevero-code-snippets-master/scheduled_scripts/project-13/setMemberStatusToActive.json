@@ -1,0 +1,11 @@
+{
+    "condition": "function(context){ return true }",
+    "redirectImmediately": true,
+    "inputs": [
+        {
+            "name": "values",
+            "type": "function",
+            "value": "function(context){ console.log('ivantest-thisfunctionran');return {'7743': JSON.stringify(['132986'])};}"
+        }
+    ]
+}

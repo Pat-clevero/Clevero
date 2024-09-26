@@ -1,0 +1,104 @@
+{
+    "19255": [
+        {
+            "description": "If Breed is 'Other', show Other Breed field.",
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context){ const species = context.fieldStates.getValue('19254')[0]; const breed = context.fieldStates.getValue(19255)[0]; const catValueId='1968873'; const dogValueId = '1968871'; const catOtherBreedValueId='2202915'; const dogOtherBreedValueId='2202914'; if((species === catValueId && breed === catOtherBreedValueId)||(species === dogValueId && breed === dogOtherBreedValueId)){return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "SHOW OTHER BREED AND MAKE IT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19752",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: false, mandatory: true } }; context.fieldStates.updateState('19752', state); return context.fieldStates.getValue('19752'); }"
+                }
+            ],
+            "else": [
+                {
+                    "description": "HIDE OTHER BREED, CLEAR THE VALUE, AND MAKE IT NOT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19752",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: true, mandatory: false}, value: '' }; context.fieldStates.updateState('19752', state); return context.fieldStates.getValue('19752'); }"
+                }
+            ]
+        }
+    ],
+    "19268": [
+        {
+            "description": "If Breed is 'Other', show Other Breed field.",
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context){ const species = context.fieldStates.getValue('19267')[0]; const breed = context.fieldStates.getValue(19268)[0]; const catValueId='1968873'; const dogValueId = '1968871'; const catOtherBreedValueId='2202915'; const dogOtherBreedValueId='2202914'; if((species === catValueId && breed === catOtherBreedValueId)||(species === dogValueId && breed === dogOtherBreedValueId)){return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "SHOW OTHER BREED AND MAKE IT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19753",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: false, mandatory: true } }; context.fieldStates.updateState('19753', state); return context.fieldStates.getValue('19753'); }"
+                }
+            ],
+            "else": [
+                {
+                    "description": "HIDE OTHER BREED, CLEAR THE VALUE, AND MAKE IT NOT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19753",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: true, mandatory: false }, value: '' }; context.fieldStates.updateState('19753', state); return context.fieldStates.getValue('19753'); }"
+                }
+            ]
+        }
+    ],
+    "19280": [
+        {
+            "description": "If Breed is 'Other', show Other Breed field.",
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "condition": "function(context){ const species = context.fieldStates.getValue('19279')[0]; const breed = context.fieldStates.getValue(19280)[0]; const catValueId='1968873'; const dogValueId = '1968871'; const catOtherBreedValueId='2202915'; const dogOtherBreedValueId='2202914'; if((species === catValueId && breed === catOtherBreedValueId)||(species === dogValueId && breed === dogOtherBreedValueId)){return true;} }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "description": "SHOW OTHER BREED AND MAKE IT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19754",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: false, mandatory: true } }; context.fieldStates.updateState('19754', state); return context.fieldStates.getValue('19754'); }"
+                }
+            ],
+            "else": [
+                {
+                    "description": "HIDE OTHER BREED, CLEAR THE VALUE, AND MAKE IT NOT MANDATORY",
+                    "version": "v2",
+                    "fieldId": "19754",
+                    "action": "NONE",
+                    "value": "function(context) { var state = { inputState: { hidden: true, mandatory: false }, value: '' }; context.fieldStates.updateState('19754', state); return context.fieldStates.getValue('19754'); }"
+                }
+            ]
+        }
+    ]
+}

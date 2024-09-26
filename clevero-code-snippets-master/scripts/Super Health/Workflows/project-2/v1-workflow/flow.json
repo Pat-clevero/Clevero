@@ -1,0 +1,35 @@
+[
+  {
+    "key": "SEND_EMAIL",
+    "description": "Send email",
+    "name": "Send task email on create",
+    "condition": "function(context){ console.log('ok'); return true; }",
+    "inputs": [
+      {
+        "name": "recordId",
+        "source": "trigger-inputs",
+        "value": "recordId"
+      },
+      {
+        "name": "entryId",
+        "source": "trigger-inputs",
+        "value": "entryId"
+      },
+      {
+        "name": "from",
+        "source": "trigger-config",
+        "value": "from"
+      },
+      {
+        "name": "to",
+        "source": "trigger-config",
+        "value": "to"
+      },
+      {
+        "name": "templateId",
+        "source": "trigger-config",
+        "value": "templateId"
+      }
+    ]
+  }
+]

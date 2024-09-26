@@ -1,0 +1,21 @@
+{
+    "scheduleValue": {
+        "when": "monthly",
+        "start": "2023-06-30T22:00:00.000Z",
+        "repeat": -1,
+        "weekdays": [
+            "0"
+        ],
+        "interval": "4",
+        "monthOption": "day",
+        "monthDay": 0,
+        "monthRepeat": 1,
+        "monthRepeat2": 1,
+        "yearOption": "date",
+        "yearMonthDay": 1
+    },
+    "isScheduled": true,
+    "deploymentId": 2225221,
+    "currentTaskId": "vP3DD0ZI9zqcK82OQfQj6",
+    "jobKey": "SCHEDULED TASK - vP3DD0ZI9zqcK82OQfQj6:vP3DD0ZI9zqcK82OQfQj6:::undefined"
+}

@@ -1,0 +1,27 @@
+{
+    "linkedEnrolmentObject": {
+        "activity": "[\"132716\"]",
+        "enrolment-type": "[\"676900\"]",
+        "member": "[\"2289027\"]",
+        "session": "[\"2229366\"]",
+        "amount-remaining": "1",
+        "date": "2023-09-01",
+        "price-level": "[\"1161753\"]",
+        "term": "[\"2143807\"]",
+        "course": "[\"2229352\"]",
+        "online-enrolment": "true",
+        "chosen-payment-method": "[\"1428871\"]",
+        "additional-details": "",
+        "term-attendances-created-for-booking": "true",
+        "do-not-create-attendance": "false",
+        "amount": "1",
+        "recordValueId": 2289028,
+        "createdAt": "2023-09-01T07:19:47.016Z",
+        "updatedAt": "2023-09-01T07:19:47.341Z",
+        "autoId": "350",
+        "autoIdNum": 350,
+        "internalOwner": 132197,
+        "formId": 676916,
+        "recordId": 676915
+    }
+}

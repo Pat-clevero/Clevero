@@ -1,0 +1,11 @@
+{
+    "condition": "function(context){ return true; }",
+    "redirectImmediately": true,
+    "inputs": [
+        {
+            "name": "updateEntryValues",
+            "type": "function",
+            "value": "function(context){ return { '7657': context.utils.moment().tz('Australia/Sydney').format('YYYY-MM-DD') }; }"
+        }
+    ]
+}

@@ -1,0 +1,3965 @@
+{
+    "record": {
+        "recordValueId": 1709715,
+        "fields": [
+            {
+                "id": 17702,
+                "name": "Deadline",
+                "internalId": "1662670-deadline",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 317,
+                    "name": "Date",
+                    "internalId": "date"
+                }
+            },
+            {
+                "id": 17705,
+                "name": "Profit",
+                "internalId": "1662670-profit",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 19391,
+                "name": "Assigned",
+                "internalId": "1662670-assigned",
+                "settings": {
+                    "options": {
+                        "field": 388,
+                        "order": "",
+                        "record": 199,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false,
+                    "displayOnParent": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 316,
+                    "name": "Multiselect",
+                    "internalId": "multiselect"
+                }
+            },
+            {
+                "id": 17689,
+                "name": "Linked Quote",
+                "internalId": "1662670-linked-quote",
+                "settings": {
+                    "options": {
+                        "field": 17303,
+                        "order": "",
+                        "record": 1709712,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false,
+                    "displayOnParent": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 315,
+                    "name": "Select",
+                    "internalId": "select"
+                }
+            },
+            {
+                "id": 17958,
+                "name": "Project Scope",
+                "internalId": "1662670-project-scope",
+                "settings": {
+                    "options": {
+                        "field": 17319,
+                        "order": "",
+                        "record": 1709716,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 316,
+                    "name": "Multiselect",
+                    "internalId": "multiselect"
+                }
+            },
+            {
+                "id": 17960,
+                "name": "Project Scope Tasks",
+                "internalId": "1662670-project-scope-tasks",
+                "settings": {
+                    "options": {
+                        "field": 11788,
+                        "order": "",
+                        "record": 463908,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 316,
+                    "name": "Multiselect",
+                    "internalId": "multiselect"
+                }
+            },
+            {
+                "id": 17323,
+                "name": "Client",
+                "internalId": "1662670-organisation",
+                "settings": {
+                    "options": {
+                        "field": 18887,
+                        "order": "",
+                        "record": 1708508,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false,
+                    "displayOnParent": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 315,
+                    "name": "Select",
+                    "internalId": "select"
+                }
+            },
+            {
+                "id": 17328,
+                "name": "Status",
+                "internalId": "1662670-status",
+                "settings": {
+                    "options": {
+                        "field": 17313,
+                        "order": 1,
+                        "record": 1709713,
+                        "colorFieldId": 17314,
+                        "orderFieldId": 17315
+                    },
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": [
+                        "1711647"
+                    ],
+                    "displayField": false,
+                    "useCurrentLoggedInUser": null
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 315,
+                    "name": "Select",
+                    "internalId": "select"
+                }
+            },
+            {
+                "id": 18645,
+                "name": "Amount Remaining",
+                "internalId": "1662670-amount-remaining",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18782,
+                "name": "Total Hours Remaining",
+                "internalId": "1662670-total-hours-remaining",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 17322,
+                "name": "PR Number",
+                "internalId": "1662670-pa-number",
+                "settings": {
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 310,
+                    "name": "Text",
+                    "internalId": "text"
+                }
+            },
+            {
+                "id": 18585,
+                "name": "Billing Type",
+                "internalId": "1662670-billing-type",
+                "settings": {
+                    "options": {
+                        "field": 18390,
+                        "order": "",
+                        "style": "buttons",
+                        "record": 1826019,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 330,
+                    "name": "Radio Button",
+                    "internalId": "radio"
+                }
+            },
+            {
+                "id": 17329,
+                "name": "Date of Issue",
+                "internalId": "1662670-date-of-issue",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": null,
+                    "displayField": false,
+                    "useCurrentDate": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 319,
+                    "name": "Datetime",
+                    "internalId": "datetime"
+                }
+            },
+            {
+                "id": 18397,
+                "name": "DUB Total",
+                "internalId": "1662670-dub-total",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18398,
+                "name": "VoiceOver Total",
+                "internalId": "1662670-voiceover-total",
+                "settings": {
+                    "options": {
+                        "min": "",
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 17703,
+                "name": "Revenue",
+                "internalId": "1662670-revenue",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 20132,
+                "name": "Total Expenses",
+                "internalId": "1662670-total-expenses",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18727,
+                "name": "Talent Releases",
+                "internalId": "1662670-talent-releases",
+                "settings": {
+                    "options": {
+                        "maxFiles": "20",
+                        "fileTypes": "application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.openxmlformats-officedocument.wordprocessingml.template, application/vnd.ms-word.document.macroEnabled.12, application/vnd.ms-word.template.macroEnabled.12, application/mspowerpoint, application/vnd.ms-powerpoint, application/vnd.openxmlformats-officedocument.presentationml.presentation, application/vnd.openxmlformats-officedocument.presentationml.template, application/vnd.openxmlformats-officedocument.presentationml.slideshow, application/vnd.ms-powerpoint.addin.macroEnabled.12, application/vnd.ms-powerpoint.presentation.macroEnabled.12, application/vnd.ms-powerpoint.slideshow.macroEnabled.12, application/vnd.ms-powerpoint.template.macroEnabled.12, application/msexcel, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.openxmlformats-officedocument.spreadsheetml.template, application/vnd.ms-excel.sheet.macroEnabled.12, application/vnd.ms-excel.sheet.binary.macroEnabled.12, application/vnd.ms-excel.template.macroEnabled.12, application/vnd.ms-excel.addin.macroEnabled.12, application/pdf, text/csv, image/jpeg, image/jpg, image/png, text/plain, application/zip, application/x-7z-compressed, application/x-tar, application/gzip, application/json, message/rfc822, .msg, .pst, .ost, .edb",
+                        "maxFileSize": 50
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 343,
+                    "name": "File Bucket",
+                    "internalId": "file-bucket"
+                }
+            },
+            {
+                "id": 18780,
+                "name": "Total Budget Hours",
+                "internalId": "1662670-total-budget-hours",
+                "settings": {
+                    "options": {
+                        "suffix": " hours",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 20086,
+                "name": "Account Manager",
+                "internalId": "1662670-account-manager",
+                "settings": {
+                    "options": {
+                        "field": 388,
+                        "order": "",
+                        "record": 199,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false,
+                    "displayOnParent": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 315,
+                    "name": "Select",
+                    "internalId": "select"
+                }
+            },
+            {
+                "id": 17998,
+                "name": "Web Development Items",
+                "internalId": "1662670-web-development-items",
+                "settings": {
+                    "options": {
+                        "field": 11788,
+                        "order": "",
+                        "style": "text",
+                        "record": 463908,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 331,
+                    "name": "Multiple Choice",
+                    "internalId": "multichoice"
+                }
+            },
+            {
+                "id": 17996,
+                "name": "Content Items",
+                "internalId": "1662670-content-item",
+                "settings": {
+                    "options": {
+                        "field": 11788,
+                        "order": "",
+                        "style": "text",
+                        "record": 463908,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 331,
+                    "name": "Multiple Choice",
+                    "internalId": "multichoice"
+                }
+            },
+            {
+                "id": 19184,
+                "name": "Name Updated",
+                "internalId": "1662670-name-updated",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 323,
+                    "name": "Checkbox",
+                    "internalId": "checkbox"
+                }
+            },
+            {
+                "id": 18734,
+                "name": "Duration (days)",
+                "internalId": "1662670-duration",
+                "settings": {
+                    "options": {
+                        "decimal": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18784,
+                "name": "Name",
+                "internalId": "1662670-name",
+                "settings": {
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 310,
+                    "name": "Text",
+                    "internalId": "text"
+                }
+            },
+            {
+                "id": 18396,
+                "name": "CAD Total",
+                "internalId": "1662670-cad-total",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18781,
+                "name": "Total Actual Hours",
+                "internalId": "1662670-total-actual-hours",
+                "settings": {
+                    "options": {
+                        "suffix": " hours",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 17704,
+                "name": "Cost",
+                "internalId": "1662670-cost",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 17332,
+                "name": "Purchase Order Number",
+                "internalId": "1662670-purchase-order-number",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 310,
+                    "name": "Text",
+                    "internalId": "text"
+                }
+            },
+            {
+                "id": 19112,
+                "name": "Quickbase ID",
+                "internalId": "1662670-quickbase-id",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 310,
+                    "name": "Text",
+                    "internalId": "text"
+                }
+            },
+            {
+                "id": 17955,
+                "name": "Department",
+                "internalId": "1662670-department",
+                "settings": {
+                    "options": {
+                        "field": 13073,
+                        "order": "",
+                        "style": "buttons",
+                        "record": 643035,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 331,
+                    "name": "Multiple Choice",
+                    "internalId": "multichoice"
+                }
+            },
+            {
+                "id": 17954,
+                "name": "Type",
+                "internalId": "1662670-type",
+                "settings": {
+                    "options": {
+                        "field": 13073,
+                        "order": "",
+                        "record": 643035,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 316,
+                    "name": "Multiselect",
+                    "internalId": "multiselect"
+                }
+            },
+            {
+                "id": 19201,
+                "name": "Labour Total",
+                "internalId": "1662670-labour-total",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 17327,
+                "name": "Notes",
+                "internalId": "1662670-notes",
+                "settings": {
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 339,
+                    "name": "Rich Text",
+                    "internalId": "richtext"
+                }
+            },
+            {
+                "id": 17997,
+                "name": "Media Buying Items",
+                "internalId": "1662670-media-buying-items",
+                "settings": {
+                    "options": {
+                        "field": 11788,
+                        "order": "",
+                        "style": "text",
+                        "record": 463908,
+                        "colorFieldId": "",
+                        "orderFieldId": ""
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 331,
+                    "name": "Multiple Choice",
+                    "internalId": "multichoice"
+                }
+            },
+            {
+                "id": 18212,
+                "name": "Total Invoiced",
+                "internalId": "1662670-total-invoiced",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18399,
+                "name": "Miscellaneous Total",
+                "internalId": "1662670-miscellaneous-total",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": false,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 18389,
+                "name": "Fixed Price Amount",
+                "internalId": "1662670-fixed-price-amount",
+                "settings": {
+                    "options": {
+                        "prefix": "$",
+                        "decimal": "2"
+                    },
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "defaultValue": "0",
+                    "displayField": false
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 311,
+                    "name": "Number",
+                    "internalId": "number"
+                }
+            },
+            {
+                "id": 17334,
+                "name": "Title",
+                "internalId": "1662670-title",
+                "settings": {
+                    "mandatory": true,
+                    "description": "",
+                    "placeholder": "",
+                    "displayField": true
+                },
+                "custom": true,
+                "owner": 1662670,
+                "fieldType": {
+                    "id": 310,
+                    "name": "Text",
+                    "internalId": "text"
+                }
+            }
+        ],
+        "record-type": "record",
+        "internalid": "admedia-projects",
+        "name": "Projects",
+        "custom-record": false,
+        "icon": "fal fa-project-diagram",
+        "subrecords": [
+            1774860
+        ],
+        "render-old": false,
+        "settings": null,
+        "available-in-portals": true
+    },
+    "entry": {
+        "id": 2299888,
+        "recordTupleId": 1709715,
+        "formId": -1,
+        "owner": 1662670,
+        "user": 256688,
+        "autoId": "PR-000595",
+        "autoIdNum": 595,
+        "source": "INTERNAL",
+        "sourceData": false,
+        "value": {
+            "1662670-pa-number": "PR-000595",
+            "1662670-organisation": [
+                1991944
+            ],
+            "1662670-status": [
+                1711647
+            ],
+            "1662670-date-of-issue": "2023-09-05T09:37:42.241Z",
+            "1662670-title": "Angel's Ad",
+            "1662670-revenue": 4946.3,
+            "1662670-cost": 2247,
+            "1662670-profit": 2699.3,
+            "1662670-total-invoiced": 4058.65,
+            "1662670-cad-total": 0,
+            "1662670-dub-total": 0,
+            "1662670-voiceover-total": 0,
+            "1662670-amount-remaining": 887.6500000000001,
+            "1662670-duration": 1,
+            "1662670-total-actual-hours": 18,
+            "1662670-total-hours-remaining": -18,
+            "1662670-name": "PR-000595 - Angel's Ad",
+            "1662670-labour-total": 180,
+            "1662670-assigned": [
+                1708395
+            ],
+            "1662670-total-expenses": 2135
+        },
+        "createdAt": "2023-09-05T09:38:03.467Z",
+        "updatedAt": "2023-09-08T04:17:54.270Z"
+    },
+    "values": {
+        "1662670-pa-number": "PR-000595",
+        "1662670-title": "Angel's Ad",
+        "1662670-organisation": [
+            "1991944"
+        ],
+        "1662670-status": [
+            "1711647"
+        ],
+        "1662670-revenue": 4946.3,
+        "1662670-cost": 2247,
+        "1662670-profit": 2699.3,
+        "1662670-total-expenses": 2135,
+        "1662670-total-invoiced": 4058.65,
+        "1662670-amount-remaining": 887.6500000000001,
+        "1662670-purchase-order-number": "",
+        "1662670-assigned": [
+            "1708395"
+        ],
+        "1662670-date-of-issue": "2023-09-05T09:37:42.241Z",
+        "1662670-deadline": "",
+        "1662670-total-budget-hours": "",
+        "1662670-total-actual-hours": 18,
+        "1662670-linked-quote": [],
+        "1662670-notes": "",
+        "1662670-name": "PR-000595 - Angel's Ad",
+        "1662670-cad-total": 0,
+        "1662670-dub-total": 0,
+        "1662670-voiceover-total": 0,
+        "1662670-miscellaneous-total": "",
+        "1662670-labour-total": 180
+    },
+    "roles": {
+        "userRoles": [
+            {
+                "name": "Admin",
+                "owner": 317,
+                "ownerData": {
+                    "name": "SuiteScale",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        6530
+                    ]
+                },
+                "id": 318,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true,\"enableSelfServiceScheduling\":true,\"enableRoundRobinScheduling\":true,\"createOneToOneSchedulingEvents\":true,\"manageRoundRobinScheduling\":false,\"createCustomSchedulingEventTypes\":false}",
+                "isAdmin": "true",
+                "employeeId": 2266609
+            },
+            {
+                "name": "Admin",
+                "owner": 25254,
+                "ownerData": {
+                    "name": "Claimo",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        25253
+                    ]
+                },
+                "id": 25256,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[{\"id\":\"812965\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812968\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812971\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812974\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812977\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"813141\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"832873\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"832996\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"834319\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"860234\",\"permissions\":[\"177\",\"178\",\"187\"]}]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2175287
+            },
+            {
+                "name": "Operations",
+                "owner": 131,
+                "ownerData": {
+                    "name": "Clevero",
+                    "superOwner": true,
+                    "modules": [
+                        1487,
+                        1488,
+                        1490,
+                        1491,
+                        6530,
+                        4590,
+                        22223,
+                        16068,
+                        20402,
+                        21288,
+                        14442,
+                        19963,
+                        4041,
+                        22534,
+                        28999,
+                        30476,
+                        23676,
+                        68073,
+                        106665,
+                        132151
+                    ]
+                },
+                "id": 25962,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\"],\"records\":[{\"id\":\"119\",\"permissions\":[\"177\"]},{\"id\":\"199\",\"permissions\":[\"177\"]},{\"id\":\"246\",\"permissions\":[\"177\"]},{\"id\":\"34234\",\"permissions\":[\"177\"]},{\"id\":\"76757\",\"permissions\":[\"177\"]},{\"id\":\"76758\",\"permissions\":[\"177\",\"187\"]},{\"id\":\"87692\",\"permissions\":[\"177\"]},{\"id\":\"101646\",\"permissions\":[\"177\"]},{\"id\":\"123829\",\"permissions\":[\"177\"]},{\"id\":\"171490\",\"permissions\":[\"177\"]},{\"id\":\"227955\",\"permissions\":[\"177\"]},{\"id\":\"255707\",\"permissions\":[\"177\",\"178\"]},{\"id\":\"293214\",\"permissions\":[\"177\"]},{\"id\":\"1167175\",\"permissions\":[\"177\"]}]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":false,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":false,\"emailBlasts\":false,\"rules\":true,\"exportData\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-users",
+                "employeeId": 2145621
+            },
+            {
+                "name": "Admin",
+                "owner": 72241,
+                "ownerData": {
+                    "name": "Super Health Ensemble",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        72171
+                    ]
+                },
+                "id": 72243,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"emailBlasts\":true,\"rules\":false,\"exportData\":true,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":true,\"createOneToOneSchedulingEvents\":true,\"manageRoundRobinScheduling\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2194393
+            },
+            {
+                "name": "Admin",
+                "owner": 90858,
+                "ownerData": {
+                    "name": "Balance Aged Care Specialists",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        90855
+                    ]
+                },
+                "id": 90860,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":false,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2175163
+            },
+            {
+                "name": "Management",
+                "owner": 122601,
+                "ownerData": {
+                    "name": "Life's an Adventure",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        122298,
+                        463882
+                    ]
+                },
+                "id": 122603,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2225194
+            },
+            {
+                "name": "Admin",
+                "owner": 132197,
+                "ownerData": {
+                    "name": "Neighbourhood House Demo Account",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        132151,
+                        155647
+                    ]
+                },
+                "id": 132199,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true,\"customPortals\":true,\"managePortalsThroughIndicators\":true,\"enableSelfServiceScheduling\":false,\"enableRoundRobinScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false,\"createCustomSchedulingEventTypes\":false}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2198660
+            },
+            {
+                "name": "Clinic Portal",
+                "owner": 72241,
+                "ownerData": {
+                    "name": "Super Health Ensemble",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        72171
+                    ]
+                },
+                "id": 268891,
+                "permissions": "{\"entries\":{\"general\":[],\"records\":[{\"id\":\"72207\",\"permissions\":[\"177\",\"178\"]}]},\"fields\":{\"general\":[],\"records\":[]},\"forms\":{\"general\":[],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":true,\"emailTemplates\":false,\"smsTemplates\":false,\"documentTemplates\":false,\"esignatureTemplates\":false,\"emailBlasts\":false,\"rules\":false,\"exportData\":false,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false}",
+                "isAdmin": "false",
+                "icon": "fal fa-plus",
+                "employeeId": 2196127
+            },
+            {
+                "name": "Admin",
+                "owner": 335599,
+                "ownerData": {
+                    "name": "Yates Construction Pty Ltd",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        335569
+                    ]
+                },
+                "id": 335601,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":true,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2286217
+            },
+            {
+                "name": "Admin",
+                "owner": 463874,
+                "ownerData": {
+                    "name": "The Demo Account",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        463873,
+                        463882,
+                        1497469
+                    ]
+                },
+                "id": 463876,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true,\"customPortals\":true,\"managePortalsThroughIndicators\":true,\"enableSelfServiceScheduling\":true,\"createOneToOneSchedulingEvents\":true,\"manageRoundRobinScheduling\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2145673
+            },
+            {
+                "name": "Operations",
+                "owner": 648800,
+                "ownerData": {
+                    "name": "Audit Wise Group",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        648625,
+                        463882
+                    ]
+                },
+                "id": 648802,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[{\"id\":\"119\",\"permissions\":[]}]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":false,\"emailTemplates\":false,\"smsTemplates\":false,\"documentTemplates\":false,\"esignatureTemplates\":false,\"meetingLinks\":false,\"emailBlasts\":false,\"rules\":false,\"exportData\":true}",
+                "isAdmin": "false",
+                "icon": "fal fa-cog",
+                "employeeId": 2215465
+            },
+            {
+                "name": "Audit Team",
+                "owner": 648800,
+                "ownerData": {
+                    "name": "Audit Wise Group",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        648625,
+                        463882
+                    ]
+                },
+                "id": 683537,
+                "permissions": "{\"entries\":{\"general\":[],\"records\":[{\"id\":\"648236\",\"permissions\":[\"177\"]},{\"id\":\"648260\",\"permissions\":[]},{\"id\":\"648673\",\"permissions\":[\"177\"]},{\"id\":\"648715\",\"permissions\":[\"177\",\"187\"]},{\"id\":\"649878\",\"permissions\":[\"177\"]},{\"id\":\"659712\",\"permissions\":[]},{\"id\":\"676370\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"750618\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"850807\",\"permissions\":[\"177\",\"178\"]},{\"id\":\"1924107\",\"permissions\":[\"177\"]}]},\"fields\":{\"general\":[],\"records\":[]},\"forms\":{\"general\":[],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":false,\"emailTemplates\":false,\"smsTemplates\":false,\"documentTemplates\":false,\"esignatureTemplates\":false,\"emailBlasts\":false,\"rules\":false,\"exportData\":false,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false}",
+                "isAdmin": "false",
+                "icon": "fal fa-users-class",
+                "employeeId": 2215465
+            },
+            {
+                "name": "Super Admin",
+                "owner": 648800,
+                "ownerData": {
+                    "name": "Audit Wise Group",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        648625,
+                        463882
+                    ]
+                },
+                "id": 683716,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":true,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-lock-alt",
+                "employeeId": 2215465
+            },
+            {
+                "name": "Admin",
+                "owner": 861147,
+                "ownerData": {
+                    "name": "Chelsea Heights Community Centre",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        132151
+                    ]
+                },
+                "id": 861149,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":false,\"exportData\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2253642
+            },
+            {
+                "name": "Admin",
+                "owner": 1614495,
+                "ownerData": {
+                    "name": "Hello Mello",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1188885,
+                        1634779,
+                        463882,
+                        2247779
+                    ]
+                },
+                "id": 1614496,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true,\"customPortals\":true,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":true,\"createOneToOneSchedulingEvents\":true,\"manageRoundRobinScheduling\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2243408
+            },
+            {
+                "name": "Admin",
+                "owner": 1662670,
+                "ownerData": {
+                    "name": "Admedia ",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1405482,
+                        1708404,
+                        463882,
+                        1762369
+                    ]
+                },
+                "id": 1662671,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[\"178\",\"187\"],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2231544
+            },
+            {
+                "name": "Admin",
+                "owner": 1795685,
+                "ownerData": {
+                    "name": "Ferrari Consulting Group",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1188885,
+                        1821768,
+                        463882
+                    ]
+                },
+                "id": 1795686,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":true,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2227878
+            },
+            {
+                "name": "Department Head",
+                "owner": 1662670,
+                "ownerData": {
+                    "name": "Admedia ",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1405482,
+                        1708404,
+                        463882,
+                        1762369
+                    ]
+                },
+                "id": 1836732,
+                "permissions": "{\"entries\":{\"general\":[],\"records\":[{\"id\":\"574930\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1708508\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1709712\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1709715\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1709718\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1709723\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1709724\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1709725\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1710998\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1719816\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"1725861\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]},{\"id\":\"1762463\",\"permissions\":[\"177\",\"178\",\"187\",\"230\"]}]},\"fields\":{\"general\":[],\"records\":[]},\"forms\":{\"general\":[],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":false,\"emailTemplates\":false,\"smsTemplates\":false,\"documentTemplates\":false,\"esignatureTemplates\":false,\"emailBlasts\":false,\"rules\":false,\"exportData\":false,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false}",
+                "employeeId": 2231544
+            },
+            {
+                "name": "Admin",
+                "owner": 1880571,
+                "ownerData": {
+                    "name": "Norlane Community Centre",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        132151
+                    ]
+                },
+                "id": 1880572,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":true,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2167948
+            },
+            {
+                "name": "Admin",
+                "owner": 1918262,
+                "ownerData": {
+                    "name": "Insight Mobile Veterinary Diagnostics",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1188885,
+                        1967831,
+                        463882
+                    ]
+                },
+                "id": 1918263,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":true,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2192643
+            },
+            {
+                "name": "Operations",
+                "owner": 1918262,
+                "ownerData": {
+                    "name": "Insight Mobile Veterinary Diagnostics",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1188885,
+                        1967831,
+                        463882
+                    ]
+                },
+                "id": 1993036,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[],\"records\":[]},\"forms\":{\"general\":[],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":false,\"documentTemplates\":false,\"esignatureTemplates\":false,\"emailBlasts\":false,\"rules\":false,\"exportData\":false,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false}",
+                "icon": "fal fa-cog",
+                "employeeId": 2192643
+            },
+            {
+                "name": "Clinicians",
+                "owner": 1918262,
+                "ownerData": {
+                    "name": "Insight Mobile Veterinary Diagnostics",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1188885,
+                        1967831,
+                        463882
+                    ]
+                },
+                "id": 1993039,
+                "permissions": "{\"entries\":{\"general\":[],\"records\":[{\"id\":\"199\",\"permissions\":[\"177\"]},{\"id\":\"1819867\",\"permissions\":[\"177\"]},{\"id\":\"1967859\",\"permissions\":[\"177\",\"187\"]},{\"id\":\"1967871\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"1974197\",\"permissions\":[\"177\"]},{\"id\":\"1987160\",\"permissions\":[\"177\"]}]},\"fields\":{\"general\":[],\"records\":[]},\"forms\":{\"general\":[],\"records\":[]},\"records\":[],\"companySettings\":false,\"systemSettings\":false,\"emailTemplates\":false,\"smsTemplates\":false,\"documentTemplates\":false,\"esignatureTemplates\":false,\"emailBlasts\":false,\"rules\":false,\"exportData\":false,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false}",
+                "icon": "fal fa-stethoscope",
+                "employeeId": 2192643
+            },
+            {
+                "name": "Admin",
+                "owner": 2181892,
+                "ownerData": {
+                    "name": "ESAP Australia",
+                    "superOwner": false,
+                    "modules": [
+                        1487,
+                        1188885,
+                        463882,
+                        2221546
+                    ]
+                },
+                "id": 2181893,
+                "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"rules\":true,\"exportData\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"managePortalsThroughIndicators\":true}",
+                "isAdmin": "true",
+                "icon": "fal fa-cog",
+                "employeeId": 2286215
+            }
+        ],
+        "selectedRole": {
+            "name": "Admin",
+            "owner": 1662670,
+            "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[\"178\",\"187\"],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true}",
+            "icon": "fal fa-cog",
+            "dashboard-layout": "[\"1728242\"]",
+            "is-portal-role": "false",
+            "settings": "",
+            "identifier": "admin",
+            "createdAt": "2023-03-27T04:13:41.829Z",
+            "updatedAt": "2023-04-26T06:50:34.692Z",
+            "autoId": "1",
+            "autoIdNum": 1,
+            "internalOwner": 1662670,
+            "formId": -1,
+            "recordId": 119,
+            "isAdmin": "true",
+            "isPortalRole": false,
+            "id": 1662671,
+            "industryName": "",
+            "ownerData": {
+                "instanceSettings": {
+                    "role-entry-layouts": {
+                        "126": {
+                            "1754526": {
+                                "default": 1754577,
+                                "add": 1754577
+                            }
+                        },
+                        "1662671": {
+                            "199": {
+                                "add": 1795134,
+                                "default": 1764235
+                            },
+                            "463908": {
+                                "add": 1919982,
+                                "default": 1919770
+                            },
+                            "574930": {
+                                "add": 1811693,
+                                "default": 1808166
+                            },
+                            "1708504": {
+                                "add": 1795111,
+                                "default": 1709812
+                            },
+                            "1708508": {
+                                "add": 1795107,
+                                "default": 1711689
+                            },
+                            "1708512": {
+                                "add": 1795123,
+                                "default": 1710922
+                            },
+                            "1708513": {
+                                "add": 1795119,
+                                "default": 1711671
+                            },
+                            "1708516": {
+                                "default": 1711679,
+                                "add": 1711679
+                            },
+                            "1708521": {
+                                "add": 1795153,
+                                "default": 1711639
+                            },
+                            "1709708": {
+                                "add": 1795151,
+                                "default": 1711693
+                            },
+                            "1709709": {
+                                "add": 1795175,
+                                "default": 1711642
+                            },
+                            "1709712": {
+                                "add": 1825874,
+                                "default": 1811722
+                            },
+                            "1709713": {
+                                "add": 1795164,
+                                "default": 1711645
+                            },
+                            "1709714": {
+                                "add": 1795157,
+                                "default": 1711654
+                            },
+                            "1709715": {
+                                "add": 1711705,
+                                "default": 2310235
+                            },
+                            "1709716": {
+                                "default": 1711648,
+                                "add": 1795165
+                            },
+                            "1709717": {
+                                "add": 1795129,
+                                "default": 1711674
+                            },
+                            "1709718": {
+                                "add": 1795114,
+                                "default": 1811702
+                            },
+                            "1709719": {
+                                "add": 1795178,
+                                "default": 1711657
+                            },
+                            "1709720": {
+                                "add": 1795194,
+                                "default": 1711661
+                            },
+                            "1709721": {
+                                "add": 1795179,
+                                "default": 1711664
+                            },
+                            "1709722": {
+                                "add": 1795187,
+                                "default": 1711667
+                            },
+                            "1709723": {
+                                "add": 2297502,
+                                "default": 2299991
+                            },
+                            "1709724": {
+                                "add": 1795147,
+                                "default": 1711716
+                            },
+                            "1709725": {
+                                "add": 2300012,
+                                "default": 2300014
+                            },
+                            "1709742": {
+                                "default": 1711636,
+                                "add": 1711636
+                            },
+                            "1719816": {
+                                "add": 1795140,
+                                "default": 1773044
+                            },
+                            "1725823": {
+                                "add": 1795105,
+                                "default": 1725843
+                            },
+                            "1725861": {
+                                "add": 1795102,
+                                "default": 1725955
+                            },
+                            "1762368": {
+                                "add": 1795193,
+                                "default": 1762415
+                            },
+                            "1762463": {
+                                "default": 1762709,
+                                "add": 1795135
+                            },
+                            "1762721": {
+                                "default": 1762735,
+                                "add": 1762735
+                            },
+                            "1807475": {
+                                "add": 1816265,
+                                "default": 1807557
+                            },
+                            "1807625": {
+                                "add": 1816266,
+                                "default": 1807669
+                            },
+                            "1807715": {
+                                "add": 1816281,
+                                "default": 1807747
+                            },
+                            "1808632": {
+                                "default": 2178112,
+                                "add": 2178128
+                            },
+                            "1826019": {
+                                "add": 1826027,
+                                "default": 1826025
+                            }
+                        },
+                        "1836717": {
+                            "199": {
+                                "add": 1795134,
+                                "default": 1764235
+                            },
+                            "463908": {
+                                "add": 1919982,
+                                "default": 1919770
+                            },
+                            "574930": {
+                                "add": 1811693,
+                                "default": 1808166
+                            },
+                            "1708504": {
+                                "add": 1795111,
+                                "default": 1709812
+                            },
+                            "1708508": {
+                                "add": 1795107,
+                                "default": 1711689
+                            },
+                            "1708512": {
+                                "add": 1795123,
+                                "default": 1710922
+                            },
+                            "1708513": {
+                                "add": 1795119,
+                                "default": 1711671
+                            },
+                            "1708521": {
+                                "add": 1795153,
+                                "default": 1711639
+                            },
+                            "1709708": {
+                                "add": 1795151,
+                                "default": 1711693
+                            },
+                            "1709709": {
+                                "add": 1795175,
+                                "default": 1711642
+                            },
+                            "1709712": {
+                                "add": 1825874,
+                                "default": 1811722
+                            },
+                            "1709713": {
+                                "add": 1795164,
+                                "default": 1711645
+                            },
+                            "1709714": {
+                                "add": 1795157,
+                                "default": 1711654
+                            },
+                            "1709715": {
+                                "default": 2297469,
+                                "add": 2297469
+                            },
+                            "1709716": {
+                                "default": 1711648
+                            },
+                            "1709717": {
+                                "add": 1795129,
+                                "default": 1711674
+                            },
+                            "1709719": {
+                                "add": 1795178,
+                                "default": 1711657
+                            },
+                            "1709720": {
+                                "add": 1795194,
+                                "default": 1711661
+                            },
+                            "1709721": {
+                                "add": 1795179,
+                                "default": 1711664
+                            },
+                            "1709722": {
+                                "add": 1795187,
+                                "default": 1711667
+                            },
+                            "1709723": {
+                                "add": 1795185,
+                                "default": 1975977
+                            },
+                            "1709724": {
+                                "add": 1795147,
+                                "default": 1711716
+                            },
+                            "1709725": {
+                                "default": 1975980,
+                                "add": 1795197
+                            },
+                            "1719816": {
+                                "add": 1795140
+                            },
+                            "1725823": {
+                                "add": 1795105,
+                                "default": 1725843
+                            },
+                            "1725861": {
+                                "add": 1795102,
+                                "default": 1725955
+                            },
+                            "1762368": {
+                                "add": 1795193,
+                                "default": 1762415
+                            },
+                            "1807475": {
+                                "add": 1816265,
+                                "default": 1807557
+                            },
+                            "1807625": {
+                                "add": 1816266,
+                                "default": 1807669
+                            },
+                            "1807715": {
+                                "add": 1816281,
+                                "default": 1807747
+                            },
+                            "1808632": {
+                                "default": 2178112,
+                                "add": 2178128
+                            },
+                            "1826019": {
+                                "add": 1826027,
+                                "default": 1826025
+                            }
+                        },
+                        "1836731": {
+                            "199": {
+                                "add": 1795134,
+                                "default": 1764235
+                            },
+                            "463908": {
+                                "add": 1919982,
+                                "default": 1919770
+                            },
+                            "574930": {
+                                "add": 1811693,
+                                "default": 1808166
+                            },
+                            "1708504": {
+                                "add": 1795111,
+                                "default": 1709812
+                            },
+                            "1708508": {
+                                "add": 1795107,
+                                "default": 1711689
+                            },
+                            "1708512": {
+                                "add": 1795123,
+                                "default": 1710922
+                            },
+                            "1708513": {
+                                "add": 1795119,
+                                "default": 1711671
+                            },
+                            "1708521": {
+                                "add": 1795153,
+                                "default": 1711639
+                            },
+                            "1709708": {
+                                "add": 1795151,
+                                "default": 1711693
+                            },
+                            "1709709": {
+                                "add": 1795175,
+                                "default": 1711642
+                            },
+                            "1709712": {
+                                "add": 1825874,
+                                "default": 1811722
+                            },
+                            "1709713": {
+                                "add": 1795164,
+                                "default": 1711645
+                            },
+                            "1709714": {
+                                "add": 1795157,
+                                "default": 1711654
+                            },
+                            "1709715": {
+                                "default": 2299515,
+                                "add": 2310237
+                            },
+                            "1709716": {
+                                "default": 1711648,
+                                "add": 1795165
+                            },
+                            "1709717": {
+                                "add": 1795129,
+                                "default": 1711674
+                            },
+                            "1709718": {
+                                "add": 1795114,
+                                "default": 1811702
+                            },
+                            "1709719": {
+                                "add": 1795178,
+                                "default": 1711657
+                            },
+                            "1709720": {
+                                "add": 1795194,
+                                "default": 1711661
+                            },
+                            "1709721": {
+                                "add": 1795179,
+                                "default": 1711664
+                            },
+                            "1709722": {
+                                "add": 1795187,
+                                "default": 1711667
+                            },
+                            "1709723": {
+                                "add": 2299996,
+                                "default": 2300001
+                            },
+                            "1709724": {
+                                "add": 1795147,
+                                "default": 1711716
+                            },
+                            "1709725": {
+                                "add": 2300015,
+                                "default": 2300016
+                            },
+                            "1719816": {
+                                "add": 1795140,
+                                "default": 1773044
+                            },
+                            "1725823": {
+                                "add": 1795105,
+                                "default": 1725843
+                            },
+                            "1725861": {
+                                "add": 1795102,
+                                "default": 1725955
+                            },
+                            "1762368": {
+                                "add": 1795193,
+                                "default": 1762415
+                            },
+                            "1762463": {
+                                "default": 1762709,
+                                "add": 1795135
+                            },
+                            "1807475": {
+                                "add": 1816265,
+                                "default": 1807557
+                            },
+                            "1807625": {
+                                "add": 1816266,
+                                "default": 1807669
+                            },
+                            "1807715": {
+                                "add": 1816281,
+                                "default": 1807747
+                            },
+                            "1808632": {
+                                "default": 2178112,
+                                "add": 2178128
+                            },
+                            "1826019": {
+                                "add": 1826027,
+                                "default": 1826025
+                            }
+                        },
+                        "1836732": {
+                            "199": {
+                                "add": 1795134,
+                                "default": 1764235
+                            },
+                            "463908": {
+                                "add": 1919982,
+                                "default": 1919770
+                            },
+                            "574930": {
+                                "add": 1811693,
+                                "default": 1808166
+                            },
+                            "1708504": {
+                                "add": 1795111,
+                                "default": 1709812
+                            },
+                            "1708508": {
+                                "add": 1795107,
+                                "default": 1711689
+                            },
+                            "1708512": {
+                                "add": 1795123,
+                                "default": 1710922
+                            },
+                            "1708513": {
+                                "add": 1795119,
+                                "default": 1711671
+                            },
+                            "1708521": {
+                                "add": 1795153,
+                                "default": 1711639
+                            },
+                            "1709708": {
+                                "add": 1795151,
+                                "default": 1711693
+                            },
+                            "1709709": {
+                                "add": 1795175,
+                                "default": 1711642
+                            },
+                            "1709712": {
+                                "add": 1825874,
+                                "default": 1811722
+                            },
+                            "1709713": {
+                                "add": 1795164,
+                                "default": 1711645
+                            },
+                            "1709714": {
+                                "add": 1795157,
+                                "default": 1711654
+                            },
+                            "1709715": {
+                                "default": 2299515,
+                                "add": 2310237
+                            },
+                            "1709716": {
+                                "default": 1711648,
+                                "add": 1795165
+                            },
+                            "1709717": {
+                                "add": 1795129,
+                                "default": 1711674
+                            },
+                            "1709718": {
+                                "add": 1795114,
+                                "default": 1811702
+                            },
+                            "1709719": {
+                                "add": 1795178,
+                                "default": 1711657
+                            },
+                            "1709720": {
+                                "add": 1795194,
+                                "default": 1711661
+                            },
+                            "1709721": {
+                                "add": 1795179,
+                                "default": 1711664
+                            },
+                            "1709722": {
+                                "add": 1795187,
+                                "default": 1711667
+                            },
+                            "1709723": {
+                                "add": 2299996,
+                                "default": 2300001
+                            },
+                            "1709724": {
+                                "add": 1795147,
+                                "default": 1711716
+                            },
+                            "1709725": {
+                                "add": 2300015,
+                                "default": 2300016
+                            },
+                            "1719816": {
+                                "add": 1795140,
+                                "default": 1773044
+                            },
+                            "1725823": {
+                                "add": 1795105,
+                                "default": 1725843
+                            },
+                            "1725861": {
+                                "add": 1795102,
+                                "default": 1725955
+                            },
+                            "1762368": {
+                                "add": 1795193,
+                                "default": 1762415
+                            },
+                            "1762463": {
+                                "default": 1762709,
+                                "add": 1795135
+                            },
+                            "1807475": {
+                                "add": 1816265,
+                                "default": 1807557
+                            },
+                            "1807625": {
+                                "add": 1816266,
+                                "default": 1807669
+                            },
+                            "1807715": {
+                                "add": 1816281,
+                                "default": 1807747
+                            },
+                            "1808632": {
+                                "default": 2178112,
+                                "add": 2178128
+                            },
+                            "1826019": {
+                                "add": 1826027,
+                                "default": 1826025
+                            }
+                        },
+                        "1836735": {
+                            "199": {
+                                "add": 1795134,
+                                "default": 1764235
+                            },
+                            "463908": {
+                                "add": 1919982,
+                                "default": 1919770
+                            },
+                            "574930": {
+                                "add": 1811693,
+                                "default": 1808166
+                            },
+                            "1708504": {
+                                "add": 1795111,
+                                "default": 1709812
+                            },
+                            "1708508": {
+                                "add": 1795107,
+                                "default": 1711689
+                            },
+                            "1708512": {
+                                "add": 1795123,
+                                "default": 1710922
+                            },
+                            "1708513": {
+                                "add": 1795119,
+                                "default": 1711671
+                            },
+                            "1708521": {
+                                "add": 1795153,
+                                "default": 1711639
+                            },
+                            "1709708": {
+                                "add": 1795151,
+                                "default": 1711693
+                            },
+                            "1709709": {
+                                "add": 1795175,
+                                "default": 1711642
+                            },
+                            "1709712": {
+                                "add": 1825874,
+                                "default": 1811722
+                            },
+                            "1709713": {
+                                "add": 1795164,
+                                "default": 1711645
+                            },
+                            "1709714": {
+                                "add": 1795157,
+                                "default": 1711654
+                            },
+                            "1709715": {
+                                "default": 2299515,
+                                "add": 2310237
+                            },
+                            "1709716": {
+                                "default": 1711648
+                            },
+                            "1709717": {
+                                "add": 1795129,
+                                "default": 1711674
+                            },
+                            "1709718": {
+                                "add": 1795114,
+                                "default": 1811702
+                            },
+                            "1709719": {
+                                "add": 1795178,
+                                "default": 1711657
+                            },
+                            "1709720": {
+                                "add": 1795194,
+                                "default": 1711661
+                            },
+                            "1709721": {
+                                "add": 1795179,
+                                "default": 1711664
+                            },
+                            "1709722": {
+                                "add": 1795187,
+                                "default": 1711667
+                            },
+                            "1709723": {
+                                "add": 2299996,
+                                "default": 2300001
+                            },
+                            "1709724": {
+                                "add": 1795147,
+                                "default": 1711716
+                            },
+                            "1709725": {
+                                "add": 2300015,
+                                "default": 2300016
+                            },
+                            "1719816": {
+                                "add": 1795140,
+                                "default": 1773044
+                            },
+                            "1725823": {
+                                "add": 1795105,
+                                "default": 1725843
+                            },
+                            "1725861": {
+                                "add": 1795102,
+                                "default": 1725955
+                            },
+                            "1762368": {
+                                "add": 1795193,
+                                "default": 1762415
+                            },
+                            "1762463": {
+                                "default": 1762709,
+                                "add": 1795135
+                            },
+                            "1807475": {
+                                "add": 1816265,
+                                "default": 1807557
+                            },
+                            "1807625": {
+                                "add": 1816266,
+                                "default": 1807669
+                            },
+                            "1807715": {
+                                "add": 1816281,
+                                "default": 1807747
+                            },
+                            "1808632": {
+                                "default": 2178112,
+                                "add": 2178128
+                            },
+                            "1826019": {
+                                "add": 1826027,
+                                "default": 1826025
+                            }
+                        },
+                        "1879408": {
+                            "199": {
+                                "add": 1795134,
+                                "default": 1764235
+                            },
+                            "463908": {
+                                "add": 1919982,
+                                "default": 1919770
+                            },
+                            "574930": {
+                                "add": 1811693,
+                                "default": 1808166
+                            },
+                            "1708504": {
+                                "add": 1795111,
+                                "default": 1709812
+                            },
+                            "1708508": {
+                                "add": 1795107,
+                                "default": 1711689
+                            },
+                            "1708512": {
+                                "add": 1795123,
+                                "default": 1710922
+                            },
+                            "1708513": {
+                                "add": 1795119,
+                                "default": 1711671
+                            },
+                            "1708521": {
+                                "add": 1795153,
+                                "default": 1711639
+                            },
+                            "1709708": {
+                                "add": 1795151,
+                                "default": 1711693
+                            },
+                            "1709709": {
+                                "add": 1795175,
+                                "default": 1711642
+                            },
+                            "1709712": {
+                                "add": 1825874,
+                                "default": 1811722
+                            },
+                            "1709713": {
+                                "add": 1795164,
+                                "default": 1711645
+                            },
+                            "1709714": {
+                                "add": 1795157,
+                                "default": 1711654
+                            },
+                            "1709715": {
+                                "default": 1880165,
+                                "add": 1880165
+                            },
+                            "1709716": {
+                                "default": 1711648
+                            },
+                            "1709717": {
+                                "add": 1795129,
+                                "default": 1711674
+                            },
+                            "1709719": {
+                                "add": 1795178,
+                                "default": 1711657
+                            },
+                            "1709720": {
+                                "add": 1795194,
+                                "default": 1711661
+                            },
+                            "1709721": {
+                                "add": 1795179,
+                                "default": 1711664
+                            },
+                            "1709722": {
+                                "add": 1795187,
+                                "default": 1711667
+                            },
+                            "1709723": {
+                                "add": 1795185,
+                                "default": 1975977
+                            },
+                            "1709724": {
+                                "add": 1795147,
+                                "default": 1711716
+                            },
+                            "1709725": {
+                                "default": 1975980,
+                                "add": 1795197
+                            },
+                            "1719816": {
+                                "add": 1795140
+                            },
+                            "1725823": {
+                                "add": 1795105,
+                                "default": 1725843
+                            },
+                            "1725861": {
+                                "add": 1795102,
+                                "default": 1725955
+                            },
+                            "1762368": {
+                                "add": 1795193,
+                                "default": 1762415
+                            },
+                            "1807475": {
+                                "add": 1816265,
+                                "default": 1807557
+                            },
+                            "1807625": {
+                                "add": 1816266,
+                                "default": 1807669
+                            },
+                            "1807715": {
+                                "add": 1816281,
+                                "default": 1807747
+                            },
+                            "1826019": {
+                                "add": 1826027,
+                                "default": 1826025
+                            }
+                        }
+                    },
+                    "role-nav-layouts": {
+                        "1662671": 1709818,
+                        "1836731": 1961647,
+                        "1836732": 1961647,
+                        "1836735": 1961647,
+                        "1879408": 1879670
+                    }
+                },
+                "modules": [
+                    1487,
+                    1405482,
+                    1708404,
+                    463882,
+                    1762369
+                ],
+                "name": "Admedia ",
+                "uniqueIdentifier": "admedia",
+                "superOwner": false,
+                "subscriptionDetails": {
+                    "subscriptionValid": true,
+                    "isTrial": true,
+                    "termRemainingDays": null
+                },
+                "primaryModule": "[\"1708404\"]",
+                "notForResale": false,
+                "userLimit": 0,
+                "enableAircallDialer": false
+            },
+            "superOwner": false,
+            "moduleRecords": [
+                199,
+                119,
+                99973,
+                225810,
+                259487,
+                259489,
+                558157,
+                848088,
+                111741,
+                1819867,
+                1858737,
+                1858799,
+                1858783,
+                1141,
+                1144,
+                1148,
+                27673,
+                5039,
+                99981,
+                1152,
+                104125,
+                135153,
+                135216,
+                135347,
+                1895,
+                578997,
+                95627,
+                34144,
+                34136,
+                95626,
+                34132,
+                34148,
+                306336,
+                3953,
+                463908,
+                463883,
+                643032,
+                643035,
+                224281,
+                574930,
+                1710998,
+                1710693,
+                1719816,
+                34121,
+                1709718,
+                1708513,
+                1708512,
+                1709717,
+                1709724,
+                1709708,
+                1708521,
+                1708508,
+                1708504,
+                1709715,
+                1709713,
+                1709716,
+                1709712,
+                1709709,
+                1709719,
+                1709721,
+                1709723,
+                1709722,
+                1709720,
+                1709725,
+                1725823,
+                1725861,
+                1762463,
+                1774860,
+                1762368,
+                1762721,
+                1807475,
+                1807625,
+                1807715,
+                1808632,
+                1826019,
+                1902614,
+                1956128,
+                15169
+            ],
+            "employeeId": 2231544
+        },
+        "employee": {
+            "email": "ivan@clevero.co",
+            "firstName": "Ivan",
+            "fullName": "Ivan Mejico",
+            "id": 2231544,
+            "lastName": "Mejico",
+            "supervisor": [],
+            "superAdmin": false
+        },
+        "user": {
+            "id": 2145622,
+            "email": "ivan@clevero.co",
+            "firstName": "Ivan",
+            "lastName": "Mejico",
+            "createdAt": "2023-07-19T03:23:46.428Z",
+            "requiresPasswordReset": false,
+            "requiresTermsAndConditionsAgreement": false,
+            "elevioHash": "2fe40f9afe87efafb46776a3dbf9d186b414968b6cf8fa5196496e8fa7a2adff"
+        }
+    },
+    "settings": {
+        "company": {
+            "company": [
+                "1662670"
+            ],
+            "apiKeys": {
+                "sendgrid": {
+                    "apiKey": ""
+                },
+                "stripe": {
+                    "publishableKey": "",
+                    "secretKey": "",
+                    "productId": "",
+                    "signingSecret": ""
+                },
+                "pinPayments": {
+                    "usePinPayments": true,
+                    "publishableKey": "pk_QjBVXYeHVPIXWqPoffci0w",
+                    "secretKey": "ZxPtXga9h5Pww2ZzMIyBow",
+                    "code": "rvn4",
+                    "testSecretKey": "eoEBEYoUZqulanYFtZcZGQ",
+                    "testPublishableKey": "pk_sUdsIr0JpibjjcsxaUTWbw",
+                    "webhookSecret": "",
+                    "surcharge": false,
+                    "surchargeConfig": ""
+                },
+                "medipass": {
+                    "apiKey": "",
+                    "active": false
+                },
+                "paypalme": {
+                    "url": ""
+                }
+            },
+            "general": {
+                "name": "",
+                "email": "config@clevero.co",
+                "phone": "",
+                "address": "77 Pine Avenue,, Mildura, Victoria, AU",
+                "street": "77 Pine Avenue,",
+                "city": "Mildura",
+                "region": "Victoria",
+                "postalCode": "3500",
+                "country": "AU",
+                "abn-acn": "",
+                "website": "",
+                "logo": "",
+                "timezone": "Australia/Melbourne",
+                "currencyDefault": "",
+                "heightDefault": "",
+                "weightDefault": "",
+                "defaultTemplate": "",
+                "xeroOrganisation": {
+                    "value": 1793363,
+                    "label": "Admedia Australia Pty Ltd",
+                    "xeroId": "b556b51b-7d6b-4251-8528-0c979fef68f8"
+                },
+                "esignatureHeading": "",
+                "esignatureDisclosureURL": "https://www.admedia.com.au/electronic-signature-disclosure-and-consent/",
+                "privacyPolicyURL": "https://www.admedia.com.au/privacy-policy/"
+            },
+            "integrations": {
+                "xero": {}
+            },
+            "userInterface": {
+                "defaultTableLayouts": {
+                    "463908": {
+                        "tableLayoutId": 1773854
+                    },
+                    "574930": {
+                        "tableLayoutId": 1815750
+                    },
+                    "1709712": {
+                        "tableLayoutId": 1710944
+                    },
+                    "1709715": {
+                        "tableLayoutId": 1879807
+                    },
+                    "1719816": {
+                        "tableLayoutId": 1816301
+                    }
+                }
+            },
+            "recordValueId": 1736728,
+            "createdAt": "2023-04-18T01:33:35.402Z",
+            "autoId": null,
+            "autoIdNum": null,
+            "internalOwner": 1662670,
+            "formId": 0,
+            "recordId": 765
+        },
+        "employee": {}
+    },
+    "modules": {
+        "records": [
+            {
+                "icon": "fal fa-calendar-alt",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "payment-terms",
+                "name": "Payment Terms",
+                "render-old": "false",
+                "recordValueId": 224281,
+                "createdAt": "2021-10-08T00:25:44.146Z",
+                "updatedAt": "2021-10-08T00:25:44.146Z",
+                "autoId": "1090",
+                "autoIdNum": 1090,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "qr-code",
+                "name": "QR Codes",
+                "recordValueId": 225810,
+                "createdAt": "2021-10-11T05:19:26.794Z",
+                "updatedAt": "2021-10-11T05:19:26.794Z",
+                "autoId": "1097",
+                "autoIdNum": 1097,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "pin-payments-cards",
+                "name": "Pin payments cards",
+                "recordValueId": 259487,
+                "createdAt": "2021-12-09T10:22:36.977Z",
+                "updatedAt": "2021-12-09T10:22:36.977Z",
+                "autoId": "1204",
+                "autoIdNum": 1204,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "pin-payments-charges",
+                "name": "Pin payments charges",
+                "recordValueId": 259489,
+                "createdAt": "2021-12-09T10:22:39.731Z",
+                "updatedAt": "2021-12-09T10:22:39.731Z",
+                "autoId": "1205",
+                "autoIdNum": 1205,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\r\n    \"emailFromRecordEntry\": {\r\n        \"sendEmail\": true\r\n    }\r\n}",
+                "icon": "fal fa-list-ul",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-items",
+                "name": "Items",
+                "render-old": "false",
+                "recordValueId": 463908,
+                "createdAt": "2022-03-15T02:03:41.453Z",
+                "updatedAt": "2023-04-21T03:29:29.324Z",
+                "autoId": "1313",
+                "autoIdNum": 1313,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-building",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "department",
+                "name": "Departments",
+                "render-old": "false",
+                "recordValueId": 558157,
+                "createdAt": "2022-03-18T04:26:42.295Z",
+                "updatedAt": "2022-03-18T04:42:55.426Z",
+                "autoId": "1331",
+                "autoIdNum": 1331,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true,\n        \"emailTo\": {\n            \"source\": \"field\",\n            \"value\": \"12335\"\n        }\n    },\n    \"entryLayout\": {\n        \"default\": 2301825,\n        \"add\": 2301825\n    }\n}",
+                "icon": "fal fa-hand-holding-box",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-suppliers",
+                "name": "Suppliers",
+                "render-old": "false",
+                "recordValueId": 574930,
+                "createdAt": "2022-04-07T06:44:30.603Z",
+                "updatedAt": "2023-09-07T00:42:55.585Z",
+                "autoId": "1370",
+                "autoIdNum": 1370,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2301014,\n        \"add\": 2301014\n    }\n}",
+                "icon": "fal fa-tag",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-categories",
+                "name": "Xero Categories",
+                "render-old": "false",
+                "recordValueId": 643032,
+                "createdAt": "2022-05-31T02:23:49.261Z",
+                "updatedAt": "2023-09-06T00:12:00.627Z",
+                "autoId": "1464",
+                "autoIdNum": 1464,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2301023,\n        \"add\": 2301023\n    }\n}",
+                "icon": "fal fa-tags",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-category-options",
+                "name": "Xero Category Options",
+                "render-old": "false",
+                "recordValueId": 643035,
+                "createdAt": "2022-05-31T02:24:58.191Z",
+                "updatedAt": "2023-09-06T00:13:47.544Z",
+                "autoId": "1465",
+                "autoIdNum": 1465,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n  \"activityLayout\": \"From: {{2041}} To: {{2040}} Time: {{2046}} Subject: {{2042}} Opens: {{3055}} Clicks: {{3054}}\",\n  \"activityFieldModifier\":\n  {\n    \"2046\":{\n      \"type\": \"datetime\",\n      \"format\": \"hh:mm A YYYY-MM-DD\"\n    }, \n    \"2040\":{\n      \"type\": \"jsonArray\",\n      \"joinWith\": \", \", \n      \"addAnd\": true\n    }\n  }\n}",
+                "icon": "fal fa-at",
+                "subrecords": "[]",
+                "custom-record": "true",
+                "record-type": "record",
+                "internalid": "email",
+                "name": "Email",
+                "render-old": "false",
+                "recordValueId": 15169,
+                "createdAt": "2019-11-10T23:03:43.993Z",
+                "updatedAt": "2022-03-16T04:41:08.002Z",
+                "autoId": "164",
+                "autoIdNum": 164,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-phone",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "aircall-calls",
+                "name": "Aircall",
+                "render-old": "false",
+                "recordValueId": 848088,
+                "createdAt": "2022-10-21T15:07:17.713Z",
+                "updatedAt": "2022-10-21T15:07:17.713Z",
+                "autoId": "1703",
+                "autoIdNum": 1703,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true,\n        \"emailTo\": {\n            \"source\": \"field\",\n            \"value\": \"346\"\n        }\n    },\n    \"meField\": \"email\",\n    \"entryLayout\": {\n        \"default\": 1167188\n    }\n}",
+                "icon": "fal fa-user",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "employees",
+                "name": "Employees",
+                "render-old": "false",
+                "recordValueId": 199,
+                "createdAt": "2018-04-19T08:02:54.038Z",
+                "updatedAt": "2022-11-22T14:16:18.455Z",
+                "autoId": "183",
+                "autoIdNum": 183,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-organisation-statuses",
+                "name": "Client Statuses",
+                "render-old": "false",
+                "recordValueId": 1708504,
+                "createdAt": "2023-04-06T05:32:50.328Z",
+                "updatedAt": "2023-04-14T07:32:46.597Z",
+                "autoId": "1892",
+                "autoIdNum": 1892,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true,\n        \"emailTo\": {\n            \"source\": \"field\",\n            \"value\": 17261\n        }\n    }\n}",
+                "icon": "fal fa-users",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-organisations",
+                "name": "Clients",
+                "render-old": "false",
+                "recordValueId": 1708508,
+                "createdAt": "2023-04-06T05:33:26.618Z",
+                "updatedAt": "2023-04-14T08:07:31.886Z",
+                "autoId": "1893",
+                "autoIdNum": 1893,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-contact-types",
+                "name": "Contact Types",
+                "render-old": "false",
+                "recordValueId": 1708512,
+                "createdAt": "2023-04-06T05:34:28.770Z",
+                "updatedAt": "2023-04-06T08:55:25.480Z",
+                "autoId": "1894",
+                "autoIdNum": 1894,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-address-card",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-contacts",
+                "name": "Contacts",
+                "render-old": "false",
+                "recordValueId": 1708513,
+                "createdAt": "2023-04-06T05:35:06.212Z",
+                "updatedAt": "2023-04-06T05:35:06.212Z",
+                "autoId": "1895",
+                "autoIdNum": 1895,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-opportunity-statuses",
+                "name": "Opportunity Statuses",
+                "render-old": "false",
+                "recordValueId": 1708521,
+                "createdAt": "2023-04-06T05:37:17.167Z",
+                "updatedAt": "2023-04-06T05:37:17.167Z",
+                "autoId": "1898",
+                "autoIdNum": 1898,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-lightbulb-dollar",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-opportunities",
+                "name": "Opportunities",
+                "render-old": "false",
+                "recordValueId": 1709708,
+                "createdAt": "2023-04-06T08:31:01.646Z",
+                "updatedAt": "2023-04-06T08:31:01.646Z",
+                "autoId": "1899",
+                "autoIdNum": 1899,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 1167185\n    }\n}",
+                "icon": "fal fa-user-unlock",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "roles",
+                "name": "Roles",
+                "render-old": "false",
+                "recordValueId": 119,
+                "createdAt": "2018-04-06T02:31:50.657Z",
+                "updatedAt": "2022-11-22T14:14:12.190Z",
+                "autoId": "190",
+                "autoIdNum": 190,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-quote-statuses",
+                "name": "Quote Statuses",
+                "render-old": "false",
+                "recordValueId": 1709709,
+                "createdAt": "2023-04-06T08:31:32.428Z",
+                "updatedAt": "2023-04-06T08:31:32.428Z",
+                "autoId": "1900",
+                "autoIdNum": 1900,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true,\n        \"emailTo\": {\n            \"source\": \"linked-field\",\n            \"value\": \"1662670-account-manager\"\n        }\n    },\n    \"docxGenerator\": {\n        \"enable\": true,\n        \"associations\": []\n    }\n}",
+                "icon": "fal fa-file-alt",
+                "subrecords": "admedia-commercial-quotes, xero-order-items",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-quotes",
+                "name": "Quotes",
+                "render-old": "false",
+                "recordValueId": 1709712,
+                "createdAt": "2023-04-06T08:35:23.514Z",
+                "updatedAt": "2023-06-06T01:00:15.477Z",
+                "autoId": "1901",
+                "autoIdNum": 1901,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-project-statuses",
+                "name": "Project Statuses",
+                "render-old": "false",
+                "recordValueId": 1709713,
+                "createdAt": "2023-04-06T08:36:13.130Z",
+                "updatedAt": "2023-04-06T08:36:13.130Z",
+                "autoId": "1902",
+                "autoIdNum": 1902,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-project-diagram",
+                "available-in-portals": "true",
+                "subrecords": "admedia--rates",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-projects",
+                "name": "Projects",
+                "render-old": "false",
+                "recordValueId": 1709715,
+                "createdAt": "2023-04-06T08:38:23.441Z",
+                "updatedAt": "2023-07-17T10:19:29.675Z",
+                "autoId": "1904",
+                "autoIdNum": 1904,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-project-types",
+                "name": "Project Types",
+                "render-old": "false",
+                "recordValueId": 1709716,
+                "createdAt": "2023-04-06T08:40:12.765Z",
+                "updatedAt": "2023-04-06T08:40:12.765Z",
+                "autoId": "1905",
+                "autoIdNum": 1905,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-definitions",
+                "name": "Definitions",
+                "render-old": "false",
+                "recordValueId": 1709717,
+                "createdAt": "2023-04-06T08:41:05.531Z",
+                "updatedAt": "2023-04-06T08:41:05.531Z",
+                "autoId": "1906",
+                "autoIdNum": 1906,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true\n    }\n}",
+                "icon": "fal fa-camera-movie",
+                "subrecords": "admedia-commercial-extras",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-commercials",
+                "name": "Commercials",
+                "render-old": "false",
+                "recordValueId": 1709718,
+                "createdAt": "2023-04-06T08:42:37.020Z",
+                "updatedAt": "2023-06-03T14:19:49.855Z",
+                "autoId": "1907",
+                "autoIdNum": 1907,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-task-categories",
+                "name": "Task Categories",
+                "render-old": "false",
+                "recordValueId": 1709719,
+                "createdAt": "2023-04-06T08:43:19.991Z",
+                "updatedAt": "2023-04-06T08:43:19.991Z",
+                "autoId": "1908",
+                "autoIdNum": 1908,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-task-types",
+                "name": "Task Types",
+                "render-old": "false",
+                "recordValueId": 1709720,
+                "createdAt": "2023-04-06T08:43:55.698Z",
+                "updatedAt": "2023-04-06T08:43:55.698Z",
+                "autoId": "1909",
+                "autoIdNum": 1909,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-task-priorities",
+                "name": "Task Priorities",
+                "render-old": "false",
+                "recordValueId": 1709721,
+                "createdAt": "2023-04-06T08:44:25.108Z",
+                "updatedAt": "2023-04-06T08:45:06.530Z",
+                "autoId": "1910",
+                "autoIdNum": 1910,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-task-statuses",
+                "name": "Task Statuses",
+                "render-old": "false",
+                "recordValueId": 1709722,
+                "createdAt": "2023-04-06T08:45:43.118Z",
+                "updatedAt": "2023-04-06T08:45:43.118Z",
+                "autoId": "1911",
+                "autoIdNum": 1911,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\r\n  \"emailFromRecordEntry\": {\r\n    \"sendEmail\": true,\r\n    \"emailTo\": {\r\n            \"source\": \"linked-field\",\r\n            \"value\": \"1662670-assigned-to\"\r\n           \r\n\r\n    }\r\n  }\r\n}",
+                "icon": "fal fa-tasks",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-tasks",
+                "name": "Tasks",
+                "render-old": "false",
+                "recordValueId": 1709723,
+                "createdAt": "2023-04-06T08:46:06.166Z",
+                "updatedAt": "2023-05-21T09:36:35.964Z",
+                "autoId": "1912",
+                "autoIdNum": 1912,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "icon-notebook",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-notes",
+                "name": "Notes",
+                "render-old": "false",
+                "recordValueId": 1709724,
+                "createdAt": "2023-04-06T08:46:39.285Z",
+                "updatedAt": "2023-04-06T08:46:39.285Z",
+                "autoId": "1913",
+                "autoIdNum": 1913,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 100\n    },\n    \"widgets\": [\n        {\n            \"type\": \"count\",\n            \"title\": \"Total timesheets\"\n        },\n        {\n            \"type\": \"sum\",\n            \"title\": \"Total Time Tracking\",\n            \"config\": {\n                \"field\": \"1662670-duration\",\n                \"decimal\": true,\n                \"decimalPlaces\": {\n                    \"min\": 2,\n                    \"max\": 2\n                },\n                \"prefix\": \"\",\n                \"suffix\": \"hrs\",\n                \"numberFormat\": \"default\",\n                \"secondaryFilter\": []\n            }\n        }\n        \n    ]\n}",
+                "icon": "fal fa-business-time",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-timesheets",
+                "name": "Timesheets",
+                "render-old": "false",
+                "recordValueId": 1709725,
+                "createdAt": "2023-04-06T08:47:20.861Z",
+                "updatedAt": "2023-09-05T13:47:10.413Z",
+                "autoId": "1914",
+                "autoIdNum": 1914,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-comment-alt-dollar",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "payments",
+                "name": "Payments",
+                "render-old": "false",
+                "recordValueId": 1710693,
+                "createdAt": "2023-04-07T03:41:49.259Z",
+                "updatedAt": "2023-04-07T03:41:49.259Z",
+                "autoId": "1916",
+                "autoIdNum": 1916,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-money-check-alt",
+                "subrecords": "xero-order-items",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "supplier-bills",
+                "name": "Supplier Bills",
+                "render-old": "false",
+                "recordValueId": 1710998,
+                "createdAt": "2023-04-07T08:12:48.963Z",
+                "updatedAt": "2023-04-18T10:00:32.559Z",
+                "autoId": "1918",
+                "autoIdNum": 1918,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true,\n        \"emailTo\": {\n            \"source\": \"linked-field\",\n            \"value\": \"customer\"\n        }\n    },\n    \"entryLayout\": {\n        \"default\": 1719819\n    },\n    \"widgets\": [\n        {\n            \"type\": \"count\",\n            \"title\": \"Total Invoices\"\n        },\n        {\n            \"type\": \"sum\",\n            \"title\": \"Net Total\",\n            \"filter\": [\n            ],\n            \"config\": {\n                \"field\": \"net-total\",\n                \"decimal\": true,\n                \"decimalPlaces\": {\n                    \"min\": 2,\n                    \"max\": 2\n                },\n                \"prefix\": \"$\",\n                \"suffix\": \"\",\n                \"numberFormat\": \"default\"\n            }\n        },\n        {\n            \"type\": \"sum\",\n            \"title\": \"Total\",\n            \"filter\": [\n            ],\n            \"config\": {\n                \"field\": \"total\",\n                \"decimal\": true,\n                \"decimalPlaces\": {\n                    \"min\": 2,\n                    \"max\": 2\n                },\n                \"prefix\": \"$\",\n                \"suffix\": \"\",\n                \"numberFormat\": \"default\"\n            }\n        },\n        {\n            \"type\": \"average\",\n            \"title\": \"Net Average\",\n            \"filter\": [\n            ],\n            \"config\": {\n                \"field\": \"net-total\",\n                \"decimal\": true,\n                \"decimalPlaces\": {\n                    \"min\": 2,\n                    \"max\": 2\n                },\n                \"prefix\": \"$\",\n                \"suffix\": \"\",\n                \"numberFormat\": \"default\"\n            }\n        }\n    ]\n}",
+                "icon": "fas fa-circle",
+                "available-in-portals": "false",
+                "subrecords": "xero-order-items",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "invoices",
+                "name": "Standard Invoices",
+                "render-old": "false",
+                "recordValueId": 1719816,
+                "createdAt": "2023-04-12T10:23:51.224Z",
+                "updatedAt": "2023-08-29T07:19:16.271Z",
+                "autoId": "1931",
+                "autoIdNum": 1931,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-agency-types",
+                "name": "Agency Types",
+                "render-old": "false",
+                "recordValueId": 1725823,
+                "createdAt": "2023-04-14T06:48:03.016Z",
+                "updatedAt": "2023-04-14T06:49:34.224Z",
+                "autoId": "1939",
+                "autoIdNum": 1939,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-building",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-agencies",
+                "name": "Agencies",
+                "render-old": "false",
+                "recordValueId": 1725861,
+                "createdAt": "2023-04-14T07:02:28.248Z",
+                "updatedAt": "2023-04-14T07:02:28.248Z",
+                "autoId": "1940",
+                "autoIdNum": 1940,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia--task-templates",
+                "name": "Task Templates",
+                "render-old": "false",
+                "recordValueId": 1762368,
+                "createdAt": "2023-04-26T06:59:52.919Z",
+                "updatedAt": "2023-05-10T01:28:58.663Z",
+                "autoId": "1953",
+                "autoIdNum": 1953,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-dollar-sign",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia--expenses",
+                "name": "Expenses",
+                "render-old": "false",
+                "recordValueId": 1762463,
+                "createdAt": "2023-04-26T07:13:14.576Z",
+                "updatedAt": "2023-04-29T03:16:39.616Z",
+                "autoId": "1954",
+                "autoIdNum": 1954,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia--tracking-categories",
+                "name": "Tracking Categories",
+                "render-old": "false",
+                "recordValueId": 1762721,
+                "createdAt": "2023-04-26T09:34:45.674Z",
+                "updatedAt": "2023-05-10T01:28:40.953Z",
+                "autoId": "1956",
+                "autoIdNum": 1956,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "record-type": "record",
+                "internalid": "admedia-commercial-priorities",
+                "name": "Commercial Priorities",
+                "recordValueId": 1807475,
+                "createdAt": "2023-05-10T01:06:00.694Z",
+                "updatedAt": "2023-05-10T01:29:16.795Z",
+                "autoId": "1993",
+                "autoIdNum": 1993,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "record-type": "record",
+                "internalid": "admedia-cad-types",
+                "name": "CAD Types",
+                "recordValueId": 1807625,
+                "createdAt": "2023-05-10T01:27:59.601Z",
+                "updatedAt": "2023-05-10T01:27:59.601Z",
+                "autoId": "1994",
+                "autoIdNum": 1994,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "record-type": "record",
+                "internalid": "admedia-supplier-types",
+                "name": "Supplier Types",
+                "recordValueId": 1807715,
+                "createdAt": "2023-05-10T01:41:16.250Z",
+                "updatedAt": "2023-05-10T01:41:16.250Z",
+                "autoId": "1995",
+                "autoIdNum": 1995,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"emailFromRecordEntry\": {\n        \"sendEmail\": true,\n        \"emailTo\": {\n            \"source\": \"field\",\n            \"value\": 18245\n        }\n    },\n    \"entryLayout\": {\n        \"default\": 1821653,\n        \"add\": 1821653\n    }\n}",
+                "icon": "fas fa-circle",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "standard-organisations",
+                "name": "Standard Organisations",
+                "render-old": "false",
+                "recordValueId": 1819867,
+                "createdAt": "2023-05-15T12:09:54.965Z",
+                "updatedAt": "2023-09-07T00:36:32.091Z",
+                "autoId": "1999",
+                "autoIdNum": 1999,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "record-type": "record",
+                "internalid": "admedia-billing-types",
+                "name": "Billing Types",
+                "recordValueId": 1826019,
+                "createdAt": "2023-05-17T03:44:03.257Z",
+                "updatedAt": "2023-05-17T03:44:03.257Z",
+                "autoId": "2018",
+                "autoIdNum": 2018,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\r\n  \"emailFromRecordEntry\": {\r\n    \"sendEmail\": true,\r\n    \"emailTo\": {\r\n      \"source\": \"field\",\r\n\t\t\t\"value\": \"18652\"\r\n\r\n    }\r\n  }\r\n}",
+                "icon": "fas fa-circle",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "standard-contacts",
+                "name": "Standard Contacts",
+                "render-old": "false",
+                "recordValueId": 1858737,
+                "createdAt": "2023-05-28T07:57:12.978Z",
+                "updatedAt": "2023-08-14T07:06:24.796Z",
+                "autoId": "2038",
+                "autoIdNum": 2038,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "standard-contact-statuses",
+                "name": "Standard Contact Statuses",
+                "render-old": "false",
+                "recordValueId": 1858783,
+                "createdAt": "2023-05-28T08:07:45.041Z",
+                "updatedAt": "2023-05-28T08:07:45.041Z",
+                "autoId": "2039",
+                "autoIdNum": 2039,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "standard-contact-types",
+                "name": "Standard Contact Types",
+                "render-old": "false",
+                "recordValueId": 1858799,
+                "createdAt": "2023-05-28T08:14:34.980Z",
+                "updatedAt": "2023-05-28T08:14:34.980Z",
+                "autoId": "2040",
+                "autoIdNum": 2040,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "",
+                "icon": "fal fa-ballot-check",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "admedia-dub-destinations",
+                "name": "Dub Destinations",
+                "render-old": "false",
+                "recordValueId": 1956128,
+                "createdAt": "2023-06-21T09:59:15.734Z",
+                "updatedAt": "2023-06-21T10:09:17.287Z",
+                "autoId": "2066",
+                "autoIdNum": 2066,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2298124,\n        \"add\": 2298124\n    }\n}",
+                "icon": "fal fa-coins",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-organisations",
+                "name": "Xero Organisations",
+                "render-old": "false",
+                "recordValueId": 34132,
+                "createdAt": "2020-07-31T03:55:43.892Z",
+                "updatedAt": "2023-09-05T04:00:56.192Z",
+                "autoId": "306",
+                "autoIdNum": 306,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2298159,\n        \"add\": 2298159\n    }\n}",
+                "icon": "fal fa-coins",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-currencies",
+                "name": "Xero Currencies",
+                "render-old": "false",
+                "recordValueId": 34136,
+                "createdAt": "2020-07-31T03:59:02.272Z",
+                "updatedAt": "2023-09-05T04:07:35.249Z",
+                "autoId": "307",
+                "autoIdNum": 307,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2298145,\n        \"add\": 2298145\n    }\n}",
+                "icon": "fal fa-coins",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-branding-themes",
+                "name": "Xero Branding Themes",
+                "render-old": "false",
+                "recordValueId": 34144,
+                "createdAt": "2020-07-31T04:01:43.499Z",
+                "updatedAt": "2023-09-05T04:03:38.579Z",
+                "autoId": "308",
+                "autoIdNum": 308,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2298438,\n        \"add\": 2298438\n    }\n}",
+                "icon": "fal fa-coins",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-tax-rates",
+                "name": "Xero Tax Rates",
+                "render-old": "false",
+                "recordValueId": 34148,
+                "createdAt": "2020-07-31T04:03:44.006Z",
+                "updatedAt": "2023-09-05T04:47:18.737Z",
+                "autoId": "309",
+                "autoIdNum": 309,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-invoice-due-date-suffix",
+                "name": "Xero Invoice Due Date Suffix",
+                "recordValueId": 95626,
+                "createdAt": "2021-01-12T09:10:03.300Z",
+                "updatedAt": "2021-01-12T09:10:03.300Z",
+                "autoId": "550",
+                "autoIdNum": 550,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "xero-bill-due-date-suffix",
+                "name": "Xero Bill Due Date Suffix",
+                "recordValueId": 95627,
+                "createdAt": "2021-01-12T09:10:03.447Z",
+                "updatedAt": "2021-01-12T09:10:03.447Z",
+                "autoId": "551",
+                "autoIdNum": 551,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "icon": "fal fa-folder-tree",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "employee-positions",
+                "name": "Employee Positions",
+                "render-old": "false",
+                "recordValueId": 99973,
+                "createdAt": "2021-02-09T00:17:44.706Z",
+                "updatedAt": "2021-02-09T00:17:44.706Z",
+                "autoId": "587",
+                "autoIdNum": 587,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fal fa-border-all",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "navigation-layouts",
+                "name": "Navigation layouts",
+                "recordValueId": 111741,
+                "createdAt": "2021-04-12T02:01:01.913Z",
+                "updatedAt": "2021-04-12T02:01:01.913Z",
+                "autoId": "726",
+                "autoIdNum": 726,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\n    \"entryLayout\": {\n        \"default\": 2298481,\n        \"add\": 2298481\n    }\n}\n",
+                "icon": "fal fa-file-spreadsheet",
+                "available-in-portals": "false",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "record",
+                "internalid": "accounts",
+                "name": "Accounts",
+                "is-sub-record": "false",
+                "render-old": "false",
+                "recordValueId": 3953,
+                "createdAt": "2019-01-29T05:48:16.626Z",
+                "updatedAt": "2023-09-05T04:50:48.358Z",
+                "autoId": "93",
+                "autoIdNum": 93,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            }
+        ],
+        "lists": [
+            {
+                "icon": "fal fa-list",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "countries-131-1551060835846",
+                "name": "Countries",
+                "render-old": "false",
+                "recordValueId": 5039,
+                "createdAt": "2019-02-25T02:13:55.841Z",
+                "updatedAt": "2019-02-25T02:13:55.841Z",
+                "autoId": "117",
+                "autoIdNum": 117,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"alphabetically\"}}",
+                "icon": "fal fa-abacus",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "xero-purchase-order-status-codes",
+                "name": "Xero Purchase Order Status Codes",
+                "render-old": "false",
+                "recordValueId": 306336,
+                "createdAt": "2022-02-24T08:16:04.738Z",
+                "updatedAt": "2022-02-24T08:19:14.201Z",
+                "autoId": "1287",
+                "autoIdNum": 1287,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"index\"}}",
+                "icon": "fal fa-award",
+                "record-type": "list",
+                "internalid": "enquiry-statuses-131-1649632868003",
+                "name": "Enquiry Statuses",
+                "recordValueId": 578997,
+                "createdAt": "2022-04-10T23:21:08.041Z",
+                "updatedAt": "2022-04-10T23:21:08.041Z",
+                "autoId": "1379",
+                "autoIdNum": 1379,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "icon": "fal fa-list",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "titles-131-1590408929432",
+                "name": "Titles",
+                "render-old": "false",
+                "recordValueId": 27673,
+                "createdAt": "2020-05-25T12:15:29.428Z",
+                "updatedAt": "2020-05-25T12:15:29.428Z",
+                "autoId": "272",
+                "autoIdNum": 272,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fal fa-list",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "yes--no-131-1539913234592",
+                "name": "Yes / No",
+                "recordValueId": 1141,
+                "createdAt": "2018-10-19T01:40:34.587Z",
+                "updatedAt": "2018-10-19T01:40:34.587Z",
+                "autoId": "30",
+                "autoIdNum": 30,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "icon": "fal fa-list",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "xero-line-amount-types-131-1596167634161",
+                "name": "Xero Line Amount Types",
+                "render-old": "false",
+                "recordValueId": 34121,
+                "createdAt": "2020-07-31T03:53:54.158Z",
+                "updatedAt": "2020-07-31T03:53:54.158Z",
+                "autoId": "304",
+                "autoIdNum": 304,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{}",
+                "icon": "fal fa-list",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "yes--no--na-131-1539913278240",
+                "name": "Yes / No / N/A",
+                "recordValueId": 1144,
+                "createdAt": "2018-10-19T01:41:18.235Z",
+                "updatedAt": "2023-08-29T04:15:36.805Z",
+                "autoId": "31",
+                "autoIdNum": 31,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "icon": "fal fa-list",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "yes--no--maybe-131-1539913301534",
+                "name": "Yes / No / Maybe",
+                "recordValueId": 1148,
+                "createdAt": "2018-10-19T01:41:41.528Z",
+                "updatedAt": "2018-10-19T01:41:41.528Z",
+                "autoId": "32",
+                "autoIdNum": 32,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "\"\"",
+                "icon": "fal fa-venus-mars",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "gender-131-1539913327657",
+                "name": "Gender",
+                "render-old": "false",
+                "recordValueId": 1152,
+                "createdAt": "2018-10-19T01:42:07.652Z",
+                "updatedAt": "2018-10-19T01:42:07.652Z",
+                "autoId": "33",
+                "autoIdNum": 33,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"alphabetically\"}}",
+                "icon": "fal fa-tags",
+                "record-type": "list",
+                "internalid": "employee-types-131-1612830121755",
+                "name": "Employee Types",
+                "recordValueId": 99981,
+                "createdAt": "2021-02-09T00:22:01.750Z",
+                "updatedAt": "2021-02-09T00:22:01.750Z",
+                "autoId": "589",
+                "autoIdNum": 589,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"alphabetically\"}}",
+                "icon": "fal fa-language",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "languages-131-1542380280828",
+                "name": "Languages",
+                "render-old": "false",
+                "recordValueId": 1895,
+                "createdAt": "2018-11-16T14:58:00.821Z",
+                "updatedAt": "2022-02-11T08:00:54.841Z",
+                "autoId": "62",
+                "autoIdNum": 62,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"index\"}}",
+                "icon": "fal fa-list",
+                "record-type": "list",
+                "internalid": "timezone-131-1614822497386",
+                "name": "Timezone",
+                "recordValueId": 104125,
+                "createdAt": "2021-03-04T01:48:17.379Z",
+                "updatedAt": "2021-03-04T01:48:17.379Z",
+                "autoId": "625",
+                "autoIdNum": 625,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"alphabetically\"}}",
+                "icon": "fal fa-abacus",
+                "record-type": "list",
+                "internalid": "internal-external-131-1625118842432",
+                "name": "Internal External",
+                "recordValueId": 135153,
+                "createdAt": "2021-07-01T05:54:02.427Z",
+                "updatedAt": "2021-07-01T05:54:02.427Z",
+                "autoId": "899",
+                "autoIdNum": 899,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"alphabetically\"}}",
+                "icon": "fal fa-house",
+                "record-type": "list",
+                "internalid": "residential--commercial-131-1625136469935",
+                "name": "Residential / Commercial",
+                "recordValueId": 135216,
+                "createdAt": "2021-07-01T10:47:49.930Z",
+                "updatedAt": "2021-07-01T10:47:49.930Z",
+                "autoId": "902",
+                "autoIdNum": 902,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            },
+            {
+                "settings": "{\"list\":{\"sortBy\":\"alphabetically\"}}",
+                "icon": "fas fa-circle",
+                "subrecords": "[]",
+                "custom-record": "false",
+                "record-type": "list",
+                "internalid": "activity-types-131-1625189764120",
+                "name": "Standard Activity Types",
+                "render-old": "false",
+                "recordValueId": 135347,
+                "createdAt": "2021-07-02T01:36:04.115Z",
+                "updatedAt": "2023-05-21T11:51:10.203Z",
+                "autoId": "905",
+                "autoIdNum": 905,
+                "internalOwner": 131,
+                "formId": 359,
+                "recordId": 115
+            }
+        ],
+        "modules": [
+            {
+                "name": "Standard",
+                "default-module-settings": "",
+                "lists": "[\"1141\",\"1144\",\"1148\",\"27673\",\"5039\",\"99981\",\"1152\",\"104125\",\"135153\",\"135216\",\"135347\",\"1895\",\"578997\"]",
+                "records": "[\"199\",\"119\",\"99973\",\"225810\",\"259487\",\"259489\",\"558157\",\"848088\",\"111741\",\"1819867\",\"1858737\",\"1858799\",\"1858783\"]",
+                "navigation-layout": "[]",
+                "dashboard-layouts": "[]",
+                "default-entries": "",
+                "integration-settings": "",
+                "pricing-plans": "[]",
+                "clone-entries": "",
+                "nav-layout": "[]",
+                "recordValueId": 1487,
+                "createdAt": "2018-11-05T01:45:07.526Z",
+                "updatedAt": "2023-08-16T12:23:24.598Z",
+                "autoId": "1",
+                "autoIdNum": 1,
+                "internalOwner": 131,
+                "formId": 341,
+                "recordId": 316
+            },
+            {
+                "name": "Xero Integration",
+                "default-module-settings": "",
+                "lists": "[\"34121\"]",
+                "records": "[\"95627\",\"34144\",\"34136\",\"95626\",\"34132\",\"34148\",\"306336\",\"3953\",\"463908\",\"463883\",\"643032\",\"643035\",\"224281\",\"574930\",\"1710998\",\"1710693\",\"1719816\"]",
+                "navigation-layout": "[]",
+                "dashboard-layouts": "[]",
+                "default-entries": "",
+                "integration-settings": "{\n    \"xeroSettings\": {\n        \"enable\": true,\n        \"recordMap\": {\n            \"xeroOrganisations\": \"xero-organisations\",\n            \"xeroAccounts\": \"accounts\",\n            \"xeroCurrencies\": \"xero-currencies\",\n            \"xeroBrandingThemes\": \"xero-branding-themes\",\n            \"xeroTaxRates\": \"xero-tax-rates\",\n            \"xeroInvoices\": \"invoices\",\n            \"xeroCustomers\": \"standard-organisations\",\n            \"xeroItems\": \"xero-items\",\n            \"xeroOrderItems\": \"xero-order-items\",\n            \"xeroBills\": \"supplier-bills\",\n            \"xeroSuppliers\": \"xero-suppliers\"\n        }\n\t}\n}",
+                "pricing-plans": "[]",
+                "clone-entries": "",
+                "nav-layout": "[]",
+                "recordValueId": 463882,
+                "createdAt": "2022-03-15T01:45:54.097Z",
+                "updatedAt": "2023-09-06T00:25:33.997Z",
+                "autoId": "57",
+                "autoIdNum": 57,
+                "internalOwner": 131,
+                "formId": 341,
+                "recordId": 316
+            },
+            {
+                "name": "Blank Instance [Enterprise]",
+                "allow-system-configurations": "true",
+                "license-template": "{\n    \"subrecords\": {\n        \"license-bundles\": [\n            {\n                \"bundle-id\": \"Platform\",\n                \"type\": [\n                    \"1167168\"\n                ],\n                \"price\": 2490,\n                \"quantity\": 1,\n                \"bundle-into-id\": \"\",\n                \"metadata\": \"\",\n                \"index\": 0\n            }\n        ],\n        \"role-pricing\": [\n            {\n                \"name\": \"Admin\",\n                \"role-identifier\": \"admin\",\n                \"price-per-user\": 100,\n                \"number-of-allowed-users\": 0,\n                \"bundle-into-id\": \"\",\n                \"metadata\": \"\",\n                \"index\": 1\n            }\n        ]\n    }\n}",
+                "module-description": "<p><strong><u>Description</u></strong></p><p>Blank Clevero Enterprise platform, ready for fresh configuration of new solutions.</p><p><strong><u>Contract Duration</u></strong></p><p>Minimum 12 Months</p>",
+                "minimum-term": "12",
+                "annual-discount-percentage": "10",
+                "recordValueId": 1405482,
+                "createdAt": "2023-01-27T04:44:02.604Z",
+                "updatedAt": "2023-02-01T22:49:42.899Z",
+                "autoId": "77",
+                "autoIdNum": 77,
+                "internalOwner": 131,
+                "formId": 341,
+                "recordId": 316
+            },
+            {
+                "name": "[Custom Records] Admedia",
+                "records": "[\"1709718\",\"1708513\",\"1708512\",\"1709717\",\"1709724\",\"1709708\",\"1708521\",\"1708508\",\"1708504\",\"1709715\",\"1709713\",\"1709716\",\"1709712\",\"1709709\",\"1709719\",\"1709721\",\"1709723\",\"1709722\",\"1709720\",\"1709725\",\"1725823\",\"1725861\",\"1762463\",\"1774860\",\"1762368\",\"1762721\",\"1807475\",\"1807625\",\"1807715\",\"1808632\",\"1826019\",\"1902614\",\"1956128\",\"15169\"]",
+                "integration-settings": "{\n    \"portal\": {\n        \"admedia-organisations\": {\n            \"nameField\": \"name\",\n             \"dataScopeRecord\": \"admedia-organisations\",\n              \"roles\": [\"client-portal\"],\n              \n            \"contact\": {\n\t                \"record\": \"admedia-organisations\",\n\t                \"emailField\": \"email\",\n\t                \"firstNameField\": \"first-name\",\n\t                \"lastNameField\": \"last-name\"\n\t            },\n            \"records\": {\n                \"admedia-projects\": \"1662670-organisation\"\n            }\n        }\n    },\n    \"xeroSettings\": {\n        \"enable\": true,\n        \"recordMap\": {\n            \"xeroOrganisations\": \"xero-organisations\",\n            \"xeroAccounts\": \"accounts\",\n            \"xeroCurrencies\": \"xero-currencies\",\n            \"xeroBrandingThemes\": \"xero-branding-themes\",\n            \"xeroTaxRates\": \"xero-tax-rates\",\n            \"xeroInvoices\": \"invoices\",\n            \"xeroCustomers\": \"admedia-organisations\",\n            \"xeroItems\": \"xero-items\",\n            \"xeroOrderItems\": \"xero-order-items\",\n            \"xeroBills\": \"supplier-bills\",\n            \"xeroSuppliers\": \"xero-suppliers\"\n        }\n    }\n}",
+                "allow-system-configurations": "true",
+                "module-identifier": "admedia-custom-records",
+                "recordValueId": 1708404,
+                "createdAt": "2023-04-06T05:28:53.192Z",
+                "updatedAt": "2023-07-17T10:19:04.131Z",
+                "autoId": "86",
+                "autoIdNum": 86,
+                "internalOwner": 131,
+                "formId": 341,
+                "recordId": 316
+            },
+            {
+                "name": "[Custom Records] Admedia (OLD)",
+                "records": "[\"1762368\",\"1762463\",\"1762721\",\"1774860\"]",
+                "module-identifier": "admedia--custom-records",
+                "recordValueId": 1762369,
+                "createdAt": "2023-04-26T06:59:53.070Z",
+                "updatedAt": "2023-05-01T03:53:52.118Z",
+                "autoId": "90",
+                "autoIdNum": 90,
+                "internalOwner": 131,
+                "formId": 341,
+                "recordId": 316
+            }
+        ],
+        "primaryModule": {
+            "name": "[Custom Records] Admedia",
+            "records": [
+                "1709718",
+                "1708513",
+                "1708512",
+                "1709717",
+                "1709724",
+                "1709708",
+                "1708521",
+                "1708508",
+                "1708504",
+                "1709715",
+                "1709713",
+                "1709716",
+                "1709712",
+                "1709709",
+                "1709719",
+                "1709721",
+                "1709723",
+                "1709722",
+                "1709720",
+                "1709725",
+                "1725823",
+                "1725861",
+                "1762463",
+                "1774860",
+                "1762368",
+                "1762721",
+                "1807475",
+                "1807625",
+                "1807715",
+                "1808632",
+                "1826019",
+                "1902614",
+                "1956128",
+                "15169"
+            ],
+            "integration-settings": {
+                "portal": {
+                    "admedia-organisations": {
+                        "nameField": "name",
+                        "dataScopeRecord": "admedia-organisations",
+                        "roles": [
+                            "client-portal"
+                        ],
+                        "contact": {
+                            "record": "admedia-organisations",
+                            "emailField": "email",
+                            "firstNameField": "first-name",
+                            "lastNameField": "last-name"
+                        },
+                        "records": {
+                            "admedia-projects": "1662670-organisation"
+                        }
+                    }
+                },
+                "xeroSettings": {
+                    "enable": true,
+                    "recordMap": {
+                        "xeroOrganisations": "xero-organisations",
+                        "xeroAccounts": "accounts",
+                        "xeroCurrencies": "xero-currencies",
+                        "xeroBrandingThemes": "xero-branding-themes",
+                        "xeroTaxRates": "xero-tax-rates",
+                        "xeroInvoices": "invoices",
+                        "xeroCustomers": "admedia-organisations",
+                        "xeroItems": "xero-items",
+                        "xeroOrderItems": "xero-order-items",
+                        "xeroBills": "supplier-bills",
+                        "xeroSuppliers": "xero-suppliers"
+                    }
+                }
+            },
+            "allow-system-configurations": "true",
+            "module-identifier": "admedia-custom-records",
+            "recordValueId": 1708404,
+            "createdAt": "2023-04-06T05:28:53.192Z",
+            "updatedAt": "2023-07-17T10:19:04.131Z",
+            "autoId": "86",
+            "autoIdNum": 86,
+            "internalOwner": 131,
+            "formId": 341,
+            "recordId": 316,
+            "lists": []
+        }
+    }
+}

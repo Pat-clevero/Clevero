@@ -1,0 +1,31 @@
+
+
+{
+    "title": {
+        "elements": [
+            "{{singular record.name}}",
+            "{{{entry.autoId}}}",
+            "{{{entry.name}}}",
+            "{{{entry.2708638-linked-contact}}}",
+            "{{{entry.2708638-organisation}}}",
+            "{{{entry.enquiry-types}}}"
+        ],
+        "joinWith": " - ",
+        "icon": true
+    },
+
+    
+    "title2": {
+        "elements": [
+            "{{singular record.name}}",
+            "{{{entry.autoId}}}",
+            "{{{entry.2708638-linked-contact}}}",
+            "{{{entry.2708638-organisation}}}",
+            "{{{entry.enquiry-types}}}"
+        ],
+        "joinWith": " - ",
+        "icon": true
+    }
+
+}
+

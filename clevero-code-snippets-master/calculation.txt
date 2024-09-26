@@ -1,0 +1,91 @@
+DERIVATION
+       Values to calculate: rate, net, tax
+       FORMULAE:
+      
+       a) net = rate * quantity
+       b) tax = net * tax_rate 
+       c) total = net + tax 
+
+       SOLUTION (without discount):
+           net = rate * quantity
+           rate = net / quantity
+           rate = (total - tax) / quantity
+           rate = (total - (net * tax_rate)) / quantity
+           rate = (total - ((rate * quantity) * tax_rate)) / quantity
+           rate * quantity = total - (rate * quantity * tax_rate)
+           total = rate * quantity + (rate * quantity * tax_rate)
+           total = rate * quantity * (1 + tax_rate)
+       >>> rate = total / (quantity * (1 + tax_rate))
+	or rate = total / (quantity * (1 + (effective_tax_rate / 100)))
+
+       SOLUTION (with discount):
+       >>> rate = (total / (1 + tax_rate)) / (quantity * (1 - (discount / 100))
+	or rate = (total / (1 + (effective_tax_rate / 100))) / (quantity * (1 - (discount / 100))
+
+
+--PROOF (without discount)--
+
+GIVEN: 
+- quantity: 1
+- tax_rate: 0.1
+- total: 110
+
+---
+
+find rate
+
+rate = total / (quantity * (1 + tax_rate))
+     = 110 / (1 * (1 + 0.1))
+     = 100
+
+---
+
+find net
+
+net = rate * quantity
+    = 100 * 1
+    = 100
+
+---
+
+find tax
+
+tax = net * tax_rate
+    = 100 * 0.1
+    = 100 * 0.1
+    = 10
+
+
+--PROOF (with discount)--
+
+GIVEN: 
+- discount: 50 (raw whole number percentage)
+- quantity: 1
+- tax_rate: 0.1 (calculated percentage)
+- total: 128.7
+
+---
+
+find rate
+
+rate = (total / (1 + tax_rate)) / (quantity * (1 - (discount / 100))
+     = 128.7 / (1 + 0.1) / (1 * 1 - (50/100))
+     = 234
+
+
+---
+
+find net
+
+net = rate * quantity
+    = 100 * 1
+    = 100
+
+---
+
+find tax
+
+tax = net * tax_rate
+    = 100 * 0.1
+    = 100 * 0.1
+    = 10

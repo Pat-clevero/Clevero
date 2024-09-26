@@ -1,0 +1,71 @@
+[
+  {
+    "key": "SEND_EMAIL",
+    "description": "Send email",
+    "name": "Send task email on create",
+    "condition": "function(context){ console.log('ok'); return true; }",
+    "inputs": [
+      {
+        "name": "recordId",
+        "source": "trigger-inputs",
+        "value": "recordId"
+      },
+      {
+        "name": "entryId",
+        "source": "trigger-inputs",
+        "value": "entryId"
+      },
+      {
+        "name": "from",
+        "source": "trigger-config",
+        "value": "from"
+      },
+      {
+        "name": "to",
+        "source": "trigger-config",
+        "value": "to"
+      },
+      {
+        "name": "templateId",
+        "source": "trigger-config",
+        "value": "templateId"
+      }
+    ]
+  },
+  {
+    "key": "CREATE_ENTRY",
+    "description": "Save email into the emails record",
+    "name": "Save email into the emails record",
+    "condition": "function(context){ return true; }",
+    "inputs": [
+      {
+        "name": "values",
+        "source": "function",
+        "value": "function(context){ try { const emailSent = context.state.outputs[0].dataPassed; const emailRes = context.state.outputs[0].response[0]; const from = emailSent.from.email; const to = emailSent.to; const cc = emailSent.cc || []; const bcc = emailSent.bcc || []; const attachments = emailSent.attachments || []; const body = emailSent.body; const subject = emailSent.subject; const date = new Date().toISOString(); const messageId = emailRes.headers['x-message-id']; const value = { '2866': messageId, '2041': from, '2040': JSON.stringify(to), '2044': JSON.stringify(cc), '2045': JSON.stringify(bcc), '2867': JSON.stringify(attachments), '2043': body, '2042': subject, '2046': date, }; return value; } catch (e) { console.log(e); throw e; } }"
+      },
+      {
+        "name": "recordId",
+        "source": "hard-coded",
+        "value": "15169"
+      }
+    ]
+  },
+  {
+    "key": "CREATE_ENTRY",
+    "description": "Save relationship",
+    "name": "Save relationship",
+    "condition": "function(context){ return true; }",
+    "inputs": [
+      {
+        "name": "values",
+        "source": "function",
+        "value": "function(context){ try { const primaryEntryId = context.state.outputs[1].id; const primaryRecordId = context.state.outputs[1].recordId; const appointmentId = context.metaData.triggerInputs.entryId; const appointmentRecordId = context.metaData.triggerInputs.recordId; const clientId = context.state.outputs[0].context.recordValueId; const clientRecordId = context.state.outputs[0].context.recordId; const value = { '2047': JSON.stringify({ linkedEntries: [ { recordId: appointmentRecordId, entryId: appointmentId }, { recordId: clientRecordId, entryId: clientId }, ], primaryEntry: { recordId: primaryRecordId, entryId: primaryEntryId, }, }), }; return value; } catch (e) { console.log(e); throw e; } }"
+      },
+      {
+        "name": "recordId",
+        "source": "hard-coded",
+        "value": "15172"
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+1. How does invoice updates work? What requests do xero allows and doesn't allow?
+2. When do invoice upsert requests fail?
+3. When do contact upsert requests fail?
+4. What error messages to look for in the Deployment UI regarding Xero sync?
+5. What do xero do with the synced invoices?
+6. How do xero and clevero work together exactly and how do the clevero users utilize xero platform?
+7. How is autoid generated? it seems that invoice id is based from auto id.
+8. Does xero generate invoice Number (INV-XXXXXX) the same way it generates xero id? Or does clevero generate the invoice number and just sync it to xero?
+9. Which one is used as a unique identifier? Is it the invoice Number or the Xero ID?
+10. Is there a certain invoice status where upsert operation is not allowed?

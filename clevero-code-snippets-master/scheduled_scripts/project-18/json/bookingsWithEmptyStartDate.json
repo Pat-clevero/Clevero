@@ -1,0 +1,52 @@
+[
+  {
+    "bookingId": 335473,
+    "tourId": null,
+    "startDate": null
+  },
+  {
+    "bookingId": 492645,
+    "tourId": 306509,
+    "startDate": "2022-03-16"
+  },
+  {
+    "bookingId": 555973,
+    "tourId": 307568,
+    "startDate": "2022-03-20"
+  },
+  {
+    "bookingId": 491495,
+    "tourId": 354988,
+    "startDate": "2022-03-14"
+  },
+  {
+    "bookingId": 556099,
+    "tourId": 325031,
+    "startDate": "2022-04-29"
+  },
+  {
+    "bookingId": 490940,
+    "tourId": 354566,
+    "startDate": "2023-04-20"
+  },
+  {
+    "bookingId": 490532,
+    "tourId": 369673,
+    "startDate": "2022-07-04"
+  },
+  {
+    "bookingId": 490530,
+    "tourId": 359816,
+    "startDate": "2023-01-12"
+  },
+  {
+    "bookingId": 491063,
+    "tourId": 354566,
+    "startDate": "2023-04-20"
+  },
+  {
+    "bookingId": 490220,
+    "tourId": 321130,
+    "startDate": "2022-05-10"
+  }
+]

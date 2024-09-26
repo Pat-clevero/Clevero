@@ -1,0 +1,10 @@
+{
+    "condition": "function(context){ return true; }",
+    "inputs": [
+        {
+            "name": "updateEntryValues",
+            "type": "function",
+            "value": "function(context){const expiryFieldId='8574';const formData=context.metaData.triggerInputs.data.formData;const formValues=formData.formValues;const expiryDateObject=formValues.filter(obj=>obj.fieldId===expiryFieldId)[0];const expiryDate=expiryDateObject.value;const isExpired=context.utils.moment().isAfter(expiryDate,'day');console.log('expiry date',expiryDateObject);const inactiveValueId='132987';if(isExpired)return{'7743':JSON.stringify([inactiveValueId])};}"
+        }
+    ]
+}

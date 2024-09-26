@@ -1,0 +1,112 @@
+[
+    {
+        "key": "UPDATE_ENTRY",
+        "description": "Update Field Values after Submit",
+        "name": "Update fields of any entry",
+        "condition": "function(context){console.log(context.metaData.loadedEntries.assignedTo[0]['phone'],'phone'); if(context.metaData.loadedEntries.assignedTo[0] && context.metaData.loadedEntries.assignedTo[0]['phone']) {return true;} }",
+        "inputs": [
+            {
+                "name": "recordId",
+                "source": "trigger-inputs",
+                "value": "recordId"
+            },
+            {
+                "name": "entryId",
+                "source": "trigger-inputs",
+                "value": "entryId"
+            },
+            {
+                "name": "values",
+                "source": "trigger-config",
+                "value": "values-own"
+            }
+        ]
+    },
+    {
+        "key": "SEND_SMS",
+        "description": "Send scheduled sms",
+        "name": "Send scheduled sms",
+        "condition": "function(context){ if(context.metaData.loadedEntries.assignedTo[0] && context.metaData.loadedEntries.assignedTo[0]['phone']) {return true;} }",
+        "inputs": [
+            {
+                "name": "entryId",
+                "source": "trigger-inputs",
+                "value": "entryId"
+            },
+            {
+                "name": "recordId",
+                "source": "trigger-inputs",
+                "value": "recordId"
+            },
+            {
+                "name": "to",
+                "source": "trigger-config",
+                "value": "phone"
+            },
+            {
+                "name": "templateId",
+                "source": "trigger-config",
+                "value": "templateId"
+            }
+        ]
+    },
+    {
+        "key": "CREATE_ENTRY",
+        "description": "Save SMS into the SMS record",
+        "name": "Save SMS into the SMS record",
+        "condition": "function(context){ if(context.metaData.loadedEntries.assignedTo[0] && context.metaData.loadedEntries.assignedTo[0]['phone']) {return true;} }",
+        "inputs": [
+            {
+                "name": "values",
+                "source": "function",
+                "value": "function(context){ try { if(!context.metaData.loadedEntries.assignedTo[0] || !context.metaData.loadedEntries.assignedTo[0]['phone']) {return ;} const res = context.state.outputs[1].response[0].response; const message = res.body; const messageId = res.sid; const phone = res.to; const dateCreated = res.dateCreated; const value = { '2028': messageId, '2026': message, '2025': phone, '2027': dateCreated.toISOString(), }; return value; } catch (e) { console.log(e); throw e; } }"
+            },
+            {
+                "name": "recordId",
+                "source": "hard-coded",
+                "value": "15131"
+            }
+        ]
+    },
+    {
+        "key": "CREATE_ENTRY",
+        "description": "Save relationship",
+        "name": "Save relationship",
+        "condition": "function(context){ if(context.metaData.loadedEntries.assignedTo[0] && context.metaData.loadedEntries.assignedTo[0]['phone']) {return true;} }",
+        "inputs": [
+            {
+                "name": "values",
+                "source": "function",
+                "value": "function(context){ try { if(!context.metaData.loadedEntries.assignedTo[0] || !context.metaData.loadedEntries.assignedTo[0]['phone']) {return ;} const primaryEntryId = context.state.outputs[2].id; const primaryRecordId = context.state.outputs[2].recordId; const appointmentId = context.metaData.triggerInputs.entryId; const appointmentRecordId = context.metaData.triggerInputs.recordId; const clientId = context.state.outputs[1].context.recordValueId; const clientRecordId = context.state.outputs[1].context.recordId; const value = { '2047': JSON.stringify({ linkedEntries: [ { recordId: appointmentRecordId, entryId: appointmentId, }, { recordId: clientRecordId, entryId: clientId, }, ], primaryEntry: { recordId: primaryRecordId, entryId: primaryEntryId, }, }), }; return value; } catch (e) { console.log(e); throw e; } }"
+            },
+            {
+                "name": "recordId",
+                "source": "hard-coded",
+                "value": "15172"
+            }
+        ]
+    },
+    {
+        "key": "UPDATE_ENTRY",
+        "description": "Update Field Values after Submit",
+        "name": "Update fields of any entry",
+	    "condition": "function(context){ if(context.metaData.loadedEntries.assignedTo[0] && context.metaData.loadedEntries.assignedTo[0]['phone']) {return true;} }",
+        "inputs": [
+            {
+                "name": "recordId",
+                "source": "hard-coded",
+                "value": "91210"
+            },
+            {
+                "name": "entryId",
+                "source": "function",
+                "value": "function(context){const entryID  = context.metaData.triggerInputs.triggerEntryDetail['opportunity'] && JSON.parse(context.metaData.triggerInputs.triggerEntryDetail['opportunity'])[0]; return entryID.toString();}"
+            },
+            {
+                "name": "values",
+                "source": "trigger-config",
+                "value": "values-linked"
+            }
+        ]
+    }
+]

@@ -1,0 +1,365 @@
+{
+  "C": {
+    "utilityInputs": {
+      "task": {
+        "taskId": "ABT9SOrTSG9am6Femumen",
+        "event": {
+          "event": "AFTER_EDIT",
+          "eventMetadata": {
+            "user": {
+              "login-count": "25",
+              "last-name": "Mejico",
+              "first-name": "Ivan",
+              "inactive": "false",
+              "last-login": "2023-09-28T02:55:36.795Z",
+              "roles": "[\"72243\"]",
+              "name": "Ivan Mejico",
+              "email": "ivan@clevero.co",
+              "recordValueId": 2194393,
+              "createdAt": "2023-08-03T01:09:43.986Z",
+              "updatedAt": "2023-09-28T02:55:36.799Z",
+              "autoId": "6",
+              "autoIdNum": 6,
+              "internalOwner": 72241,
+              "formId": -1,
+              "recordId": 199,
+              "id": 2194393
+            },
+            "role": {
+              "name": "Admin",
+              "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"emailBlasts\":true,\"rules\":false,\"exportData\":true,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":true,\"createOneToOneSchedulingEvents\":true,\"manageRoundRobinScheduling\":true}",
+              "icon": "fal fa-cog",
+              "is-admin": "true",
+              "dashboard-layout": "[\"105436\"]",
+              "identifier": "Admin",
+              "recordValueId": 72243,
+              "createdAt": "2020-09-09T23:21:22.484Z",
+              "updatedAt": "2023-08-10T00:16:56.529Z",
+              "autoId": "1",
+              "autoIdNum": 1,
+              "internalOwner": 72241,
+              "formId": 72624,
+              "recordId": 119,
+              "isAdmin": "true",
+              "isPortalRole": false,
+              "owner": 72241,
+              "id": 72243,
+              "industryName": "Other",
+              "industry": {
+                "value": "Other",
+                "modules": "[]",
+                "onboarding": "false",
+                "recordValueId": 69915,
+                "createdAt": "2020-08-20T05:59:24.422Z",
+                "updatedAt": "2020-08-20T05:59:24.422Z",
+                "autoId": "10",
+                "autoIdNum": 10,
+                "internalOwner": 131,
+                "formId": 26245,
+                "recordId": 3890
+              },
+              "ownerData": {
+                "name": "Super Health Ensemble",
+                "uniqueIdentifier": "super-health",
+                "superOwner": false,
+                "modules": [
+                  1487,
+                  72171
+                ],
+                "instanceSettings": {
+                  "role-nav-layouts": {
+                    "72243": 2282601,
+                    "268890": 268900,
+                    "268891": 268904,
+                    "1922327": 2282601
+                  },
+                  "customUI": [
+                    {
+                      "type": "weekly-report-generator"
+                    },
+                    {
+                      "type": "crs-form",
+                      "portal": true
+                    },
+                    {
+                      "type": "crs-entry",
+                      "portal": true
+                    }
+                  ],
+                  "role-entry-layouts": {
+                    "72243": {
+                      "72207": {
+                        "default": 1445168,
+                        "add": 1445168
+                      },
+                      "2205300": {
+                        "default": 2205331,
+                        "add": 2205331
+                      },
+                      "2218932": {
+                        "add": 2218988,
+                        "default": 2218988
+                      }
+                    },
+                    "98423": {
+                      "72207": {
+                        "default": 1445168,
+                        "add": 1445168
+                      }
+                    },
+                    "268891": {
+                      "72207": {
+                        "add": 1458767,
+                        "default": 1458767
+                      }
+                    },
+                    "304153": {
+                      "72207": {
+                        "default": 1445168,
+                        "add": 1445168
+                      }
+                    },
+                    "847573": {
+                      "72207": {
+                        "default": 1445168,
+                        "add": 1445168
+                      }
+                    }
+                  }
+                }
+              },
+              "superOwner": false
+            },
+            "formId": 93070,
+            "data": {
+              "values": {
+                "middle-name": "ddd"
+              },
+              "subrecords": {
+                "toAdd": {},
+                "toEdit": {},
+                "toDelete": {},
+                "subrecordInternalIds": [],
+                "added": {}
+              },
+              "oldValues": {
+                "id": 2240825,
+                "recordTupleId": 72207,
+                "formId": 93070,
+                "owner": 72241,
+                "user": 2145622,
+                "autoId": "1366",
+                "autoIdNum": 1366,
+                "source": "INTERNAL",
+                "sourceData": false,
+                "value": {
+                  "first-name": "Test",
+                  "last-name": "Clevero",
+                  "email": "ivan@clevero.co",
+                  "crs-claim-name": "Test Clevero",
+                  "date-entered": "2023-08-17",
+                  "name": "Test Clevero",
+                  "invoice-status": [
+                    817226
+                  ],
+                  "xero-status": [
+                    34126
+                  ],
+                  "branding-theme-id": [
+                    102875
+                  ],
+                  "line-amount-types": [
+                    34122
+                  ],
+                  "currency": [
+                    102877
+                  ],
+                  "type": [
+                    34120
+                  ],
+                  "uuid": "199f1a50-dd7a-423c-a1f8-d5b8833daf88",
+                  "fee-exc-gst": 600,
+                  "invoice-due-date": "2023-08-19",
+                  "salutation": [
+                    27675
+                  ]
+                },
+                "createdAt": "2023-08-17T05:26:51.404Z",
+                "updatedAt": "2023-08-17T05:26:51.749Z",
+                "FieldValues": [
+                  {
+                    "fieldId": 3592,
+                    "recordValueId": 2240825,
+                    "value": "Test"
+                  },
+                  {
+                    "fieldId": 3593,
+                    "recordValueId": 2240825,
+                    "value": "Clevero"
+                  },
+                  {
+                    "fieldId": 3594,
+                    "recordValueId": 2240825,
+                    "value": "ivan@clevero.co"
+                  },
+                  {
+                    "fieldId": 3597,
+                    "recordValueId": 2240825,
+                    "value": "Test Clevero"
+                  },
+                  {
+                    "fieldId": 3614,
+                    "recordValueId": 2240825,
+                    "value": "2023-08-17"
+                  },
+                  {
+                    "fieldId": 3655,
+                    "recordValueId": 2240825,
+                    "value": "Test Clevero"
+                  },
+                  {
+                    "fieldId": 4172,
+                    "recordValueId": 2240825,
+                    "value": "[\"817226\"]"
+                  },
+                  {
+                    "fieldId": 5563,
+                    "recordValueId": 2240825,
+                    "value": "[\"34126\"]"
+                  },
+                  {
+                    "fieldId": 5564,
+                    "recordValueId": 2240825,
+                    "value": "[\"102875\"]"
+                  },
+                  {
+                    "fieldId": 5568,
+                    "recordValueId": 2240825,
+                    "value": "[\"34122\"]"
+                  },
+                  {
+                    "fieldId": 5569,
+                    "recordValueId": 2240825,
+                    "value": "[\"102877\"]"
+                  },
+                  {
+                    "fieldId": 5570,
+                    "recordValueId": 2240825,
+                    "value": "[\"34120\"]"
+                  },
+                  {
+                    "fieldId": 12352,
+                    "recordValueId": 2240825,
+                    "value": "199f1a50-dd7a-423c-a1f8-d5b8833daf88"
+                  },
+                  {
+                    "fieldId": 14976,
+                    "recordValueId": 2240825,
+                    "value": "600"
+                  },
+                  {
+                    "fieldId": 15008,
+                    "recordValueId": 2240825,
+                    "value": "2023-08-19"
+                  },
+                  {
+                    "fieldId": 15407,
+                    "recordValueId": 2240825,
+                    "value": "[\"27675\"]"
+                  }
+                ]
+              }
+            },
+            "source": "V3_API",
+            "userId": 2194393
+          },
+          "recordInternalId": "super-health-team-crs-claims",
+          "recordId": 72207,
+          "entryId": 2240825,
+          "owner": 72241,
+          "clientType": "INTERNAL",
+          "eventId": "lxouZiW3O25bgfp5Vj5-3"
+        },
+        "deployment": {
+          "id": 2326054,
+          "owner": 72241,
+          "uid": "mxJ9QsEwg4Ctpv-8hlsbz",
+          "title": "On Edit of CRS Claim by the Patient, Send an Email Notification ",
+          "description": "",
+          "deployedRecordInternalId": "super-health-team-crs-claims",
+          "deployedRecordId": 72207,
+          "scripts": [
+            2326053
+          ],
+          "executionOrder": [
+            2326053
+          ],
+          "events": [
+            "AFTER_EDIT"
+          ],
+          "clientTypes": [
+            "INTERNAL"
+          ],
+          "custom": true,
+          "disabled": false,
+          "isScheduled": false,
+          "scheduledMetadata": {}
+        },
+        "scripts": [
+          {
+            "uid": "6NjLe6YkmO2nQdTOtM4Pi",
+            "name": "On Edit of CRS Claim by the Patient, Send an Email Notification ",
+            "description": "Send an email to hello@clevero.co whenever a patient updated their CRS claim",
+            "supportedRecords": [
+              "super-health-team-crs-claims"
+            ],
+            "supportedEvents": [
+              "AFTER_EDIT"
+            ],
+            "scriptFn": "async function script(C){\n C.log({C});\n console.log(\"hello world\")\n}",
+            "disabled": false,
+            "custom": true,
+            "supportAllRecord": false,
+            "supportAllEvents": false,
+            "id": 2326053,
+            "owner": 72241,
+            "supportScheduled": false
+          }
+        ],
+        "jobCreatedAt": "2023-09-28T03:01:51.153Z",
+        "logsMetadata": {
+          "logId": "657632",
+          "taskUid": "ABT9SOrTSG9am6Femumen",
+          "savedTask": true
+        }
+      },
+      "script": {
+        "uid": "6NjLe6YkmO2nQdTOtM4Pi",
+        "name": "On Edit of CRS Claim by the Patient, Send an Email Notification ",
+        "description": "Send an email to hello@clevero.co whenever a patient updated their CRS claim",
+        "supportedRecords": [
+          "super-health-team-crs-claims"
+        ],
+        "supportedEvents": [
+          "AFTER_EDIT"
+        ],
+        "scriptFn": "async function script(C){\n C.log({C});\n console.log(\"hello world\")\n}",
+        "disabled": false,
+        "custom": true,
+        "supportAllRecord": false,
+        "supportAllEvents": false,
+        "id": 2326053,
+        "owner": 72241,
+        "supportScheduled": false
+      },
+      "scriptIndex": 0,
+      "scriptsState": {
+        "6NjLe6YkmO2nQdTOtM4Pi": {
+          "status": "in_progress",
+          "scriptIndex": 0
+        }
+      },
+      "source": "WORKFLOW.lxouZiW3O25bgfp5Vj5-3.ABT9SOrTSG9am6Femumen"
+    }
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "utilityInputs": {
+    "task": {
+      "taskId": "dw7rMZI7pbVnOP9tuk5Iy",
+      "event": {
+        "event": "AFTER_EDIT",
+        "eventMetadata": {
+          "user": {
+            "login-count": "16",
+            "last-login": "2023-08-14T04:06:41.951Z",
+            "last-name": "Mejico",
+            "roles": "[\"25256\"]",
+            "first-name": "Ivan",
+            "inactive": "false",
+            "name": "Ivan Mejico",
+            "email": "ivan@clevero.co",
+            "recordValueId": 2175287,
+            "createdAt": "2023-07-28T06:59:26.666Z",
+            "updatedAt": "2023-08-14T04:06:41.952Z",
+            "autoId": "8",
+            "autoIdNum": 8,
+            "internalOwner": 25254,
+            "formId": -1,
+            "recordId": 199,
+            "id": 2175287
+          },
+          "role": {
+            "name": "Admin",
+            "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[{\"id\":\"812965\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812968\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812971\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812974\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"812977\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"813141\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"832873\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"832996\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"834319\",\"permissions\":[\"177\",\"178\",\"187\"]},{\"id\":\"860234\",\"permissions\":[\"177\",\"178\",\"187\"]}]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"meetingLinks\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true}",
+            "icon": "fal fa-cog",
+            "is-admin": "true",
+            "dashboard-layout": "[\"2177424\"]",
+            "is-portal-role": "false",
+            "settings": "",
+            "identifier": "admin",
+            "recordValueId": 25256,
+            "createdAt": "2020-04-12T03:45:36.178Z",
+            "updatedAt": "2023-08-01T00:33:11.903Z",
+            "autoId": "1",
+            "autoIdNum": 1,
+            "internalOwner": 25254,
+            "formId": 337,
+            "recordId": 119,
+            "isAdmin": "true",
+            "isPortalRole": false,
+            "owner": 25254,
+            "id": 25256,
+            "industryName": "",
+            "ownerData": {
+              "name": "Claimo",
+              "uniqueIdentifier": "claimo",
+              "superOwner": false,
+              "modules": [
+                1487,
+                25253
+              ],
+              "instanceSettings": {
+                "role-nav-layouts": {
+                  "25256": 812279,
+                  "813493": 867098,
+                  "813494": 867099,
+                  "813503": 867097,
+                  "1203316": 1460062
+                },
+                "entry-layouts": {
+                  "25250": {
+                    "description": "Clients",
+                    "default": 814291
+                  },
+                  "812229": {
+                    "description": "Leads",
+                    "default": 813458
+                  },
+                  "812232": {
+                    "description": "Opportunities",
+                    "default": 813514
+                  },
+                  "812235": {
+                    "description": "Cases",
+                    "default": 813593
+                  },
+                  "812236": {
+                    "description": "Policies",
+                    "default": 813624
+                  },
+                  "812237": {
+                    "description": "Offers",
+                    "default": 813648
+                  },
+                  "812238": {
+                    "description": "Tasks",
+                    "default": 813661
+                  },
+                  "812275": {
+                    "description": "Financial Firms",
+                    "default": 813727
+                  },
+                  "812958": {
+                    "description": "Products",
+                    "default": 814258
+                  },
+                  "824120": {
+                    "description": "Activities",
+                    "default": 824291
+                  },
+                  "833681": {
+                    "description": "Invoices",
+                    "default": 834950
+                  }
+                },
+                "role-entry-layouts": {
+                  "25256": {
+                    "812235": {
+                      "add": 847541,
+                      "default": 847541
+                    },
+                    "1584622": {
+                      "default": 1653473
+                    }
+                  },
+                  "813493": {
+                    "812235": {
+                      "default": 1096107,
+                      "add": 1096107
+                    },
+                    "1584622": {
+                      "default": 1653473
+                    }
+                  },
+                  "813494": {
+                    "812235": {
+                      "default": 847539,
+                      "add": 847539
+                    }
+                  },
+                  "813503": {
+                    "812235": {
+                      "default": 1096107,
+                      "add": 1096107
+                    }
+                  },
+                  "1203316": {
+                    "812235": {
+                      "default": 847539,
+                      "add": 847539
+                    },
+                    "1584622": {
+                      "default": 1653473
+                    }
+                  }
+                }
+              }
+            },
+            "superOwner": false
+          },
+          "formId": 812983,
+          "data": {
+            "values": {
+              "status": [
+                "814706"
+              ]
+            },
+            "subrecords": {
+              "toAdd": {},
+              "toEdit": {},
+              "toDelete": {},
+              "subrecordInternalIds": [],
+              "added": {}
+            },
+            "oldValues": {
+              "id": 2186436,
+              "recordTupleId": 812235,
+              "formId": 812983,
+              "owner": 25254,
+              "user": 1095227,
+              "autoId": "00018453",
+              "autoIdNum": 18453,
+              "source": "INTERNAL",
+              "sourceData": false,
+              "value": {
+                "status": [
+                  814706
+                ],
+                "opportunity": [
+                  1914531
+                ],
+                "financial-firm": [
+                  986757
+                ],
+                "respondent": [
+                  987076
+                ],
+                "parent": [
+                  1914531
+                ],
+                "case-manager": [
+                  872354
+                ],
+                "number-of-policies": 1,
+                "total-premiums": 1450,
+                "client": [
+                  1536238
+                ],
+                "idr-submission-date": "2023-08-02",
+                "final-response-due-date": "2023-09-01",
+                "trust-payment": false,
+                "gross-refund": 1450,
+                "commission": 290,
+                "net-refund": 1131,
+                "commission-gst": 319,
+                "gst-on-commission": 29,
+                "net-premiums": 1450,
+                "case-manager-notified": true,
+                "idr-outcome": [
+                  1127436
+                ],
+                "previous-refunds": 0,
+                "date-created": "2023-08-02",
+                "date-assigned": "2023-08-02",
+                "case-number": "00018453",
+                "name": "00018453 Nicole Robinson Maxxia (MMSG)",
+                "attachments": [
+                  {
+                    "key": "511cb780-4f1c-402f-9580-54d1d48cc387_FW_ RE_ Complaint about the sale of add-on insurance - Nicole Robinson.msg",
+                    "name": "FW_ RE_ Complaint about the sale of add-on insurance - Nicole Robinson.msg",
+                    "size": 340480,
+                    "type": "",
+                    "uploadedAt": "2023-08-02T05:32:39.540Z",
+                    "uploadedBy": {
+                      "id": 1095223,
+                      "email": "michelle@claimo.com.au",
+                      "fullName": "Michelle Ann De Guzman",
+                      "lastName": "Ann De Guzman",
+                      "firstName": "Michelle"
+                    },
+                    "uploaderIP": "120.29.72.78"
+                  }
+                ],
+                "ready-for-invoicing": false,
+                "idr-confirmation-sent": true,
+                "client-phone": "0416109499",
+                "client-last-name": "Robinson",
+                "client-email": "nicoletegan@yahoo.com.au",
+                "date-of-offer": "2023-08-02",
+                "25254-open-policy-initialisation-date": "2023-08-02"
+              },
+              "createdAt": "2023-08-02T00:33:37.530Z",
+              "updatedAt": "2023-08-14T02:58:17.045Z",
+              "FieldValues": [
+                {
+                  "fieldId": 15130,
+                  "recordValueId": 2186436,
+                  "value": "[\"814706\"]"
+                },
+                {
+                  "fieldId": 15131,
+                  "recordValueId": 2186436,
+                  "value": "[\"1914531\"]"
+                },
+                {
+                  "fieldId": 15132,
+                  "recordValueId": 2186436,
+                  "value": "[\"986757\"]"
+                },
+                {
+                  "fieldId": 15133,
+                  "recordValueId": 2186436,
+                  "value": "[\"987076\"]"
+                },
+                {
+                  "fieldId": 15146,
+                  "recordValueId": 2186436,
+                  "value": "[\"1914531\"]"
+                },
+                {
+                  "fieldId": 15162,
+                  "recordValueId": 2186436,
+                  "value": "[\"872354\"]"
+                },
+                {
+                  "fieldId": 15163,
+                  "recordValueId": 2186436,
+                  "value": "1"
+                },
+                {
+                  "fieldId": 15164,
+                  "recordValueId": 2186436,
+                  "value": "1450"
+                },
+                {
+                  "fieldId": 15173,
+                  "recordValueId": 2186436,
+                  "value": "[\"1536238\"]"
+                },
+                {
+                  "fieldId": 15190,
+                  "recordValueId": 2186436,
+                  "value": "2023-08-02"
+                },
+                {
+                  "fieldId": 15191,
+                  "recordValueId": 2186436,
+                  "value": "2023-09-01"
+                },
+                {
+                  "fieldId": 15236,
+                  "recordValueId": 2186436,
+                  "value": "false"
+                },
+                {
+                  "fieldId": 15239,
+                  "recordValueId": 2186436,
+                  "value": "1450"
+                },
+                {
+                  "fieldId": 15240,
+                  "recordValueId": 2186436,
+                  "value": "290"
+                },
+                {
+                  "fieldId": 15241,
+                  "recordValueId": 2186436,
+                  "value": "1131"
+                },
+                {
+                  "fieldId": 15243,
+                  "recordValueId": 2186436,
+                  "value": "319"
+                },
+                {
+                  "fieldId": 15245,
+                  "recordValueId": 2186436,
+                  "value": "29"
+                },
+                {
+                  "fieldId": 15246,
+                  "recordValueId": 2186436,
+                  "value": "1450"
+                },
+                {
+                  "fieldId": 15265,
+                  "recordValueId": 2186436,
+                  "value": "true"
+                },
+                {
+                  "fieldId": 15302,
+                  "recordValueId": 2186436,
+                  "value": "[\"1127436\"]"
+                },
+                {
+                  "fieldId": 15322,
+                  "recordValueId": 2186436,
+                  "value": "0"
+                },
+                {
+                  "fieldId": 15496,
+                  "recordValueId": 2186436,
+                  "value": "2023-08-02"
+                },
+                {
+                  "fieldId": 15497,
+                  "recordValueId": 2186436,
+                  "value": "2023-08-02"
+                },
+                {
+                  "fieldId": 15521,
+                  "recordValueId": 2186436,
+                  "value": "00018453"
+                },
+                {
+                  "fieldId": 15522,
+                  "recordValueId": 2186436,
+                  "value": "00018453 Nicole Robinson Maxxia (MMSG)"
+                },
+                {
+                  "fieldId": 15543,
+                  "recordValueId": 2186436,
+                  "value": "[{\"key\":\"511cb780-4f1c-402f-9580-54d1d48cc387_FW_ RE_ Complaint about the sale of add-on insurance - Nicole Robinson.msg\",\"name\":\"FW_ RE_ Complaint about the sale of add-on insurance - Nicole Robinson.msg\",\"size\":340480,\"type\":\"\",\"uploadedAt\":\"2023-08-02T05:32:39.540Z\",\"uploadedBy\":{\"id\":1095223,\"email\":\"michelle@claimo.com.au\",\"fullName\":\"Michelle Ann De Guzman\",\"lastName\":\"Ann De Guzman\",\"firstName\":\"Michelle\"},\"uploaderIP\":\"120.29.72.78\"}]"
+                },
+                {
+                  "fieldId": 15544,
+                  "recordValueId": 2186436,
+                  "value": "false"
+                },
+                {
+                  "fieldId": 15863,
+                  "recordValueId": 2186436,
+                  "value": "true"
+                },
+                {
+                  "fieldId": 16013,
+                  "recordValueId": 2186436,
+                  "value": "0416109499"
+                },
+                {
+                  "fieldId": 16014,
+                  "recordValueId": 2186436,
+                  "value": "Robinson"
+                },
+                {
+                  "fieldId": 16015,
+                  "recordValueId": 2186436,
+                  "value": "nicoletegan@yahoo.com.au"
+                },
+                {
+                  "fieldId": 16708,
+                  "recordValueId": 2186436,
+                  "value": "2023-08-02"
+                },
+                {
+                  "fieldId": 16977,
+                  "recordValueId": 2186436,
+                  "value": "2023-08-02"
+                }
+              ]
+            }
+          },
+          "source": "V3_API",
+          "userId": 2175287
+        },
+        "recordInternalId": "claimo-cases",
+        "recordId": 812235,
+        "entryId": 2186436,
+        "owner": 25254,
+        "clientType": "INTERNAL",
+        "eventId": "6JWvnzolYN0IpI83YDY2D"
+      },
+      "deployment": {
+        "id": 1628430,
+        "owner": 25254,
+        "uid": "0jKNNn",
+        "title": "Set date of offer field",
+        "description": "",
+        "deployedRecordInternalId": "claimo-cases",
+        "deployedRecordId": 812235,
+        "scripts": [
+          1628429
+        ],
+        "executionOrder": [
+          1628429
+        ],
+        "events": [
+          "AFTER_ADD",
+          "AFTER_EDIT"
+        ],
+        "clientTypes": [
+          "INTERNAL"
+        ],
+        "custom": true,
+        "disabled": false,
+        "isScheduled": false,
+        "scheduledMetadata": {}
+      },
+      "scripts": [
+        {
+          "uid": "U7rQEd",
+          "name": "Set date of offer field",
+          "description": "after add/after edit; if IDR Outcome or Outcome field is Offer Pending, check the most recent associated offer, get the Date Received of that entry, and populate the \"Date of Offer\" field",
+          "supportedRecords": [
+            "claimo-cases"
+          ],
+          "supportedEvents": [
+            "AFTER_ADD",
+            "AFTER_EDIT"
+          ],
+          "scriptFn": "async function script(C) {\n C.log(C);\n const currentEntry = await C.getCurrentEntry();\n\n const idrOutcome = currentEntry[\"idr-outcome\"];\n\n if (idrOutcome == 1127436) {\n const association = await C.getCurrentEntryAssociations(\n \"claimo-offers\"\n );\n if (!association[\"claimo-offers\"].length > 0) return;\n\n const offer = association[\"claimo-offers\"];\n\n let dateReceived = [];\n const totalOffer = _.forEach(offer, function (o) {\n return dateReceived.push(o[\"date-received\"]);\n });\n\n let date = [];\n\n for (let i = 0; i < totalOffer.length; i++) {\n if (totalOffer[i][\"date-received\"] > date) {\n date = totalOffer[i][\"date-received\"];\n } else {\n date = totalOffer[i - 1][\"date-received\"];\n }\n }\n\n const response = await C.updateEntries({\n updates: [\n {\n value: {\n \"date-of-offer\": date,\n },\n entryId: currentEntry.recordValueId,\n recordInternalId: \"claimo-cases\",\n },\n ],\n });\n\n return { currentEntry, idrOutcome, association, offer, date };\n } else {\n await C.updateEntries({\n updates: [\n {\n value: {\n \"date-of-offer\": \"\",\n },\n entryId: currentEntry.recordValueId,\n recordInternalId: \"claimo-cases\",\n },\n ],\n });\n }\n}\n",
+          "disabled": false,
+          "custom": true,
+          "supportAllRecord": false,
+          "supportAllEvents": false,
+          "id": 1628429,
+          "owner": 25254,
+          "supportScheduled": false
+        }
+      ],
+      "jobCreatedAt": "2023-08-14T05:15:31.957Z",
+      "logsMetadata": {
+        "logId": "511170",
+        "taskUid": "dw7rMZI7pbVnOP9tuk5Iy",
+        "savedTask": true
+      }
+    },
+    "script": {
+      "uid": "U7rQEd",
+      "name": "Set date of offer field",
+      "description": "after add/after edit; if IDR Outcome or Outcome field is Offer Pending, check the most recent associated offer, get the Date Received of that entry, and populate the \"Date of Offer\" field",
+      "supportedRecords": [
+        "claimo-cases"
+      ],
+      "supportedEvents": [
+        "AFTER_ADD",
+        "AFTER_EDIT"
+      ],
+      "scriptFn": "async function script(C) {\n C.log(C);\n const currentEntry = await C.getCurrentEntry();\n\n const idrOutcome = currentEntry[\"idr-outcome\"];\n\n if (idrOutcome == 1127436) {\n const association = await C.getCurrentEntryAssociations(\n \"claimo-offers\"\n );\n if (!association[\"claimo-offers\"].length > 0) return;\n\n const offer = association[\"claimo-offers\"];\n\n let dateReceived = [];\n const totalOffer = _.forEach(offer, function (o) {\n return dateReceived.push(o[\"date-received\"]);\n });\n\n let date = [];\n\n for (let i = 0; i < totalOffer.length; i++) {\n if (totalOffer[i][\"date-received\"] > date) {\n date = totalOffer[i][\"date-received\"];\n } else {\n date = totalOffer[i - 1][\"date-received\"];\n }\n }\n\n const response = await C.updateEntries({\n updates: [\n {\n value: {\n \"date-of-offer\": date,\n },\n entryId: currentEntry.recordValueId,\n recordInternalId: \"claimo-cases\",\n },\n ],\n });\n\n return { currentEntry, idrOutcome, association, offer, date };\n } else {\n await C.updateEntries({\n updates: [\n {\n value: {\n \"date-of-offer\": \"\",\n },\n entryId: currentEntry.recordValueId,\n recordInternalId: \"claimo-cases\",\n },\n ],\n });\n }\n}\n",
+      "disabled": false,
+      "custom": true,
+      "supportAllRecord": false,
+      "supportAllEvents": false,
+      "id": 1628429,
+      "owner": 25254,
+      "supportScheduled": false
+    },
+    "scriptIndex": 0,
+    "scriptsState": {
+      "U7rQEd": {
+        "status": "in_progress",
+        "scriptIndex": 0
+      }
+    },
+    "source": "WORKFLOW.6JWvnzolYN0IpI83YDY2D.dw7rMZI7pbVnOP9tuk5Iy"
+  }
+}

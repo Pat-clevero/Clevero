@@ -1,0 +1,42 @@
+{
+    "bulkExecution": false,
+    "addTriggerEntryDetail": true,
+    "responseType": "iov",
+    "conditon": "function(context){ return true; }",
+    "renderCondition": "function(context){ console.log(context); if (context.entry['5405'] && !JSON.parse(context.entry['5405']).length) { return false;} return context.entry['5409'] === '[\"100703\"]'}",
+    "loadEntries": [
+        {
+            "name": "assignedTo",
+            "type": "trigger-entry",
+            "value": "assigned-to",
+            "responseType": "iov"
+        }
+    ],
+    "inputs": [
+        {
+            "name": "templateId",
+            "type": "hard-coded",
+            "value": "102574"
+        },
+        {
+            "name": "phone",
+            "type": "hard-coded",
+            "value": [
+                {
+                    "type": "dynamic",
+                    "phone": "assigned-to.phone"
+                }
+            ]
+        },
+        {
+            "name": "values-own",
+            "type": "function",
+            "value": "function(context){return {'5409':JSON.stringify(['102570'])};}"
+        },
+        {
+            "name": "values-linked",
+            "type": "function",
+            "value": "function(context){return {'5425':JSON.stringify(['100887'])};}"
+        }
+    ]
+}

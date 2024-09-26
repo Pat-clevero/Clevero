@@ -1,0 +1,1118 @@
+{
+  "C": {
+    "utilityInputs": {
+      "task": {
+        "taskId": "GO9CYzPe9cU9pEGgZWvUi",
+        "event": {
+          "event": "AFTER_EDIT",
+          "eventMetadata": {
+            "user": {
+              "login-count": "112",
+              "last-name": "Mejico",
+              "1662670-charge-out-rate": "70",
+              "first-name": "Ivan",
+              "inactive": "false",
+              "1662670-cost-rate": "20",
+              "last-login": "2023-10-04T04:00:13.460Z",
+              "roles": "[\"1662671\",\"1836731\",\"1836735\",\"2369327\",\"1836732\"]",
+              "name": "Ivan Mejico",
+              "email": "ivan@clevero.co",
+              "recordValueId": 2231544,
+              "createdAt": "2023-08-15T02:07:41.050Z",
+              "updatedAt": "2023-10-04T04:00:13.460Z",
+              "autoId": "32",
+              "autoIdNum": 32,
+              "internalOwner": 1662670,
+              "formId": -1,
+              "recordId": 199,
+              "id": 2231544
+            },
+            "role": {
+              "name": "Admin",
+              "owner": 1662670,
+              "permissions": "{\"entries\":{\"general\":[\"177\",\"178\",\"187\",\"230\"],\"records\":[]},\"fields\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"forms\":{\"general\":[\"178\",\"187\",\"230\"],\"records\":[]},\"records\":[\"178\",\"187\"],\"companySettings\":true,\"systemSettings\":true,\"emailTemplates\":true,\"smsTemplates\":true,\"documentTemplates\":true,\"esignatureTemplates\":true,\"emailBlasts\":true,\"rules\":true,\"exportData\":true,\"customPortals\":false,\"managePortalsThroughIndicators\":false,\"enableSelfServiceScheduling\":false,\"createOneToOneSchedulingEvents\":false,\"manageRoundRobinScheduling\":false}",
+              "icon": "fal fa-cog",
+              "is-admin": "true",
+              "dashboard-layout": "[\"1728242\"]",
+              "is-portal-role": "false",
+              "settings": "",
+              "identifier": "admin",
+              "recordValueId": 1662671,
+              "createdAt": "2023-03-27T04:13:41.829Z",
+              "updatedAt": "2023-09-25T07:38:57.605Z",
+              "autoId": "1",
+              "autoIdNum": 1,
+              "internalOwner": 1662670,
+              "formId": -1,
+              "recordId": 119,
+              "isAdmin": "true",
+              "isPortalRole": false,
+              "id": 1662671,
+              "industryName": "",
+              "ownerData": {
+                "name": "Admedia ",
+                "uniqueIdentifier": "admedia",
+                "superOwner": false,
+                "modules": [
+                  1487,
+                  1405482,
+                  1708404,
+                  463882,
+                  1762369
+                ],
+                "instanceSettings": {
+                  "role-entry-layouts": {
+                    "126": {
+                      "1754526": {
+                        "default": 1754577,
+                        "add": 1754577
+                      }
+                    },
+                    "1662671": {
+                      "199": {
+                        "add": 1795134,
+                        "default": 1764235
+                      },
+                      "463908": {
+                        "add": 1919982,
+                        "default": 1919770
+                      },
+                      "574930": {
+                        "default": 1808166,
+                        "add": 1808166
+                      },
+                      "1708504": {
+                        "add": 1795111,
+                        "default": 1709812
+                      },
+                      "1708508": {
+                        "add": 1795107,
+                        "default": 1711689
+                      },
+                      "1708512": {
+                        "add": 1795123,
+                        "default": 1710922
+                      },
+                      "1708513": {
+                        "add": 1795119,
+                        "default": 1711671
+                      },
+                      "1708516": {
+                        "default": 1711679,
+                        "add": 1711679
+                      },
+                      "1708521": {
+                        "add": 1795153,
+                        "default": 1711639
+                      },
+                      "1709708": {
+                        "add": 1795151,
+                        "default": 1711693
+                      },
+                      "1709709": {
+                        "add": 1795175,
+                        "default": 1711642
+                      },
+                      "1709712": {
+                        "add": 1825874,
+                        "default": 1811722
+                      },
+                      "1709713": {
+                        "add": 1795164,
+                        "default": 1711645
+                      },
+                      "1709714": {
+                        "add": 1795157,
+                        "default": 1711654
+                      },
+                      "1709715": {
+                        "add": 1711705,
+                        "default": 2310235
+                      },
+                      "1709716": {
+                        "default": 1711648,
+                        "add": 1795165
+                      },
+                      "1709717": {
+                        "add": 1795129,
+                        "default": 1711674
+                      },
+                      "1709718": {
+                        "add": 1795114,
+                        "default": 1811702
+                      },
+                      "1709719": {
+                        "add": 1795178,
+                        "default": 1711657
+                      },
+                      "1709720": {
+                        "add": 1795194,
+                        "default": 1711661
+                      },
+                      "1709721": {
+                        "add": 1795179,
+                        "default": 1711664
+                      },
+                      "1709722": {
+                        "add": 1795187,
+                        "default": 1711667
+                      },
+                      "1709723": {
+                        "add": 2297502,
+                        "default": 2299991
+                      },
+                      "1709724": {
+                        "add": 1795147,
+                        "default": 1711716
+                      },
+                      "1709725": {
+                        "add": 2300012,
+                        "default": 2300014
+                      },
+                      "1709742": {
+                        "default": 1711636,
+                        "add": 1711636
+                      },
+                      "1719816": {
+                        "add": 1795140,
+                        "default": 1773044
+                      },
+                      "1725823": {
+                        "add": 1795105,
+                        "default": 1725843
+                      },
+                      "1725861": {
+                        "add": 1795102,
+                        "default": 1725955
+                      },
+                      "1762368": {
+                        "add": 1795193,
+                        "default": 1762415
+                      },
+                      "1762463": {
+                        "default": 1762709,
+                        "add": 1795135
+                      },
+                      "1762721": {
+                        "default": 1762735,
+                        "add": 1762735
+                      },
+                      "1807475": {
+                        "add": 1816265,
+                        "default": 1807557
+                      },
+                      "1807625": {
+                        "add": 1816266,
+                        "default": 1807669
+                      },
+                      "1807715": {
+                        "add": 1816281,
+                        "default": 1807747
+                      },
+                      "1808632": {
+                        "default": 2178112,
+                        "add": 2178128
+                      },
+                      "1826019": {
+                        "add": 1826027,
+                        "default": 1826025
+                      },
+                      "2334939": {
+                        "default": 2334940,
+                        "add": 2334940
+                      },
+                      "2375037": {
+                        "add": 2375038,
+                        "default": 2375043
+                      }
+                    },
+                    "1836717": {
+                      "199": {
+                        "add": 1795134,
+                        "default": 1764235
+                      },
+                      "463908": {
+                        "add": 1919982,
+                        "default": 1919770
+                      },
+                      "574930": {
+                        "default": 1808166,
+                        "add": 1808166
+                      },
+                      "1708504": {
+                        "add": 1795111,
+                        "default": 1709812
+                      },
+                      "1708512": {
+                        "add": 1795123,
+                        "default": 1710922
+                      },
+                      "1708513": {
+                        "add": 1795119,
+                        "default": 1711671
+                      },
+                      "1708521": {
+                        "add": 1795153,
+                        "default": 1711639
+                      },
+                      "1709708": {
+                        "add": 1795151,
+                        "default": 1711693
+                      },
+                      "1709709": {
+                        "add": 1795175,
+                        "default": 1711642
+                      },
+                      "1709713": {
+                        "add": 1795164,
+                        "default": 1711645
+                      },
+                      "1709714": {
+                        "add": 1795157,
+                        "default": 1711654
+                      },
+                      "1709715": {
+                        "default": 2297469,
+                        "add": 2297469
+                      },
+                      "1709716": {
+                        "default": 1711648
+                      },
+                      "1709717": {
+                        "add": 1795129,
+                        "default": 1711674
+                      },
+                      "1709719": {
+                        "add": 1795178,
+                        "default": 1711657
+                      },
+                      "1709720": {
+                        "add": 1795194,
+                        "default": 1711661
+                      },
+                      "1709721": {
+                        "add": 1795179,
+                        "default": 1711664
+                      },
+                      "1709722": {
+                        "add": 1795187,
+                        "default": 1711667
+                      },
+                      "1709723": {
+                        "add": 1795185,
+                        "default": 1975977
+                      },
+                      "1709725": {
+                        "default": 1975980,
+                        "add": 1795197
+                      },
+                      "1725823": {
+                        "add": 1795105,
+                        "default": 1725843
+                      },
+                      "1762368": {
+                        "add": 1795193,
+                        "default": 1762415
+                      },
+                      "1762463": {
+                        "default": 1762709
+                      },
+                      "1807715": {
+                        "add": 1816281,
+                        "default": 1807747
+                      },
+                      "1808632": {
+                        "default": 2178112,
+                        "add": 2178128
+                      },
+                      "1826019": {
+                        "add": 1826027,
+                        "default": 1826025
+                      }
+                    },
+                    "1836731": {
+                      "199": {
+                        "add": 1795134,
+                        "default": 1764235
+                      },
+                      "463908": {
+                        "add": 1919982,
+                        "default": 1919770
+                      },
+                      "574930": {
+                        "default": 1808166,
+                        "add": 1808166
+                      },
+                      "1708504": {
+                        "add": 1795111,
+                        "default": 1709812
+                      },
+                      "1708508": {
+                        "add": 1795107,
+                        "default": 1711689
+                      },
+                      "1708512": {
+                        "add": 1795123,
+                        "default": 1710922
+                      },
+                      "1708513": {
+                        "add": 1795119,
+                        "default": 1711671
+                      },
+                      "1708521": {
+                        "add": 1795153,
+                        "default": 1711639
+                      },
+                      "1709708": {
+                        "add": 1795151,
+                        "default": 1711693
+                      },
+                      "1709709": {
+                        "add": 1795175,
+                        "default": 1711642
+                      },
+                      "1709712": {
+                        "add": 1825874,
+                        "default": 1811722
+                      },
+                      "1709713": {
+                        "add": 1795164,
+                        "default": 1711645
+                      },
+                      "1709714": {
+                        "add": 1795157,
+                        "default": 1711654
+                      },
+                      "1709715": {
+                        "add": 2310237,
+                        "default": 2335494
+                      },
+                      "1709716": {
+                        "default": 1711648,
+                        "add": 1795165
+                      },
+                      "1709717": {
+                        "add": 1795129,
+                        "default": 1711674
+                      },
+                      "1709718": {
+                        "add": 1795114,
+                        "default": 1811702
+                      },
+                      "1709719": {
+                        "add": 1795178,
+                        "default": 1711657
+                      },
+                      "1709720": {
+                        "add": 1795194,
+                        "default": 1711661
+                      },
+                      "1709721": {
+                        "add": 1795179,
+                        "default": 1711664
+                      },
+                      "1709722": {
+                        "add": 1795187,
+                        "default": 1711667
+                      },
+                      "1709723": {
+                        "add": 2299996,
+                        "default": 2300001
+                      },
+                      "1709724": {
+                        "add": 1795147,
+                        "default": 1711716
+                      },
+                      "1709725": {
+                        "add": 2300015,
+                        "default": 2300016
+                      },
+                      "1719816": {
+                        "add": 1795140,
+                        "default": 1773044
+                      },
+                      "1725823": {
+                        "add": 1795105,
+                        "default": 1725843
+                      },
+                      "1725861": {
+                        "add": 1795102,
+                        "default": 1725955
+                      },
+                      "1762368": {
+                        "add": 1795193,
+                        "default": 1762415
+                      },
+                      "1762463": {
+                        "default": 1762709,
+                        "add": 1795135
+                      },
+                      "1807475": {
+                        "add": 1816265,
+                        "default": 1807557
+                      },
+                      "1807625": {
+                        "add": 1816266,
+                        "default": 1807669
+                      },
+                      "1807715": {
+                        "add": 1816281,
+                        "default": 1807747
+                      },
+                      "1808632": {
+                        "default": 2178112,
+                        "add": 2178128
+                      },
+                      "1826019": {
+                        "add": 1826027,
+                        "default": 1826025
+                      },
+                      "2334939": {
+                        "default": 2334940,
+                        "add": 2334940
+                      }
+                    },
+                    "1836732": {
+                      "199": {
+                        "add": 1795134,
+                        "default": 1764235
+                      },
+                      "463908": {
+                        "add": 1919982,
+                        "default": 1919770
+                      },
+                      "574930": {
+                        "default": 1808166,
+                        "add": 1808166
+                      },
+                      "1708504": {
+                        "add": 1795111,
+                        "default": 1709812
+                      },
+                      "1708508": {
+                        "add": 1795107,
+                        "default": 1711689
+                      },
+                      "1708512": {
+                        "add": 1795123,
+                        "default": 1710922
+                      },
+                      "1708513": {
+                        "add": 1795119,
+                        "default": 1711671
+                      },
+                      "1708521": {
+                        "add": 1795153,
+                        "default": 1711639
+                      },
+                      "1709708": {
+                        "add": 1795151,
+                        "default": 1711693
+                      },
+                      "1709709": {
+                        "add": 1795175,
+                        "default": 1711642
+                      },
+                      "1709712": {
+                        "add": 1825874,
+                        "default": 1811722
+                      },
+                      "1709713": {
+                        "add": 1795164,
+                        "default": 1711645
+                      },
+                      "1709714": {
+                        "add": 1795157,
+                        "default": 1711654
+                      },
+                      "1709715": {
+                        "add": 2310237,
+                        "default": 2335494
+                      },
+                      "1709716": {
+                        "default": 1711648,
+                        "add": 1795165
+                      },
+                      "1709717": {
+                        "add": 1795129,
+                        "default": 1711674
+                      },
+                      "1709718": {
+                        "add": 1795114,
+                        "default": 1811702
+                      },
+                      "1709719": {
+                        "add": 1795178,
+                        "default": 1711657
+                      },
+                      "1709720": {
+                        "add": 1795194,
+                        "default": 1711661
+                      },
+                      "1709721": {
+                        "add": 1795179,
+                        "default": 1711664
+                      },
+                      "1709722": {
+                        "add": 1795187,
+                        "default": 1711667
+                      },
+                      "1709723": {
+                        "add": 2299996,
+                        "default": 2300001
+                      },
+                      "1709724": {
+                        "add": 1795147,
+                        "default": 1711716
+                      },
+                      "1709725": {
+                        "add": 2300015,
+                        "default": 2300016
+                      },
+                      "1719816": {
+                        "add": 1795140,
+                        "default": 1773044
+                      },
+                      "1725823": {
+                        "add": 1795105,
+                        "default": 1725843
+                      },
+                      "1725861": {
+                        "add": 1795102,
+                        "default": 1725955
+                      },
+                      "1762368": {
+                        "add": 1795193,
+                        "default": 1762415
+                      },
+                      "1762463": {
+                        "default": 1762709,
+                        "add": 1795135
+                      },
+                      "1807475": {
+                        "add": 1816265,
+                        "default": 1807557
+                      },
+                      "1807625": {
+                        "add": 1816266,
+                        "default": 1807669
+                      },
+                      "1807715": {
+                        "add": 1816281,
+                        "default": 1807747
+                      },
+                      "1808632": {
+                        "default": 2178112,
+                        "add": 2178128
+                      },
+                      "1826019": {
+                        "add": 1826027,
+                        "default": 1826025
+                      },
+                      "2334939": {
+                        "default": 2334940,
+                        "add": 2334940
+                      }
+                    },
+                    "1836735": {
+                      "199": {
+                        "add": 1795134,
+                        "default": 1764235
+                      },
+                      "463908": {
+                        "add": 1919982,
+                        "default": 1919770
+                      },
+                      "574930": {
+                        "default": 1808166,
+                        "add": 1808166
+                      },
+                      "1708504": {
+                        "add": 1795111,
+                        "default": 1709812
+                      },
+                      "1708508": {
+                        "add": 1795107,
+                        "default": 1711689
+                      },
+                      "1708512": {
+                        "add": 1795123,
+                        "default": 1710922
+                      },
+                      "1708513": {
+                        "add": 1795119,
+                        "default": 1711671
+                      },
+                      "1708521": {
+                        "add": 1795153,
+                        "default": 1711639
+                      },
+                      "1709708": {
+                        "add": 1795151,
+                        "default": 1711693
+                      },
+                      "1709709": {
+                        "add": 1795175,
+                        "default": 1711642
+                      },
+                      "1709712": {
+                        "add": 1825874,
+                        "default": 1811722
+                      },
+                      "1709713": {
+                        "add": 1795164,
+                        "default": 1711645
+                      },
+                      "1709714": {
+                        "add": 1795157,
+                        "default": 1711654
+                      },
+                      "1709715": {
+                        "add": 2310237,
+                        "default": 2335494
+                      },
+                      "1709716": {
+                        "default": 1711648
+                      },
+                      "1709717": {
+                        "add": 1795129,
+                        "default": 1711674
+                      },
+                      "1709718": {
+                        "add": 1795114,
+                        "default": 1811702
+                      },
+                      "1709719": {
+                        "add": 1795178,
+                        "default": 1711657
+                      },
+                      "1709720": {
+                        "add": 1795194,
+                        "default": 1711661
+                      },
+                      "1709721": {
+                        "add": 1795179,
+                        "default": 1711664
+                      },
+                      "1709722": {
+                        "add": 1795187,
+                        "default": 1711667
+                      },
+                      "1709723": {
+                        "add": 2299996,
+                        "default": 2300001
+                      },
+                      "1709724": {
+                        "add": 1795147,
+                        "default": 1711716
+                      },
+                      "1709725": {
+                        "add": 2300015,
+                        "default": 2300016
+                      },
+                      "1719816": {
+                        "add": 1795140,
+                        "default": 1773044
+                      },
+                      "1725823": {
+                        "add": 1795105,
+                        "default": 1725843
+                      },
+                      "1725861": {
+                        "add": 1795102,
+                        "default": 1725955
+                      },
+                      "1762368": {
+                        "add": 1795193,
+                        "default": 1762415
+                      },
+                      "1762463": {
+                        "default": 1762709,
+                        "add": 1795135
+                      },
+                      "1807475": {
+                        "add": 1816265,
+                        "default": 1807557
+                      },
+                      "1807625": {
+                        "add": 1816266,
+                        "default": 1807669
+                      },
+                      "1807715": {
+                        "add": 1816281,
+                        "default": 1807747
+                      },
+                      "1808632": {
+                        "default": 2178112,
+                        "add": 2178128
+                      },
+                      "1826019": {
+                        "add": 1826027,
+                        "default": 1826025
+                      },
+                      "2334939": {
+                        "default": 2334940,
+                        "add": 2334940
+                      }
+                    },
+                    "1879408": {
+                      "199": {
+                        "add": 1795134,
+                        "default": 1764235
+                      },
+                      "463908": {
+                        "add": 1919982,
+                        "default": 1919770
+                      },
+                      "1708504": {
+                        "add": 1795111,
+                        "default": 1709812
+                      },
+                      "1708512": {
+                        "add": 1795123,
+                        "default": 1710922
+                      },
+                      "1708513": {
+                        "add": 1795119,
+                        "default": 1711671
+                      },
+                      "1708521": {
+                        "add": 1795153,
+                        "default": 1711639
+                      },
+                      "1709708": {
+                        "add": 1795151,
+                        "default": 1711693
+                      },
+                      "1709709": {
+                        "add": 1795175,
+                        "default": 1711642
+                      },
+                      "1709713": {
+                        "add": 1795164,
+                        "default": 1711645
+                      },
+                      "1709714": {
+                        "add": 1795157,
+                        "default": 1711654
+                      },
+                      "1709715": {
+                        "default": 1880165,
+                        "add": 1880165
+                      },
+                      "1709716": {
+                        "default": 1711648
+                      },
+                      "1709717": {
+                        "add": 1795129,
+                        "default": 1711674
+                      },
+                      "1709719": {
+                        "add": 1795178,
+                        "default": 1711657
+                      },
+                      "1709720": {
+                        "add": 1795194,
+                        "default": 1711661
+                      },
+                      "1709721": {
+                        "add": 1795179,
+                        "default": 1711664
+                      },
+                      "1709722": {
+                        "add": 1795187,
+                        "default": 1711667
+                      },
+                      "1709723": {
+                        "add": 1795185,
+                        "default": 1975977
+                      },
+                      "1709725": {
+                        "default": 1975980,
+                        "add": 1795197
+                      },
+                      "1725823": {
+                        "add": 1795105,
+                        "default": 1725843
+                      },
+                      "1762368": {
+                        "add": 1795193,
+                        "default": 1762415
+                      },
+                      "1807715": {
+                        "add": 1816281,
+                        "default": 1807747
+                      },
+                      "1826019": {
+                        "add": 1826027,
+                        "default": 1826025
+                      }
+                    },
+                    "2369327": {
+                      "574930": {
+                        "default": 1808166,
+                        "add": 1808166
+                      },
+                      "1708508": {
+                        "add": 1795107,
+                        "default": 1711689
+                      },
+                      "1709712": {
+                        "add": 1825874,
+                        "default": 1811722
+                      },
+                      "1709715": {
+                        "add": 2310237,
+                        "default": 2335494
+                      },
+                      "1709718": {
+                        "add": 1795114,
+                        "default": 1811702
+                      },
+                      "1709723": {
+                        "add": 2299996,
+                        "default": 2300001
+                      },
+                      "1709724": {
+                        "add": 1795147,
+                        "default": 1711716
+                      },
+                      "1709725": {
+                        "add": 2300015,
+                        "default": 2300016
+                      },
+                      "1719816": {
+                        "add": 1795140,
+                        "default": 1773044
+                      },
+                      "1725861": {
+                        "add": 1795102,
+                        "default": 1725955
+                      },
+                      "1762463": {
+                        "default": 2374820,
+                        "add": 2374820
+                      },
+                      "1807475": {
+                        "add": 1816265,
+                        "default": 1807557
+                      },
+                      "1807625": {
+                        "add": 1816266,
+                        "default": 1807669
+                      }
+                    }
+                  },
+                  "role-nav-layouts": {
+                    "1662671": 1709818,
+                    "1836717": 1709818,
+                    "1836731": 1961647,
+                    "1836732": 1961647,
+                    "1836735": 1961647,
+                    "1879408": 1879670,
+                    "2369327": 2369328
+                  },
+                  "reports": [
+                    {
+                      "id": 2362052,
+                      "title": "Productivity (Current Week)"
+                    },
+                    {
+                      "id": 2362054,
+                      "title": "Productivity (Current Month)"
+                    }
+                  ]
+                }
+              },
+              "superOwner": false
+            },
+            "formId": -1,
+            "data": {
+              "values": {
+                "1662670-employee": [
+                  "1708395"
+                ]
+              },
+              "oldValues": {
+                "id": 2405584,
+                "recordTupleId": 1709725,
+                "formId": -1,
+                "owner": 1662670,
+                "user": 256688,
+                "autoId": "TS-001421",
+                "autoIdNum": 1421,
+                "source": "INTERNAL",
+                "sourceData": false,
+                "value": {
+                  "1662670-employee": [
+                    2231544
+                  ],
+                  "1662670-project": [
+                    2405552
+                  ],
+                  "1662670-task": [
+                    2405562
+                  ],
+                  "1662670-date": "2023-10-04",
+                  "1662670-duration": 2,
+                  "1662670-revenue": 140,
+                  "1662670-cost": 40,
+                  "1662670-item": [
+                    1773806
+                  ],
+                  "1662670-name": "TS-001421 - Clevero Test Task 10/04 - Ivan Mejico"
+                },
+                "createdAt": "2023-10-04T03:53:04.602Z",
+                "updatedAt": "2023-10-04T04:18:26.279Z",
+                "FieldValues": [
+                  {
+                    "fieldId": 17379,
+                    "recordValueId": 2405584,
+                    "value": "[\"2231544\"]"
+                  },
+                  {
+                    "fieldId": 17380,
+                    "recordValueId": 2405584,
+                    "value": "[\"2405552\"]"
+                  },
+                  {
+                    "fieldId": 17381,
+                    "recordValueId": 2405584,
+                    "value": "[\"2405562\"]"
+                  },
+                  {
+                    "fieldId": 17382,
+                    "recordValueId": 2405584,
+                    "value": "2023-10-04"
+                  },
+                  {
+                    "fieldId": 17383,
+                    "recordValueId": 2405584,
+                    "value": "2"
+                  },
+                  {
+                    "fieldId": 17681,
+                    "recordValueId": 2405584,
+                    "value": "140"
+                  },
+                  {
+                    "fieldId": 17682,
+                    "recordValueId": 2405584,
+                    "value": "40"
+                  },
+                  {
+                    "fieldId": 18458,
+                    "recordValueId": 2405584,
+                    "value": "[\"1773806\"]"
+                  },
+                  {
+                    "fieldId": 18817,
+                    "recordValueId": 2405584,
+                    "value": "TS-001421 - Clevero Test Task 10/04 - Ivan Mejico"
+                  }
+                ]
+              }
+            },
+            "source": "V3_API",
+            "userId": 2231544
+          },
+          "recordInternalId": "admedia-timesheets",
+          "recordId": 1709725,
+          "entryId": 2405584,
+          "owner": 1662670,
+          "clientType": "INTERNAL",
+          "eventId": "lHYwQ25NrDUKEtiRKkrsV"
+        },
+        "deployment": {
+          "id": 2336575,
+          "owner": 1662670,
+          "uid": "M8Rj4EfDPNQvc_MKRSaqo",
+          "title": "On Timesheet Add/Edit/Delete, Calculate Project Financial Totals",
+          "description": "",
+          "deployedRecordInternalId": "admedia-timesheets",
+          "deployedRecordId": 1709725,
+          "scripts": [
+            2336563
+          ],
+          "executionOrder": [
+            2336563
+          ],
+          "events": [
+            "AFTER_ADD",
+            "AFTER_DELETE",
+            "AFTER_EDIT"
+          ],
+          "clientTypes": [
+            "INTERNAL"
+          ],
+          "custom": true,
+          "disabled": false,
+          "isScheduled": false,
+          "scheduledMetadata": {}
+        },
+        "scripts": [
+          {
+            "uid": "YocOlJqyPkawHqbc43EeE",
+            "name": "Calculate Project Financial Totals",
+            "description": "Calculate Project Financial Totals",
+            "supportedRecords": [
+              "admedia-tasks",
+              "admedia--expenses",
+              "admedia-timesheets"
+            ],
+            "supportedEvents": [
+              "AFTER_ADD",
+              "AFTER_EDIT",
+              "AFTER_DELETE"
+            ],
+            "scriptFn": "async function script(C) {\r\n C.log({ C });\r\n let [\r\n quotedCampaignBudget,\r\n currentLabourRevenue,\r\n currentExpensesRevenue,\r\n currentTotalRevenue,\r\n currentExpenseCost,\r\n currentLabourCost,\r\n profit\r\n ] = Array(7).fill(0);\r\n\r\n const currentEntry = await C.getCurrentEntry();\r\n let project = C.utilityInputs.task.event.event === \"AFTER_DELETE\"\r\n ? C.utilityInputs.task.event.eventMetadata.data.oldValues.value[\"1662670-project\"][0]\r\n : currentEntry[\"1662670-project\"][0];\r\n\r\n const associatedEntries = await C.getAssociations(\r\n project,\r\n \"admedia-projects\",\r\n [\r\n \"admedia-tasks\",\r\n \"admedia--expenses\",\r\n \"admedia-timesheets\",\r\n ]\r\n );\r\n\r\n // 1. QUOTED CAMPAIGN BUDGET\r\n const associatedTasks = associatedEntries[project][\"admedia-tasks\"];\r\n const budgetHoursArray = [];\r\n const budgetHourRatesTotal = await Promise\r\n .all(associatedTasks\r\n .map(async (task) => {\r\n const employee = task[\"1662670-assigned-to\"][0];\r\n const employeeEntry = await C.getEntry({\r\n recordInternalId: \"employees\",\r\n entryId: employee,\r\n });\r\n const chargeOutRate = +employeeEntry[\"1662670-charge-out-rate\"];\r\n const budgetHours = +task[\"1662670-budgeted-hours\"];\r\n budgetHoursArray.push(budgetHours);\r\n\r\n return chargeOutRate * budgetHours;\r\n }))\r\n .then(result =>\r\n result.reduce((acc, v) => acc + v, 0));\r\n const yesValue = 1142;\r\n const associatedExpenses = associatedEntries[project][\"admedia--expenses\"];\r\n const chargedExpensesTotal = associatedExpenses\r\n .filter(expense =>\r\n expense[\"1662670-on-charge-to-client\"][0] === yesValue)\r\n .reduce((acc, expense) =>\r\n acc + expense[\"1662670-total-amount\"], 0);\r\n const budgetHoursTotal = budgetHoursArray.reduce((acc, v) => acc + v, 0);\r\n quotedCampaignBudget = budgetHourRatesTotal + chargedExpensesTotal;\r\n\r\n // 2. CURRENT LABOUR\r\n const associatedTimesheets = associatedEntries[project][\"admedia-timesheets\"];\r\n currentLabourRevenue = associatedTimesheets\r\n .map(timesheet =>\r\n timesheet[\"1662670-revenue\"])\r\n .reduce((acc, v) => acc + v, 0);\r\n\r\n // 3. CURRENT EXPENSES\r\n currentExpensesRevenue = chargedExpensesTotal;\r\n\r\n // 4. CURRENT TOTAL\r\n currentTotalRevenue = currentExpensesRevenue + currentLabourRevenue;\r\n\r\n // 5. CURRENT EXPENSE COST\r\n currentExpenseCost = associatedExpenses\r\n .reduce((acc, expense) =>\r\n acc + expense[\"1662670-amount\"], 0);\r\n\r\n // 6. CURRENT LABOUR COST\r\n currentLabourCost = associatedTimesheets\r\n .map(timesheet =>\r\n timesheet[\"1662670-cost\"])\r\n .reduce((acc, v) => acc + v, 0);\r\n\r\n // 7. PROFIT (LABOUR & EXPENSES)\r\n profit = quotedCampaignBudget - currentExpenseCost - currentLabourCost;\r\n\r\n const sumResult = await C.sumAssociations(\r\n [project],\r\n \"admedia-projects\",\r\n [\"invoices\"],\r\n \"net-total\"\r\n );\r\n\r\n const totalInvoiced = +Object.values(sumResult)[0].invoices;\r\n const amountInvoiceRemaining = quotedCampaignBudget - totalInvoiced;\r\n const updateResult = await C.updateEntries({\r\n updates: [\r\n {\r\n value: {\r\n \"1662670-quoted-campaign-budget\": quotedCampaignBudget,\r\n \"1662670-labour-total\": currentLabourRevenue,\r\n \"1662670-total-expenses\": currentExpensesRevenue,\r\n \"1662670-revenue\": currentTotalRevenue,\r\n \"1662670-current-expense-cost\": currentExpenseCost,\r\n \"1662670-cost\": currentLabourCost,\r\n \"1662670-profit\": profit,\r\n \"1662670-total-budget-hours\": budgetHoursTotal,\r\n \"1662670-amount-remaining\": amountInvoiceRemaining,\r\n },\r\n entryId: project,\r\n recordInternalId: \"admedia-projects\",\r\n },\r\n ],\r\n });\r\n\r\n return updateResult;\r\n}",
+            "disabled": false,
+            "custom": true,
+            "supportAllRecord": false,
+            "supportAllEvents": false,
+            "id": 2336563,
+            "owner": 1662670,
+            "supportScheduled": false
+          }
+        ],
+        "jobCreatedAt": "2023-10-04T04:34:32.250Z",
+        "logsMetadata": {
+          "logId": "755226",
+          "taskUid": "GO9CYzPe9cU9pEGgZWvUi",
+          "savedTask": true
+        }
+      },
+      "script": {
+        "uid": "YocOlJqyPkawHqbc43EeE",
+        "name": "Calculate Project Financial Totals",
+        "description": "Calculate Project Financial Totals",
+        "supportedRecords": [
+          "admedia-tasks",
+          "admedia--expenses",
+          "admedia-timesheets"
+        ],
+        "supportedEvents": [
+          "AFTER_ADD",
+          "AFTER_EDIT",
+          "AFTER_DELETE"
+        ],
+        "scriptFn": "async function script(C) {\r\n C.log({ C });\r\n let [\r\n quotedCampaignBudget,\r\n currentLabourRevenue,\r\n currentExpensesRevenue,\r\n currentTotalRevenue,\r\n currentExpenseCost,\r\n currentLabourCost,\r\n profit\r\n ] = Array(7).fill(0);\r\n\r\n const currentEntry = await C.getCurrentEntry();\r\n let project = C.utilityInputs.task.event.event === \"AFTER_DELETE\"\r\n ? C.utilityInputs.task.event.eventMetadata.data.oldValues.value[\"1662670-project\"][0]\r\n : currentEntry[\"1662670-project\"][0];\r\n\r\n const associatedEntries = await C.getAssociations(\r\n project,\r\n \"admedia-projects\",\r\n [\r\n \"admedia-tasks\",\r\n \"admedia--expenses\",\r\n \"admedia-timesheets\",\r\n ]\r\n );\r\n\r\n // 1. QUOTED CAMPAIGN BUDGET\r\n const associatedTasks = associatedEntries[project][\"admedia-tasks\"];\r\n const budgetHoursArray = [];\r\n const budgetHourRatesTotal = await Promise\r\n .all(associatedTasks\r\n .map(async (task) => {\r\n const employee = task[\"1662670-assigned-to\"][0];\r\n const employeeEntry = await C.getEntry({\r\n recordInternalId: \"employees\",\r\n entryId: employee,\r\n });\r\n const chargeOutRate = +employeeEntry[\"1662670-charge-out-rate\"];\r\n const budgetHours = +task[\"1662670-budgeted-hours\"];\r\n budgetHoursArray.push(budgetHours);\r\n\r\n return chargeOutRate * budgetHours;\r\n }))\r\n .then(result =>\r\n result.reduce((acc, v) => acc + v, 0));\r\n const yesValue = 1142;\r\n const associatedExpenses = associatedEntries[project][\"admedia--expenses\"];\r\n const chargedExpensesTotal = associatedExpenses\r\n .filter(expense =>\r\n expense[\"1662670-on-charge-to-client\"][0] === yesValue)\r\n .reduce((acc, expense) =>\r\n acc + expense[\"1662670-total-amount\"], 0);\r\n const budgetHoursTotal = budgetHoursArray.reduce((acc, v) => acc + v, 0);\r\n quotedCampaignBudget = budgetHourRatesTotal + chargedExpensesTotal;\r\n\r\n // 2. CURRENT LABOUR\r\n const associatedTimesheets = associatedEntries[project][\"admedia-timesheets\"];\r\n currentLabourRevenue = associatedTimesheets\r\n .map(timesheet =>\r\n timesheet[\"1662670-revenue\"])\r\n .reduce((acc, v) => acc + v, 0);\r\n\r\n // 3. CURRENT EXPENSES\r\n currentExpensesRevenue = chargedExpensesTotal;\r\n\r\n // 4. CURRENT TOTAL\r\n currentTotalRevenue = currentExpensesRevenue + currentLabourRevenue;\r\n\r\n // 5. CURRENT EXPENSE COST\r\n currentExpenseCost = associatedExpenses\r\n .reduce((acc, expense) =>\r\n acc + expense[\"1662670-amount\"], 0);\r\n\r\n // 6. CURRENT LABOUR COST\r\n currentLabourCost = associatedTimesheets\r\n .map(timesheet =>\r\n timesheet[\"1662670-cost\"])\r\n .reduce((acc, v) => acc + v, 0);\r\n\r\n // 7. PROFIT (LABOUR & EXPENSES)\r\n profit = quotedCampaignBudget - currentExpenseCost - currentLabourCost;\r\n\r\n const sumResult = await C.sumAssociations(\r\n [project],\r\n \"admedia-projects\",\r\n [\"invoices\"],\r\n \"net-total\"\r\n );\r\n\r\n const totalInvoiced = +Object.values(sumResult)[0].invoices;\r\n const amountInvoiceRemaining = quotedCampaignBudget - totalInvoiced;\r\n const updateResult = await C.updateEntries({\r\n updates: [\r\n {\r\n value: {\r\n \"1662670-quoted-campaign-budget\": quotedCampaignBudget,\r\n \"1662670-labour-total\": currentLabourRevenue,\r\n \"1662670-total-expenses\": currentExpensesRevenue,\r\n \"1662670-revenue\": currentTotalRevenue,\r\n \"1662670-current-expense-cost\": currentExpenseCost,\r\n \"1662670-cost\": currentLabourCost,\r\n \"1662670-profit\": profit,\r\n \"1662670-total-budget-hours\": budgetHoursTotal,\r\n \"1662670-amount-remaining\": amountInvoiceRemaining,\r\n },\r\n entryId: project,\r\n recordInternalId: \"admedia-projects\",\r\n },\r\n ],\r\n });\r\n\r\n return updateResult;\r\n}",
+        "disabled": false,
+        "custom": true,
+        "supportAllRecord": false,
+        "supportAllEvents": false,
+        "id": 2336563,
+        "owner": 1662670,
+        "supportScheduled": false
+      },
+      "scriptIndex": 0,
+      "scriptsState": {
+        "YocOlJqyPkawHqbc43EeE": {
+          "status": "in_progress",
+          "scriptIndex": 0
+        }
+      },
+      "source": "WORKFLOW.lHYwQ25NrDUKEtiRKkrsV.GO9CYzPe9cU9pEGgZWvUi"
+    }
+  }
+}

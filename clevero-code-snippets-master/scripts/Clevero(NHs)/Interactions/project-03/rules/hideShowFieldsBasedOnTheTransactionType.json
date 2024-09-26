@@ -1,0 +1,573 @@
+{
+    "0": [
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Empty.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length == 0; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632,9759,10005,11401,11665,11674,11676,11677,11713 ]; let fieldIdsToHide = fieldKeys; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Term Course Booking.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 132967; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632,9759,10005 ]; let fieldIdsToHide = [8644, 8328, 8254, 8240, 8244, 7869, 7677, 8578, 8579, 8255,8203,7744,8163,8165, 9066, 9067, 9759,11401]; let mandatoryFields = [ 8532, 7678, 7676, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Pay As You Go.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 132966; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632,9759,10005,11401 ]; let fieldIdsToHide = [8644,8475, 8476, 8328, 8254, 8244, 8240, 7869, 8578, 8579, 8255,8203,7744,8163,8165, 9066,9067]; let mandatoryFields = [ 7678, 7676, 8230, 7677, 9759 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false,  } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is VOUCHER.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 134222; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632,9759,10005,11401 ]; let fieldIdsToHide = [8532, 7679, 7677, 8644,8475, 8476, 8328, 8254, 8244, 8240, 8578, 8579, 8255,8203,7744,8163,8165, 9632, 9759, 9066, 9067, 10005]; let mandatoryFields = [ 7678, 7676, 7869, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is ROOM BOOKING.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 140758; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 8644, 8328, 8240, 8578, 8579, 7869, 8255,8203,7744,8163,8165, 9632, 9759, 10005]; let mandatoryFields = [ 7678, 7677, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is DONATION.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 139005; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7678, 8254,7677,8475,8476, 8644, 8328, 8240, 8578, 8579, 7869, 8255,8203,7744,8163,8165,9632, 9066,9067, 9759, 10005]; let mandatoryFields = [ 8230, 8599 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is CASH ADJUSTMENT.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 140759; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7678, 8254,7677,8475,8476, 8644, 8328, 8578, 8579, 7869, 8255,8203,7744,8163,8165,9632,8244,7676, 9066,9067, 9759, 10005]; let mandatoryFields = [ 8230, 8599, 8240 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is REFUND.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 142642; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7678,8254,8644, 8578, 8579, 7869, 8255,8203,7744,8163,8165, 9632, 8475,8476,9066,9067, 9759,7677, 10005]; let mandatoryFields = [ 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is MEMBERSHIP FEE.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 149211; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 8328, 8240, 8578, 8579, 7869, 8255,8203,7744,8163,8165, 9632, 7679,7678,8254,7677, 9066,9067,8475,8476, 9759,8244, 10005]; let mandatoryFields = [ 8644, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is EXPENSE.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 150991; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644, 7678, 8244,8254,7677,7676,8328, 7869, 8255,8203,7744,8163,8165, 9632, 9066,9067,8475,8476, 9759, 10005]; let mandatoryFields = [ 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Other.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 284898; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632,9759,10005,11401 ]; let fieldIdsToHide = [8644, 8328, 8254, 8240, 8244, 7869, 7677, 8578, 8579, 8255,8203,7744,8163,8165, 9066, 9067, 9759]; let mandatoryFields = [ 8532, 7678, 7676, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Fundraising.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 284897; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644, 8328, 8254, 8240, 7869, 7677, 8578, 8579, 8255,8203,7744,8163,8165, 9066, 9067, 9759, 11401, 7678, 8475, 8476, 10005, 11665]; let mandatoryFields = [ 8532, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "PAGE_LOAD"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Stall Application.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 294933; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [7676,7677,7744,7869,8163,8165,8203,8240,8244,8255,8328,8578,8579,8644,9066,9067,9632,9759]; let mandatoryFields = [ 8532, 7678, 7676, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        }
+    ],
+    "7739": [
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Empty.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length == 0; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632,9759,10005,11401,11665,11674,11676,11677,11713 ]; let fieldIdsToHide = fieldKeys; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Term Course Booking.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 132967; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644, 8328, 8254, 8240, 8244, 7869, 7677, 8578, 8579, 8255,8203,7744,8163,8165, 9066, 9067, 9759,11401]; let mandatoryFields = [ 8532, 7678, 7676, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Pay As You Go.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 132966; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644,8475, 8476, 8328, 8254, 8244, 8240, 7869, 8578, 8579, 8255,8203,7744,8163,8165, 9066,9067,11401]; let mandatoryFields = [ 7678, 7676, 8230, 7677, 9759 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false,  } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is VOUCHER.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 134222; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7679, 7677, 8644,8475, 8476, 8328, 8254, 8244, 8240, 8578, 8579, 8255,8203,7744,8163,8165, 9632, 9759,9066,9067,10005,11401]; let mandatoryFields = [ 7678, 7676, 7869, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is ROOM BOOKING.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 140758; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 8644, 8328, 8240, 8578, 8579, 7869, 8255,8203,7744,8163,8165, 9632, 9759,10005,11401]; let mandatoryFields = [ 7678, 7677, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is DONATION.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 139005; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7678, 8254,7677,8475,8476, 8644, 8328, 8240, 8578, 8579, 7869, 8255,8203,7744,8163,8165,9632, 9066,9067, 9759, 10005, 11401]; let mandatoryFields = [ 8230, 8599 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is CASH ADJUSTMENT.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 140759; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7678, 8254,7677,8475,8476, 8644, 8328, 8578, 8579, 7869, 8255,8203,7744,8163,8165,9632,8244,7676, 9066,9067, 9759, 10005, 11401]; let mandatoryFields = [ 8230, 8599, 8240 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is REFUND.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 142642; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 7678,8254,8644, 8578, 8579, 7869, 8255,8203,7744,8163,8165, 9632, 8475,8476,9066,9067, 9759, 7677, 10005, 11401]; let mandatoryFields = [ 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is MEMBERSHIP FEE.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 149211; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8532, 8328, 8240, 8578, 8579, 7869, 8255,8203,7744,8163,8165, 9632, 7679,7678,8254,7677, 9066,9067,8475,8476, 9759,8244, 10005, 11401]; let mandatoryFields = [ 8644, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is EXPENSE.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 150991; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644, 7678, 8244,8254,7677,7676,8328, 7869, 8255,8203,7744,8163,8165, 9632, 9066,9067,8475,8476, 9759, 10005, 11401]; let mandatoryFields = [ 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Other.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 284898; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644, 8328, 8254, 8240, 8244, 7869, 7677, 8578, 8579, 8255,8203,7744,8163,8165, 9066, 9067, 9759, 11401]; let mandatoryFields = [ 8532, 7678, 7676, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Fundraising.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 284897; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [8644, 8328, 8254, 8240, 7869, 7677, 8578, 8579, 8255,8203,7744,8163,8165, 9066, 9067, 9759, 11401, 7678, 8475, 8476, 10005, 11665]; let mandatoryFields = [ 8532, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        },
+        {
+            "if": {
+                "eventType": [
+                    "VALUE_CHANGE"
+                ],
+                "any": [
+                    {
+                        "version": "v2",
+                        "description": "Hide Fields if Transaction Type is Stall Application.",
+                        "condition": "function(context){ return context.fieldStates.getValue(7739).length > 0 && context.fieldStates.getValue(7739)[0] == 294933; }"
+                    }
+                ]
+            },
+            "then": [
+                {
+                    "version": "v2",
+                    "fieldId": "7677",
+                    "action": "NONE",
+                    "value": "function(context){ let fields = context.fieldStates.state; let fieldKeys = [ 7676,7677,7678,7679,7683,7684,7685,7744,7869,8163,8165,8201,8203,8230,8240,8244,8254,8255,8328,8475,8476,8532,8578,8579,8598,8644,9066,9067,9632, 9759,10005,11401 ]; let fieldIdsToHide = [7676,7677,7744,7869,8163,8165,8203,8240,8244,8255,8328,8578,8579,8644,9066,9067,9632,9759]; let mandatoryFields = [ 8532, 7678, 7676, 8230 ]; fieldKeys.forEach((key) => { if (fieldIdsToHide.includes(key)) { context.fieldStates.updateState(key, { inputState: { hidden: true, mandatory: false } }); } else { context.fieldStates.updateState(key, { inputState: { hidden: false } }); } }); fieldKeys.forEach((key) => { if (mandatoryFields.includes(key)) { context.fieldStates.updateState(key, { inputState: { mandatory: true }, }); } else { context.fieldStates.updateState(key, { inputState: { mandatory: false }, }); } }); return context.fieldStates.getValue('7677'); }"
+                }
+            ]
+        }
+    ]
+}

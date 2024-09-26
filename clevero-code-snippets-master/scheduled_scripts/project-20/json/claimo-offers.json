@@ -1,0 +1,26 @@
+{
+  "claimo-offers": [
+    {
+      "amount-offered": 1450,
+      "client": [
+        1536238
+      ],
+      "case": [
+        2186436
+      ],
+      "name": "Premiums Only Nicole Robinson 2023-08-02",
+      "date-received": "2023-08-02",
+      "type": [
+        832962
+      ],
+      "recordValueId": 2192284,
+      "createdAt": "2023-08-02T05:32:53.453Z",
+      "updatedAt": "2023-08-02T05:32:53.680Z",
+      "autoId": "1818",
+      "autoIdNum": 1818,
+      "internalOwner": 25254,
+      "formId": -1,
+      "recordId": 812237
+    }
+  ]
+}
